@@ -1,0 +1,168 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "CODE STUDY Programming Practice Platform" [ref=e4] [cursor=pointer]:
+        - /url: /home/
+        - generic [ref=e5]: CODE STUDY
+        - generic [ref=e6]: Programming Practice Platform
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - link "主页" [ref=e9] [cursor=pointer]:
+            - /url: /home/
+          - button "等考题库 ▾" [ref=e11] [cursor=pointer]:
+            - text: 等考题库
+            - generic [ref=e12]: ▾
+          - button "课程内容 ▾" [ref=e14] [cursor=pointer]:
+            - text: 课程内容
+            - generic [ref=e15]: ▾
+          - link "视频课程" [ref=e16] [cursor=pointer]:
+            - /url: /video/
+          - button "OJ题库 ▾" [ref=e18] [cursor=pointer]:
+            - text: OJ题库
+            - generic [ref=e19]: ▾
+          - link "打字练习" [ref=e20] [cursor=pointer]:
+            - /url: /typing/
+          - link "灌水区" [ref=e21] [cursor=pointer]:
+            - /url: /moments/
+          - link "题解分享" [ref=e22] [cursor=pointer]:
+            - /url: /share/
+          - link "排行榜" [ref=e23] [cursor=pointer]:
+            - /url: /user/rank/
+        - generic [ref=e24]:
+          - button "登录" [ref=e25] [cursor=pointer]
+          - link "注册账号" [ref=e26] [cursor=pointer]:
+            - /url: /user/signup/
+  - main [ref=e27]:
+    - generic [ref=e29]:
+      - generic [ref=e30]: Python等级考试真题 真题练习
+      - generic [ref=e31]:
+        - generic [ref=e32] [cursor=pointer]: 一级真题
+        - generic [ref=e33] [cursor=pointer]: 二级真题
+        - generic [ref=e34] [cursor=pointer]: 三级真题
+        - generic [ref=e35] [cursor=pointer]: 四级真题
+        - generic [ref=e36] [cursor=pointer]: 五级真题
+        - generic [ref=e37] [cursor=pointer]: 六级真题
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - link "🌍 电子学会等级考试 - Python - 六级真题 - 2025-12" [ref=e42] [cursor=pointer]:
+            - /url: /problems/2/6/88/raisetest/
+          - link "生成测试试卷" [ref=e44] [cursor=pointer]:
+            - /url: /problems/2/6/88/raisetest/
+        - generic [ref=e45]:
+          - link "🌍 CCF-GESP编程能力等级认证 - Python - 六级真题 - GESP2025-09" [ref=e46] [cursor=pointer]:
+            - /url: /problems/2/6/87/raisetest/
+          - link "生成测试试卷" [ref=e48] [cursor=pointer]:
+            - /url: /problems/2/6/87/raisetest/
+        - generic [ref=e49]:
+          - link "🌍 电子学会等级考试 - Python - 六级真题 - 2025-09" [ref=e50] [cursor=pointer]:
+            - /url: /problems/2/6/86/raisetest/
+          - link "生成测试试卷" [ref=e52] [cursor=pointer]:
+            - /url: /problems/2/6/86/raisetest/
+        - generic [ref=e53]:
+          - link "🌍 电子学会等级考试 - Python - 六级真题 - 2025-06" [ref=e54] [cursor=pointer]:
+            - /url: /problems/2/6/85/raisetest/
+          - link "生成测试试卷" [ref=e56] [cursor=pointer]:
+            - /url: /problems/2/6/85/raisetest/
+        - generic [ref=e57]:
+          - link "🌍 CCF-GESP编程能力等级认证 - Python - 六级真题 - GESP2025-06" [ref=e58] [cursor=pointer]:
+            - /url: /problems/2/6/83/raisetest/
+          - link "生成测试试卷" [ref=e60] [cursor=pointer]:
+            - /url: /problems/2/6/83/raisetest/
+        - generic [ref=e61]:
+          - link "🌍 CCF-GESP编程能力等级认证 - Python - 六级真题 - GESP2025-03" [ref=e62] [cursor=pointer]:
+            - /url: /problems/2/6/82/raisetest/
+          - link "生成测试试卷" [ref=e64] [cursor=pointer]:
+            - /url: /problems/2/6/82/raisetest/
+        - generic [ref=e65]:
+          - link "🌍 电子学会等级考试 - Python - 六级真题 - 2025-03" [ref=e66] [cursor=pointer]:
+            - /url: /problems/2/6/81/raisetest/
+          - link "生成测试试卷" [ref=e68] [cursor=pointer]:
+            - /url: /problems/2/6/81/raisetest/
+        - generic [ref=e69]:
+          - link "🌍 电子学会等级考试 - Python - 六级真题 - 2024-12" [ref=e70] [cursor=pointer]:
+            - /url: /problems/2/6/80/raisetest/
+          - link "生成测试试卷" [ref=e72] [cursor=pointer]:
+            - /url: /problems/2/6/80/raisetest/
+        - generic [ref=e73]:
+          - link "🌍 CCF-GESP编程能力等级认证 - Python - 六级真题 - GESP2024-12" [ref=e74] [cursor=pointer]:
+            - /url: /problems/2/6/79/raisetest/
+          - link "生成测试试卷" [ref=e76] [cursor=pointer]:
+            - /url: /problems/2/6/79/raisetest/
+        - generic [ref=e77]:
+          - link "🌍 CCF-GESP编程能力等级认证 - Python - 六级真题 - GESP2024-09" [ref=e78] [cursor=pointer]:
+            - /url: /problems/2/6/78/raisetest/
+          - link "生成测试试卷" [ref=e80] [cursor=pointer]:
+            - /url: /problems/2/6/78/raisetest/
+        - generic [ref=e81]:
+          - link "🌍 电子学会等级考试 - Python - 六级真题 - 2024-09" [ref=e82] [cursor=pointer]:
+            - /url: /problems/2/6/77/raisetest/
+          - link "生成测试试卷" [ref=e84] [cursor=pointer]:
+            - /url: /problems/2/6/77/raisetest/
+        - generic [ref=e85]:
+          - link "🌍 电子学会等级考试 - Python - 六级真题 - 2024-03" [ref=e86] [cursor=pointer]:
+            - /url: /problems/2/6/63/raisetest/
+          - link "生成测试试卷" [ref=e88] [cursor=pointer]:
+            - /url: /problems/2/6/63/raisetest/
+        - generic [ref=e89]:
+          - link "🌍 CCF-GESP编程能力等级认证 - Python - 六级真题 - GESP2023-12" [ref=e90] [cursor=pointer]:
+            - /url: /problems/2/6/60/raisetest/
+          - link "生成测试试卷" [ref=e92] [cursor=pointer]:
+            - /url: /problems/2/6/60/raisetest/
+        - generic [ref=e93]:
+          - link "🌍 电子学会等级考试 - Python - 六级真题 - 2023-12" [ref=e94] [cursor=pointer]:
+            - /url: /problems/2/6/59/raisetest/
+          - link "生成测试试卷" [ref=e96] [cursor=pointer]:
+            - /url: /problems/2/6/59/raisetest/
+        - generic [ref=e97]:
+          - link "🌍 CCF-GESP编程能力等级认证 - Python - 六级真题 - GESP2023-09" [ref=e98] [cursor=pointer]:
+            - /url: /problems/2/6/58/raisetest/
+          - link "生成测试试卷" [ref=e100] [cursor=pointer]:
+            - /url: /problems/2/6/58/raisetest/
+        - generic [ref=e101]:
+          - link "🌍 电子学会等级考试 - Python - 六级真题 - 2023-09" [ref=e102] [cursor=pointer]:
+            - /url: /problems/2/6/54/raisetest/
+          - link "生成测试试卷" [ref=e104] [cursor=pointer]:
+            - /url: /problems/2/6/54/raisetest/
+        - generic [ref=e105]:
+          - link "🌍 电子学会等级考试 - Python - 六级真题 - 2023-05" [ref=e106] [cursor=pointer]:
+            - /url: /problems/2/6/53/raisetest/
+          - link "生成测试试卷" [ref=e108] [cursor=pointer]:
+            - /url: /problems/2/6/53/raisetest/
+        - generic [ref=e109]:
+          - link "🌍 电子学会等级考试 - Python - 六级真题 - 2022-12" [ref=e110] [cursor=pointer]:
+            - /url: /problems/2/6/26/raisetest/
+          - link "生成测试试卷" [ref=e112] [cursor=pointer]:
+            - /url: /problems/2/6/26/raisetest/
+  - contentinfo [ref=e113]:
+    - generic [ref=e114]:
+      - generic [ref=e115]:
+        - img "CODE STUDY" [ref=e116]
+        - paragraph [ref=e117]: 专注于青少年信息学奥赛与编程能力提升训练。
+      - generic [ref=e118]:
+        - heading "快速链接" [level=4] [ref=e119]
+        - list [ref=e120]:
+          - listitem [ref=e121]:
+            - link "题库练习" [ref=e122] [cursor=pointer]:
+              - /url: /problems/scratch/
+          - listitem [ref=e123]:
+            - link "OJ题库" [ref=e124] [cursor=pointer]:
+              - /url: /oj/
+          - listitem [ref=e125]:
+            - link "题解分享" [ref=e126] [cursor=pointer]:
+              - /url: /share/
+          - listitem [ref=e127]:
+            - link "学习排行" [ref=e128] [cursor=pointer]:
+              - /url: /user/rank/
+      - generic [ref=e129]:
+        - heading "联系我们" [level=4] [ref=e130]
+        - list [ref=e131]:
+          - listitem [ref=e132]:
+            - link "在线工具" [ref=e133] [cursor=pointer]:
+              - /url: https://dazidazi.com
+          - listitem [ref=e134]:
+            - link "备案信息" [ref=e135] [cursor=pointer]:
+              - /url: https://beian.miit.gov.cn/
+    - generic [ref=e136]:
+      - text: All right reserved©极客晨星少儿编程辉县校区 |
+      - link "豫ICP备2022024360号-1" [ref=e137] [cursor=pointer]:
+        - /url: https://beian.miit.gov.cn/

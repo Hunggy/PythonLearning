@@ -1,0 +1,67 @@
+[     144ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://gcjkstar.cn/problems/python/:0
+[     147ms] [WARNING] jQuery.Deferred exception: Morris is not defined ReferenceError: Morris is not defined
+    at Object.initFunction (https://gcjkstar.cn/static/js/custom-scripts.js:26:13)
+    at HTMLDocument.<anonymous> (https://gcjkstar.cn/static/js/custom-scripts.js:209:17)
+    at e (https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:2:30038)
+    at t (https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:2:30340) undefined @ https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:1
+[     151ms] ReferenceError: Morris is not defined
+    at Object.initFunction (https://gcjkstar.cn/static/js/custom-scripts.js:26:13)
+    at HTMLDocument.<anonymous> (https://gcjkstar.cn/static/js/custom-scripts.js:209:17)
+    at e (https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:2:30038)
+    at t (https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:2:30340)
+[   14849ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://gcjkstar.cn/problems/2/6/85/27980/test/:0
+[   14853ms] [WARNING] jQuery.Deferred exception: Morris is not defined ReferenceError: Morris is not defined
+    at Object.initFunction (https://gcjkstar.cn/static/js/custom-scripts.js:26:13)
+    at HTMLDocument.<anonymous> (https://gcjkstar.cn/static/js/custom-scripts.js:209:17)
+    at e (https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:2:30038)
+    at t (https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:2:30340) undefined @ https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:1
+[   14860ms] ReferenceError: Morris is not defined
+    at Object.initFunction (https://gcjkstar.cn/static/js/custom-scripts.js:26:13)
+    at HTMLDocument.<anonymous> (https://gcjkstar.cn/static/js/custom-scripts.js:209:17)
+    at e (https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:2:30038)
+    at t (https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:2:30340)
+[ 1858179ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://gcjkstar.cn/home/:0
+[ 1858181ms] [WARNING] jQuery.Deferred exception: Morris is not defined ReferenceError: Morris is not defined
+    at Object.initFunction (https://gcjkstar.cn/static/js/custom-scripts.js:26:13)
+    at HTMLDocument.<anonymous> (https://gcjkstar.cn/static/js/custom-scripts.js:209:17)
+    at e (https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:2:30038)
+    at t (https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:2:30340) undefined @ https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:1
+[ 1858182ms] ReferenceError: Morris is not defined
+    at Object.initFunction (https://gcjkstar.cn/static/js/custom-scripts.js:26:13)
+    at HTMLDocument.<anonymous> (https://gcjkstar.cn/static/js/custom-scripts.js:209:17)
+    at e (https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:2:30038)
+    at t (https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:2:30340)
+[ 1858379ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://gcjkstar.cn/static/js/output/chtml/fonts/woff-v2/MathJax_Zero.woff:0
+[ 1858565ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://gcjkstar.cn/static/js/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff:0
+[ 1858565ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://gcjkstar.cn/static/js/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff:0
+[ 1859986ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://gcjkstar.cn/home/practice/:0
+[ 1859987ms] [WARNING] jQuery.Deferred exception: Morris is not defined ReferenceError: Morris is not defined
+    at Object.initFunction (https://gcjkstar.cn/static/js/custom-scripts.js:26:13)
+    at HTMLDocument.<anonymous> (https://gcjkstar.cn/static/js/custom-scripts.js:209:17)
+    at e (https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:2:30038)
+    at t (https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:2:30340) undefined @ https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:1
+[ 1859992ms] ReferenceError: Morris is not defined
+    at Object.initFunction (https://gcjkstar.cn/static/js/custom-scripts.js:26:13)
+    at HTMLDocument.<anonymous> (https://gcjkstar.cn/static/js/custom-scripts.js:209:17)
+    at e (https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:2:30038)
+    at t (https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:2:30340)
+[ 1863923ms] Uncaught TypeError: Cannot set property Package of #<Object> which has only a getter
+    at s (https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js:0:13800)
+    at s (https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js:0:13807)
+    at s (https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js:0:13807)
+    at s (https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js:0:13807)
+    at e.combineWithMathJax (https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js:0:14316)
+    at <anonymous> (https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js:0:1156314)
+    at <anonymous> (https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js:0:1173000)
+    at <anonymous> (https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js:0:1173004)
+[ 1864680ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://gcjkstar.cn/problems/27980/error/:0
+[ 1864685ms] [WARNING] jQuery.Deferred exception: Morris is not defined ReferenceError: Morris is not defined
+    at Object.initFunction (https://gcjkstar.cn/static/js/custom-scripts.js:26:13)
+    at HTMLDocument.<anonymous> (https://gcjkstar.cn/static/js/custom-scripts.js:209:17)
+    at e (https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:2:30038)
+    at t (https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:2:30340) undefined @ https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:1
+[ 1864704ms] ReferenceError: Morris is not defined
+    at Object.initFunction (https://gcjkstar.cn/static/js/custom-scripts.js:26:13)
+    at HTMLDocument.<anonymous> (https://gcjkstar.cn/static/js/custom-scripts.js:209:17)
+    at e (https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:2:30038)
+    at t (https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:2:30340)

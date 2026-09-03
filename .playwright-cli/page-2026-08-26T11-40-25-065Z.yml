@@ -1,0 +1,1585 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "CODE STUDY Programming Practice Platform" [ref=e4] [cursor=pointer]:
+        - /url: /home/
+        - generic [ref=e5]: CODE STUDY
+        - generic [ref=e6]: Programming Practice Platform
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - link "主页" [ref=e9] [cursor=pointer]:
+            - /url: /home/
+          - button "等考题库 ▾" [ref=e11] [cursor=pointer]:
+            - text: 等考题库
+            - generic [ref=e12]: ▾
+          - button "课程内容 ▾" [ref=e14] [cursor=pointer]:
+            - text: 课程内容
+            - generic [ref=e15]: ▾
+          - link "视频课程" [ref=e16] [cursor=pointer]:
+            - /url: /video/
+          - button "OJ题库 ▾" [ref=e18] [cursor=pointer]:
+            - text: OJ题库
+            - generic [ref=e19]: ▾
+          - link "打字练习" [ref=e20] [cursor=pointer]:
+            - /url: /typing/
+          - link "灌水区" [ref=e21] [cursor=pointer]:
+            - /url: /moments/
+          - link "题解分享" [ref=e22] [cursor=pointer]:
+            - /url: /share/
+          - link "排行榜" [ref=e23] [cursor=pointer]:
+            - /url: /user/rank/
+        - generic [ref=e25] [cursor=pointer]:
+          - img "avatar" [ref=e26]
+          - generic [ref=e27]: Hunggy
+  - main [ref=e28]:
+    - complementary [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - paragraph [ref=e32]: 测试得分
+          - generic [ref=e33]: 56 / 76
+        - link "1" [ref=e34] [cursor=pointer]:
+          - /url: "#q1"
+        - link "2" [ref=e35] [cursor=pointer]:
+          - /url: "#q2"
+        - link "3" [ref=e36] [cursor=pointer]:
+          - /url: "#q3"
+        - link "4" [ref=e37] [cursor=pointer]:
+          - /url: "#q4"
+        - link "5" [ref=e38] [cursor=pointer]:
+          - /url: "#q5"
+        - link "6" [ref=e39] [cursor=pointer]:
+          - /url: "#q6"
+        - link "7" [ref=e40] [cursor=pointer]:
+          - /url: "#q7"
+        - link "8" [ref=e41] [cursor=pointer]:
+          - /url: "#q8"
+        - link "9" [ref=e42] [cursor=pointer]:
+          - /url: "#q9"
+        - link "10" [ref=e43] [cursor=pointer]:
+          - /url: "#q10"
+        - link "11" [ref=e44] [cursor=pointer]:
+          - /url: "#q11"
+        - link "12" [ref=e45] [cursor=pointer]:
+          - /url: "#q12"
+        - link "13" [ref=e46] [cursor=pointer]:
+          - /url: "#q13"
+        - link "14" [ref=e47] [cursor=pointer]:
+          - /url: "#q14"
+        - link "15" [ref=e48] [cursor=pointer]:
+          - /url: "#q15"
+        - link "16" [ref=e49] [cursor=pointer]:
+          - /url: "#q16"
+        - link "17" [ref=e50] [cursor=pointer]:
+          - /url: "#q17"
+        - link "18" [ref=e51] [cursor=pointer]:
+          - /url: "#q18"
+        - link "19" [ref=e52] [cursor=pointer]:
+          - /url: "#q19"
+        - link "20" [ref=e53] [cursor=pointer]:
+          - /url: "#q20"
+        - link "21" [ref=e54] [cursor=pointer]:
+          - /url: "#q21"
+        - link "22" [ref=e55] [cursor=pointer]:
+          - /url: "#q22"
+        - link "23" [ref=e56] [cursor=pointer]:
+          - /url: "#q23"
+        - link "24" [ref=e57] [cursor=pointer]:
+          - /url: "#q24"
+        - link "25" [ref=e58] [cursor=pointer]:
+          - /url: "#q25"
+        - link "26" [ref=e59] [cursor=pointer]:
+          - /url: "#q26"
+        - link "27" [ref=e60] [cursor=pointer]:
+          - /url: "#q27"
+        - link "28" [ref=e61] [cursor=pointer]:
+          - /url: "#q28"
+        - link "29" [ref=e62] [cursor=pointer]:
+          - /url: "#q29"
+        - link "30" [ref=e63] [cursor=pointer]:
+          - /url: "#q30"
+        - link "31" [ref=e64] [cursor=pointer]:
+          - /url: "#q31"
+        - link "32" [ref=e65] [cursor=pointer]:
+          - /url: "#q32"
+        - link "33" [ref=e66] [cursor=pointer]:
+          - /url: "#q33"
+        - link "34" [ref=e67] [cursor=pointer]:
+          - /url: "#q34"
+        - link "35" [ref=e68] [cursor=pointer]:
+          - /url: "#q35"
+        - link "36" [ref=e69] [cursor=pointer]:
+          - /url: "#q36"
+        - link "37" [ref=e70] [cursor=pointer]:
+          - /url: "#q37"
+        - link "38" [ref=e71] [cursor=pointer]:
+          - /url: "#q38"
+    - generic [ref=e72]:
+      - generic [ref=e73]:
+        - generic [ref=e74]: 试卷回顾与解析
+        - heading "Python六级2025-06" [level=2] [ref=e75]
+      - generic [ref=e76]:
+        - generic [ref=e77]:
+          - generic [ref=e78]: 正确
+          - text: "[Single Choice题]"
+          - heading [level=3] [ref=e79]:
+            - text: "1."
+            - paragraph [ref=e80]: 仿照图形化软件中的映射，编写一段映射类。运行程序后，输入：5，映射后：1；输入：200，映射后：49。程序①处应补全的语句是？（ ）
+            - paragraph [ref=e81]
+            - paragraph [ref=e82]
+            - paragraph [ref=e83]: "class Ying():"
+            - paragraph [ref=e84]
+            - paragraph [ref=e85]: "def __init__(self,a,b,c,d,e):"
+            - paragraph [ref=e86]: self.a=a
+            - paragraph [ref=e87]: self.b=b
+            - paragraph [ref=e88]: self.c=c
+            - paragraph [ref=e89]: self.d=d
+            - paragraph [ref=e90]: self.e=e
+            - paragraph [ref=e91]
+            - paragraph [ref=e92]: "def ys(self):"
+            - paragraph [ref=e93]
+            - paragraph [ref=e94]: return (self.a*(self.e-self.d))/(self.c-self.b)
+            - paragraph [ref=e95]: a=float(input('输入值：'))
+            - paragraph [ref=e96]: b=Ying(a,0,1023,0,255)
+            - paragraph [ref=e97]: print("映射前：%d 映射后:%d"%(a, ① ))
+        - generic [ref=e98]:
+          - generic [ref=e99] [cursor=pointer]:
+            - generic [ref=e100]: A
+            - paragraph [ref=e102]: a.ys()
+          - generic [ref=e103] [cursor=pointer]:
+            - generic [ref=e104]: B
+            - generic [ref=e105]:
+              - paragraph [ref=e106]: b.ys()
+              - text: （你的答案）
+          - generic [ref=e107] [cursor=pointer]:
+            - generic [ref=e108]: C
+            - paragraph [ref=e110]: b
+          - generic [ref=e111] [cursor=pointer]:
+            - generic [ref=e112]: D
+            - paragraph [ref=e114]: b.self()
+        - generic [ref=e115]:
+          - generic [ref=e116]: 参考答案
+          - generic [ref=e117]: B
+        - generic [ref=e118]:
+          - generic [ref=e119]: 题目解析
+          - paragraph [ref=e121]: 调用类的函数应该加上类的名称。
+      - generic [ref=e122]:
+        - generic [ref=e123]:
+          - generic [ref=e124]: 错误
+          - text: "[Single Choice题]"
+          - heading [level=3] [ref=e125]:
+            - text: "2."
+            - paragraph [ref=e126]: Python语言关于类的定义错误的是？（ ）
+        - generic [ref=e127]:
+          - generic [ref=e128] [cursor=pointer]:
+            - generic [ref=e129]: A
+            - generic [ref=e130]:
+              - paragraph [ref=e131]: 类名的每个单词的首字母都要大写，且不使用下划线分隔单词
+              - text: （你的答案）
+          - generic [ref=e132] [cursor=pointer]:
+            - generic [ref=e133]: B
+            - paragraph [ref=e135]: 类命名尽量简洁且有意义
+          - generic [ref=e136] [cursor=pointer]:
+            - generic [ref=e137]: C
+            - paragraph [ref=e139]: 类的定义必须在引用之前
+          - generic [ref=e140] [cursor=pointer]:
+            - generic [ref=e141]: D
+            - generic [ref=e142]:
+              - paragraph [ref=e143]: "class Student_Info():"
+              - paragraph [ref=e144]
+              - paragraph [ref=e145]: "def __init__(l,w,h):"
+              - paragraph [ref=e146]: self.l=l
+              - paragraph [ref=e147]: self.w=w
+              - paragraph [ref=e148]: self.h=h
+              - text: （正确答案）
+        - generic [ref=e149]:
+          - generic [ref=e150]: 参考答案
+          - generic [ref=e151]: D
+        - generic [ref=e152]:
+          - generic [ref=e153]: 题目解析
+          - paragraph [ref=e155]: 初始化第一个参数必须是self，如：def __init__(self,l,w,h)
+      - generic [ref=e156]:
+        - generic [ref=e157]:
+          - generic [ref=e158]: 错误
+          - text: "[Single Choice题]"
+          - heading [level=3] [ref=e159]:
+            - text: "3."
+            - paragraph [ref=e160]: 运行以下Python程序后，将打印输入两个整数的取余运算结果，划线处的代码为？（ ）
+            - paragraph [ref=e161]: "class Mi():"
+            - paragraph [ref=e162]
+            - paragraph [ref=e163]: "def __init__(self,a,b):"
+            - paragraph [ref=e164]: self.a=a
+            - paragraph [ref=e165]: self.b=b
+            - paragraph [ref=e166]
+            - paragraph [ref=e167]: "def yu(self):"
+            - paragraph [ref=e168]
+            - paragraph [ref=e169]: return self.a % self.b
+            - paragraph [ref=e170]: a=int(input('输入第一个数：'))
+            - paragraph [ref=e171]: b=int(input('输入第二个数：'))
+            - paragraph [ref=e172]: c=
+            - paragraph [ref=e173]: print(c.yu())
+        - generic [ref=e174]:
+          - generic [ref=e175] [cursor=pointer]:
+            - generic [ref=e176]: A
+            - generic [ref=e177]:
+              - paragraph [ref=e178]: Mi(a%b)
+              - text: （你的答案）
+          - generic [ref=e179] [cursor=pointer]:
+            - generic [ref=e180]: B
+            - paragraph [ref=e182]: a%b
+          - generic [ref=e183] [cursor=pointer]:
+            - generic [ref=e184]: C
+            - paragraph [ref=e186]: self.a % self.b
+          - generic [ref=e187] [cursor=pointer]:
+            - generic [ref=e188]: D
+            - generic [ref=e189]:
+              - paragraph [ref=e190]: self.a % self.b
+              - text: （正确答案）
+        - generic [ref=e191]:
+          - generic [ref=e192]: 参考答案
+          - generic [ref=e193]: D
+        - generic [ref=e194]:
+          - generic [ref=e195]: 题目解析
+          - paragraph [ref=e197]: 通过类创建实例，再调用实例的方法。
+      - generic [ref=e198]:
+        - generic [ref=e199]:
+          - generic [ref=e200]: 错误
+          - text: "[Single Choice题]"
+          - heading [level=3] [ref=e201]:
+            - text: "4."
+            - paragraph [ref=e202]: 从json文件中读取数据，并使用json模块中的load方法将其转换为Python的字典对象。下面哪个选项是正确的代码？（ ）
+        - generic [ref=e203]:
+          - generic [ref=e204] [cursor=pointer]:
+            - generic [ref=e205]: A
+            - generic [ref=e206]:
+              - paragraph [ref=e207]: d = json.load(open('data.json'))
+              - text: （正确答案）
+          - generic [ref=e208] [cursor=pointer]:
+            - generic [ref=e209]: B
+            - paragraph [ref=e211]: d = json.loads('data.json')
+          - generic [ref=e212] [cursor=pointer]:
+            - generic [ref=e213]: C
+            - generic [ref=e214]:
+              - paragraph [ref=e215]: d = open('data.json').load(json)
+              - text: （你的答案）
+          - generic [ref=e216] [cursor=pointer]:
+            - generic [ref=e217]: D
+            - paragraph [ref=e219]: d = open('data.json').loads(json)
+        - generic [ref=e220]:
+          - generic [ref=e221]: 参考答案
+          - generic [ref=e222]: A
+        - generic [ref=e223]:
+          - generic [ref=e224]: 题目解析
+          - paragraph [ref=e226]: json.load方法可以从一个文件对象中读取json格式的数据，并返回一个Python对象。json.loads方法可以从一个字符串中读取json格式的数据，并返回一个Python对象。open函数可以打开一个文件，并返回一个文件对象。
+      - generic [ref=e227]:
+        - generic [ref=e228]:
+          - generic [ref=e229]: 正确
+          - text: "[Single Choice题]"
+          - heading [level=3] [ref=e230]:
+            - text: "5."
+            - paragraph [ref=e231]: 在Python中，使用json模块将Python字典转换为JSON字符串的方法是？（ ）
+        - generic [ref=e232]:
+          - generic [ref=e233] [cursor=pointer]:
+            - generic [ref=e234]: A
+            - paragraph [ref=e236]: json.load()
+          - generic [ref=e237] [cursor=pointer]:
+            - generic [ref=e238]: B
+            - paragraph [ref=e240]: json.loads()
+          - generic [ref=e241] [cursor=pointer]:
+            - generic [ref=e242]: C
+            - paragraph [ref=e244]: json.dump()
+          - generic [ref=e245] [cursor=pointer]:
+            - generic [ref=e246]: D
+            - generic [ref=e247]:
+              - paragraph [ref=e248]: json.dumps()
+              - text: （你的答案）
+        - generic [ref=e249]:
+          - generic [ref=e250]: 参考答案
+          - generic [ref=e251]: D
+        - generic [ref=e252]:
+          - generic [ref=e253]: 题目解析
+          - paragraph [ref=e255]: json.dumps()方法用于将Python对象序列化为JSON格式的字符串，而json.dump()是用于写入文件。
+      - generic [ref=e256]:
+        - generic [ref=e257]:
+          - generic [ref=e258]: 正确
+          - text: "[Single Choice题]"
+          - heading [level=3] [ref=e259]:
+            - text: "6."
+            - paragraph [ref=e260]: 在Python中，以下代码的功能是？（ ）
+            - paragraph [ref=e261]: "with open('data.csv', 'r') as f:"
+            - paragraph [ref=e262]: reader = csv.DictReader(f)
+            - paragraph [ref=e263]
+            - paragraph [ref=e264]: "for row in reader:"
+            - paragraph [ref=e265]
+            - paragraph [ref=e266]: print(row['name'])
+        - generic [ref=e267]:
+          - generic [ref=e268] [cursor=pointer]:
+            - generic [ref=e269]: A
+            - generic [ref=e270]:
+              - paragraph [ref=e271]: 以字典形式读取CSV，打印name列
+              - text: （你的答案）
+          - generic [ref=e272] [cursor=pointer]:
+            - generic [ref=e273]: B
+            - paragraph [ref=e275]: 将CSV转为JSON格式输出
+          - generic [ref=e276] [cursor=pointer]:
+            - generic [ref=e277]: C
+            - paragraph [ref=e279]: 统计name列的出现次数
+          - generic [ref=e280] [cursor=pointer]:
+            - generic [ref=e281]: D
+            - paragraph [ref=e283]: 修改CSV文件的name列
+        - generic [ref=e284]:
+          - generic [ref=e285]: 参考答案
+          - generic [ref=e286]: A
+        - generic [ref=e287]:
+          - generic [ref=e288]: 题目解析
+          - paragraph [ref=e290]: csv.DictReader将每行解析为字典，键为CSV的列名。
+      - generic [ref=e291]:
+        - generic [ref=e292]:
+          - generic [ref=e293]: 正确
+          - text: "[Single Choice题]"
+          - heading [level=3] [ref=e294]:
+            - text: "7."
+            - paragraph [ref=e295]: 在Python中，关于一维数据的CSV文件存储，以下说法正确的是？（ ）
+        - generic [ref=e296]:
+          - generic [ref=e297] [cursor=pointer]:
+            - generic [ref=e298]: A
+            - paragraph [ref=e300]: CSV文件只能存储数值型数据
+          - generic [ref=e301] [cursor=pointer]:
+            - generic [ref=e302]: B
+            - paragraph [ref=e304]: 写入CSV时，一维列表应转换为二维嵌套列表
+          - generic [ref=e305] [cursor=pointer]:
+            - generic [ref=e306]: C
+            - generic [ref=e307]:
+              - paragraph [ref=e308]: csv.writerow()方法可以直接写入一维列表
+              - text: （你的答案）
+          - generic [ref=e309] [cursor=pointer]:
+            - generic [ref=e310]: D
+            - paragraph [ref=e312]: 读取CSV文件时，必须指定delimiter=';
+        - generic [ref=e313]:
+          - generic [ref=e314]: 参考答案
+          - generic [ref=e315]: C
+        - generic [ref=e316]:
+          - generic [ref=e317]: 题目解析
+          - paragraph [ref=e319]: csv.writerow()可直接写入一维列表（如[1, 2, 3]），无需嵌套。A错误（CSV支持字符串等）；B错误（一维列表可直接写入）；D错误（分隔符默认为逗号）。
+      - generic [ref=e320]:
+        - generic [ref=e321]:
+          - generic [ref=e322]: 正确
+          - text: "[Single Choice题]"
+          - heading [level=3] [ref=e323]:
+            - text: "8."
+            - paragraph [ref=e324]: 在Python中，以下代码的输出是？ （ ）
+            - paragraph [ref=e325]: import numpy as np
+            - paragraph [ref=e326]: x = np.arange(10, 20, 3)
+            - paragraph [ref=e327]: print(x[-1])
+        - generic [ref=e328]:
+          - generic [ref=e329] [cursor=pointer]:
+            - generic [ref=e330]: A
+            - paragraph [ref=e332]: "10"
+          - generic [ref=e333] [cursor=pointer]:
+            - generic [ref=e334]: B
+            - paragraph [ref=e336]: "16"
+          - generic [ref=e337] [cursor=pointer]:
+            - generic [ref=e338]: C
+            - generic [ref=e339]:
+              - paragraph [ref=e340]: "19"
+              - text: （你的答案）
+          - generic [ref=e341] [cursor=pointer]:
+            - generic [ref=e342]: D
+            - paragraph [ref=e344]: 报错
+        - generic [ref=e345]:
+          - generic [ref=e346]: 参考答案
+          - generic [ref=e347]: C
+        - generic [ref=e348]:
+          - generic [ref=e349]: 题目解析
+          - paragraph [ref=e351]: np.arange(10,20,3) 生成 [10,13,16,19]，[-1] 取最后一个元素 19（注意终止值 20 不包含）
+      - generic [ref=e352]:
+        - generic [ref=e353]:
+          - generic [ref=e354]: 正确
+          - text: "[Single Choice题]"
+          - heading [level=3] [ref=e355]:
+            - text: "9."
+            - paragraph [ref=e356]: 在tkinter中，用于创建按钮的类是？（ ）
+        - generic [ref=e357]:
+          - generic [ref=e358] [cursor=pointer]:
+            - generic [ref=e359]: A
+            - generic [ref=e360]:
+              - paragraph [ref=e361]: Button
+              - text: （你的答案）
+          - generic [ref=e362] [cursor=pointer]:
+            - generic [ref=e363]: B
+            - paragraph [ref=e365]: Labe
+          - generic [ref=e366] [cursor=pointer]:
+            - generic [ref=e367]: C
+            - paragraph [ref=e369]: Entry
+          - generic [ref=e370] [cursor=pointer]:
+            - generic [ref=e371]: D
+            - paragraph [ref=e373]: Frame
+        - generic [ref=e374]:
+          - generic [ref=e375]: 参考答案
+          - generic [ref=e376]: A
+        - generic [ref=e377]:
+          - generic [ref=e378]: 题目解析
+          - paragraph [ref=e380]: tkinter中Button类用于创建按钮，Label用于创建标签，Entry用于创建单行文本框。
+      - generic [ref=e381]:
+        - generic [ref=e382]:
+          - generic [ref=e383]: 正确
+          - text: "[Single Choice题]"
+          - heading [level=3] [ref=e384]:
+            - text: "10."
+            - paragraph [ref=e385]: 在tkinter中用于处理按钮点击事件的参数是？（ ）
+        - generic [ref=e386]:
+          - generic [ref=e387] [cursor=pointer]:
+            - generic [ref=e388]: A
+            - paragraph [ref=e390]: action
+          - generic [ref=e391] [cursor=pointer]:
+            - generic [ref=e392]: B
+            - paragraph [ref=e394]: click
+          - generic [ref=e395] [cursor=pointer]:
+            - generic [ref=e396]: C
+            - generic [ref=e397]:
+              - paragraph [ref=e398]: command
+              - text: （你的答案）
+          - generic [ref=e399] [cursor=pointer]:
+            - generic [ref=e400]: D
+            - paragraph [ref=e402]: event
+        - generic [ref=e403]:
+          - generic [ref=e404]: 参考答案
+          - generic [ref=e405]: C
+        - generic [ref=e406]:
+          - generic [ref=e407]: 题目解析
+          - paragraph [ref=e409]: tkinter中按钮的command参数用于指定点击事件的处理函数。
+      - generic [ref=e410]:
+        - generic [ref=e411]:
+          - generic [ref=e412]: 错误
+          - text: "[Single Choice题]"
+          - heading [level=3] [ref=e413]:
+            - text: "11."
+            - paragraph [ref=e414]: 在tkinter中执行以下代码后，窗口将显示什么？（ ）
+            - paragraph [ref=e415]: import tkinter as tk
+            - paragraph [ref=e416]: root = tk.Tk()
+            - paragraph [ref=e417]: tk.Label(root, text="Hello").pack(side="left")
+            - paragraph [ref=e418]: tk.Label(root, text="World").pack()
+            - paragraph [ref=e419]: root.mainloop()
+        - generic [ref=e420]:
+          - generic [ref=e421] [cursor=pointer]:
+            - generic [ref=e422]: A
+            - paragraph [ref=e424]: Hello在左，World在右
+          - generic [ref=e425] [cursor=pointer]:
+            - generic [ref=e426]: B
+            - paragraph [ref=e428]: Hello在上，World在下
+          - generic [ref=e429] [cursor=pointer]:
+            - generic [ref=e430]: C
+            - generic [ref=e431]:
+              - paragraph [ref=e432]: Hello在左，World自上居中
+              - text: （你的答案）
+          - generic [ref=e433] [cursor=pointer]:
+            - generic [ref=e434]: D
+            - generic [ref=e435]:
+              - paragraph [ref=e436]: Hello在左，World在下方
+              - text: （正确答案）
+        - generic [ref=e437]:
+          - generic [ref=e438]: 参考答案
+          - generic [ref=e439]: D
+        - generic [ref=e440]:
+          - generic [ref=e441]: 题目解析
+          - paragraph [ref=e443]: 创建第一个标签，内容为 "Hello"，side="left" 使该标签 左对齐窗口，占用窗口的左侧区域。创建第二个标签，内容为 "World"，默认 side="top"（未指定时），会从上到下排列，因为左侧已被"Hello" 占据，剩余空间不足整行宽度，所以 "World" 自动换行并居中显示，pack()默认从上到下布局。
+      - generic [ref=e444]:
+        - generic [ref=e445]:
+          - generic [ref=e446]: 正确
+          - text: "[Single Choice题]"
+          - heading [level=3] [ref=e447]:
+            - text: "12."
+            - paragraph [ref=e448]: 在tkinter中要使Button点击时执行函数show()，正确写法是？（ ）
+        - generic [ref=e449]:
+          - generic [ref=e450] [cursor=pointer]:
+            - generic [ref=e451]: A
+            - paragraph [ref=e453]: tk.Button(root, command=show()).pack()
+          - generic [ref=e454] [cursor=pointer]:
+            - generic [ref=e455]: B
+            - generic [ref=e456]:
+              - paragraph [ref=e457]: tk.Button(root, command=show).pack()
+              - text: （你的答案）
+          - generic [ref=e458] [cursor=pointer]:
+            - generic [ref=e459]: C
+            - paragraph [ref=e461]: tk.Button(root, bind=show).pack()
+          - generic [ref=e462] [cursor=pointer]:
+            - generic [ref=e463]: D
+            - paragraph [ref=e465]: tk.Button(root, onclick=show).pack()
+        - generic [ref=e466]:
+          - generic [ref=e467]: 参考答案
+          - generic [ref=e468]: B
+        - generic [ref=e469]:
+          - generic [ref=e470]: 题目解析
+          - paragraph [ref=e472]: command参数接收函数对象，不加括号。
+      - generic [ref=e473]:
+        - generic [ref=e474]:
+          - generic [ref=e475]: 正确
+          - text: "[Single Choice题]"
+          - heading [level=3] [ref=e476]:
+            - text: "13."
+            - paragraph [ref=e477]: 如果你要用numpy快速创建一个10个元素、值全为0的一维数组，不正确的方法是？（ ）
+        - generic [ref=e478]:
+          - generic [ref=e479] [cursor=pointer]:
+            - generic [ref=e480]: A
+            - paragraph [ref=e482]: numpy.zeros(10)
+          - generic [ref=e483] [cursor=pointer]:
+            - generic [ref=e484]: B
+            - paragraph [ref=e486]: numpy.zeros([10])
+          - generic [ref=e487] [cursor=pointer]:
+            - generic [ref=e488]: C
+            - paragraph [ref=e490]: numpy.zeros((10,)）
+          - generic [ref=e491] [cursor=pointer]:
+            - generic [ref=e492]: D
+            - generic [ref=e493]:
+              - paragraph [ref=e494]: numpy.zeros([10.])
+              - text: （你的答案）
+        - generic [ref=e495]:
+          - generic [ref=e496]: 参考答案
+          - generic [ref=e497]: D
+        - generic [ref=e498]:
+          - generic [ref=e499]: 题目解析
+          - paragraph [ref=e501]: numpy.zeros可以创建全零数组，三种写法都合法：10、[10] 和 (10,) 都表示1维长度为10的数组。
+      - generic [ref=e502]:
+        - generic [ref=e503]:
+          - generic [ref=e504]: 正确
+          - text: "[Single Choice题]"
+          - heading [level=3] [ref=e505]:
+            - text: "14."
+            - paragraph [ref=e506]: 用matplotlib画图时，显示折线图常用的函数是？（ ）
+        - generic [ref=e507]:
+          - generic [ref=e508] [cursor=pointer]:
+            - generic [ref=e509]: A
+            - paragraph [ref=e511]: plt.show()
+          - generic [ref=e512] [cursor=pointer]:
+            - generic [ref=e513]: B
+            - generic [ref=e514]:
+              - paragraph [ref=e515]: plt.plot(
+              - text: （你的答案）
+          - generic [ref=e516] [cursor=pointer]:
+            - generic [ref=e517]: C
+            - paragraph [ref=e519]: plt.scatter()
+          - generic [ref=e520] [cursor=pointer]:
+            - generic [ref=e521]: D
+            - paragraph [ref=e523]: plt.hist()
+        - generic [ref=e524]:
+          - generic [ref=e525]: 参考答案
+          - generic [ref=e526]: B
+        - generic [ref=e527]:
+          - generic [ref=e528]: 题目解析
+          - paragraph [ref=e530]: lt.plot()用于绘制折线图，是可视化数据变化趋势的经典方式。
+      - generic [ref=e531]:
+        - generic [ref=e532]:
+          - generic [ref=e533]: 正确
+          - text: "[Single Choice题]"
+          - heading [level=3] [ref=e534]:
+            - text: "15."
+            - paragraph [ref=e535]: 下列代码运行后，图表的标题会显示什么？（ ）
+            - paragraph [ref=e536]: import matplotlib.pyplot as plt
+            - paragraph [ref=e537]: plt.rcParams["font.sans-serif"] = "SimHei"
+            - paragraph [ref=e538]: plt.plot([1, 2, 3], [4, 5, 6])
+            - paragraph [ref=e539]: plt.title("成绩走势")
+            - paragraph [ref=e540]: plt.show()
+        - generic [ref=e541]:
+          - generic [ref=e542] [cursor=pointer]:
+            - generic [ref=e543]: A
+            - paragraph [ref=e545]: 不显示标题
+          - generic [ref=e546] [cursor=pointer]:
+            - generic [ref=e547]: B
+            - generic [ref=e548]:
+              - paragraph [ref=e549]: "\"成绩走势\""
+              - text: （你的答案）
+          - generic [ref=e550] [cursor=pointer]:
+            - generic [ref=e551]: C
+            - paragraph [ref=e553]: "\"matplotlib图\""
+          - generic [ref=e554] [cursor=pointer]:
+            - generic [ref=e555]: D
+            - paragraph [ref=e557]: 程序出错
+        - generic [ref=e558]:
+          - generic [ref=e559]: 参考答案
+          - generic [ref=e560]: B
+        - generic [ref=e561]:
+          - generic [ref=e562]: 题目解析
+          - paragraph [ref=e564]: plt.title("成绩走势")设置图表标题，plt.show()会正确显示“成绩走势”在图表上方。
+      - generic [ref=e565]:
+        - generic [ref=e566]:
+          - generic [ref=e567]: 正确
+          - text: "[Single Choice题]"
+          - heading [level=3] [ref=e568]:
+            - text: "16."
+            - paragraph [ref=e569]: 使用numpy时，以下哪种操作可以用来计算数组的平均值？（ ）
+        - generic [ref=e570]:
+          - generic [ref=e571] [cursor=pointer]:
+            - generic [ref=e572]: A
+            - paragraph [ref=e574]: numpy.sum()
+          - generic [ref=e575] [cursor=pointer]:
+            - generic [ref=e576]: B
+            - generic [ref=e577]:
+              - paragraph [ref=e578]: numpy.mean()
+              - text: （你的答案）
+          - generic [ref=e579] [cursor=pointer]:
+            - generic [ref=e580]: C
+            - paragraph [ref=e582]: numpy.max()
+          - generic [ref=e583] [cursor=pointer]:
+            - generic [ref=e584]: D
+            - paragraph [ref=e586]: numpy.size()
+        - generic [ref=e587]:
+          - generic [ref=e588]: 参考答案
+          - generic [ref=e589]: B
+        - generic [ref=e590]:
+          - generic [ref=e591]: 题目解析
+          - paragraph [ref=e593]: numpy.mean()是计算数组所有元素的平均值，属于numpy常用的统计分析函数。
+      - generic [ref=e594]:
+        - generic [ref=e595]:
+          - generic [ref=e596]: 正确
+          - text: "[Single Choice题]"
+          - heading [level=3] [ref=e597]:
+            - text: "17."
+            - paragraph [ref=e598]: 你有一个大文件，需要从文件的第 10 个字节处开始读取数据。应该使用以下哪个方法？（ ）
+        - generic [ref=e599]:
+          - generic [ref=e600] [cursor=pointer]:
+            - generic [ref=e601]: A
+            - generic [ref=e602]:
+              - paragraph [ref=e603]: f.seek(10)
+              - text: （你的答案）
+          - generic [ref=e604] [cursor=pointer]:
+            - generic [ref=e605]: B
+            - paragraph [ref=e607]: f.tell(10)
+          - generic [ref=e608] [cursor=pointer]:
+            - generic [ref=e609]: C
+            - paragraph [ref=e611]: f.read(10)
+          - generic [ref=e612] [cursor=pointer]:
+            - generic [ref=e613]: D
+            - paragraph [ref=e615]: f.write(10)
+        - generic [ref=e616]:
+          - generic [ref=e617]: 参考答案
+          - generic [ref=e618]: A
+        - generic [ref=e619]:
+          - generic [ref=e620]: 题目解析
+          - paragraph [ref=e622]: f.seek(10) 方法用于将文件指针移动到文件的第 10 个字节处；f.tell() 方法用于返回文件指针的当前位置，而不是移动指针；f.read(10) 是读取 10 个字节的数据；f.write(10) 是尝试写入整数 10，会报错，因为write()方法需要传入字符串或二进制数据。
+      - generic [ref=e623]:
+        - generic [ref=e624]:
+          - generic [ref=e625]: 正确
+          - text: "[Single Choice题]"
+          - heading [level=3] [ref=e626]:
+            - text: "18."
+            - paragraph [ref=e627]: 你有一个日志文件，需要不断将新的日志信息添加到文件末尾。以下哪种方式可以完成该功能？（ ）
+        - generic [ref=e628]:
+          - generic [ref=e629] [cursor=pointer]:
+            - generic [ref=e630]: A
+            - generic [ref=e631]:
+              - paragraph [ref=e632]: "with open('test.txt', 'w') as f:"
+              - paragraph [ref=e633]: f.write('new text')
+          - generic [ref=e634] [cursor=pointer]:
+            - generic [ref=e635]: B
+            - generic [ref=e636]:
+              - paragraph [ref=e637]: "with open('test.txt', 'a') as f:"
+              - paragraph [ref=e638]: f.write('new text')
+              - text: （你的答案）
+          - generic [ref=e639] [cursor=pointer]:
+            - generic [ref=e640]: C
+            - generic [ref=e641]:
+              - paragraph [ref=e642]: "with open('test.txt', 'r') as f:"
+              - paragraph [ref=e643]: f.write('new text')
+          - generic [ref=e644] [cursor=pointer]:
+            - generic [ref=e645]: D
+            - generic [ref=e646]:
+              - paragraph [ref=e647]: "with open('test.txt', 'rb') as f:"
+              - paragraph [ref=e648]: f.write('new text')
+        - generic [ref=e649]:
+          - generic [ref=e650]: 参考答案
+          - generic [ref=e651]: B
+        - generic [ref=e652]:
+          - generic [ref=e653]: 题目解析
+          - paragraph [ref=e655]: w' 模式会覆盖原文件内容，不符合追加的要求；'a' 模式是文本追加模式，可将新内容添加到文件末尾；'r' 模式是只读模式，不能进行写入操作；'rb' 是二进制读取模式，同样不能进行写入操作。
+      - generic [ref=e656]:
+        - generic [ref=e657]:
+          - generic [ref=e658]: 正确
+          - text: "[Single Choice题]"
+          - heading [level=3] [ref=e659]:
+            - text: "19."
+            - paragraph [ref=e660]: 执行以下代码后，file.txt 文件的内容是？（ ）
+            - paragraph [ref=e661]: "with open('file.txt', 'w') as f:"
+            - paragraph [ref=e662]: f.write('First line\n')
+            - paragraph [ref=e663]: "with open('file.txt', 'a') as f:"
+            - paragraph [ref=e664]: f.write('Second line\n')
+            - paragraph [ref=e665]: "with open('file.txt', 'r+') as f:"
+            - paragraph [ref=e666]: f.seek(0)
+            - paragraph [ref=e667]: f.write('Replaced first line\n')
+        - generic [ref=e668]:
+          - generic [ref=e669] [cursor=pointer]:
+            - generic [ref=e670]: A
+            - generic [ref=e671]:
+              - paragraph [ref=e672]: First line
+              - paragraph [ref=e673]: Second line
+          - generic [ref=e674] [cursor=pointer]:
+            - generic [ref=e675]: B
+            - generic [ref=e676]:
+              - paragraph [ref=e677]: Replaced first line
+              - paragraph [ref=e678]: Second line
+              - text: （你的答案）
+          - generic [ref=e679] [cursor=pointer]:
+            - generic [ref=e680]: C
+            - generic [ref=e681]:
+              - paragraph [ref=e682]: First line
+              - paragraph [ref=e683]: Replaced first line
+          - generic [ref=e684] [cursor=pointer]:
+            - generic [ref=e685]: D
+            - paragraph [ref=e687]: Replaced first line
+        - generic [ref=e688]:
+          - generic [ref=e689]: 参考答案
+          - generic [ref=e690]: B
+        - generic [ref=e691]:
+          - generic [ref=e692]: 题目解析
+          - paragraph [ref=e694]: 首先，以 'w' 模式写入 "First line\n"；接着，以 'a' 模式追加 "Second line\n"；最后，以 'r+' 模式打开文件，使用 seek(0) 将文件指针移动到文件开头，然后写入 "Replaced first line\n"，会覆盖原有的第一行内容，所以最终文件内容是 "Replaced first line\nSecond line\n"。
+      - generic [ref=e695]:
+        - generic [ref=e696]:
+          - generic [ref=e697]: 正确
+          - text: "[Single Choice题]"
+          - heading [level=3] [ref=e698]:
+            - text: "20."
+            - paragraph [ref=e699]: 在处理日志文件时，需要把日志的行顺序反转，方便查看最新的日志记录（即文件里的内容按行倒序）。下面哪个代码能正确实现？（ ）
+        - generic [ref=e700]:
+          - generic [ref=e701] [cursor=pointer]:
+            - generic [ref=e702]: A
+            - generic [ref=e703]:
+              - paragraph [ref=e704]: "with open('old_file.txt', 'r') as f1, open('new_file.txt', 'w') as f2:"
+              - paragraph [ref=e705]: lines = f1.readlines()
+              - paragraph [ref=e706]: lines.reverse()
+              - paragraph [ref=e707]: f2.write(lines)
+          - generic [ref=e708] [cursor=pointer]:
+            - generic [ref=e709]: B
+            - generic [ref=e710]:
+              - paragraph [ref=e711]: "with open('old_file.txt', 'r') as f1, open('new_file.txt', 'w') as f2:"
+              - paragraph [ref=e712]: lines = f1.read()
+              - paragraph [ref=e713]: lines.reverse()
+              - paragraph [ref=e714]: f2.write(lines)
+          - generic [ref=e715] [cursor=pointer]:
+            - generic [ref=e716]: C
+            - generic [ref=e717]:
+              - paragraph [ref=e718]: "with open('old_file.txt', 'r') as f1, open('new_file.txt', 'w') as f2:"
+              - paragraph [ref=e719]: lines = f1.readlines()
+              - paragraph [ref=e720]
+              - paragraph [ref=e721]: "for line in reversed(lines):"
+              - paragraph [ref=e722]: f2.write(line)
+              - text: （你的答案）
+          - generic [ref=e723] [cursor=pointer]:
+            - generic [ref=e724]: D
+            - generic [ref=e725]:
+              - paragraph [ref=e726]: "with open('old_file.txt', 'r') as f1, open('new_file.txt', 'w') as f2:"
+              - paragraph [ref=e727]: lines = f1.read()
+              - paragraph [ref=e728]: "for line in reversed(lines):"
+              - paragraph [ref=e729]: f2.write(line)
+        - generic [ref=e730]:
+          - generic [ref=e731]: 参考答案
+          - generic [ref=e732]: C
+        - generic [ref=e733]:
+          - generic [ref=e734]: 题目解析
+          - generic [ref=e735]:
+            - paragraph [ref=e736]: 选项 A ,write只能写字符串。
+            - paragraph [ref=e737]: 选项 B 里 read() 返回的是字符串，字符串没有 reverse() 方法。
+            - paragraph [ref=e738]: 选项 D 中 read() 读取的是字符串，reversed() 处理字符串会按字符反转，并非按行反转。
+            - paragraph [ref=e739]: 选项 C 使用 readlines() 按行读取文件内容，用reversed()迭代反转后的行列表，然后逐行写入新
+            - paragraph [ref=e740]: 文件，符合要求。
+      - generic [ref=e741]:
+        - generic [ref=e742]:
+          - generic [ref=e743]: 正确
+          - text: "[Single Choice题]"
+          - heading [level=3] [ref=e744]:
+            - text: "21."
+            - paragraph [ref=e745]: 某小型书店需要管理其图书库存，决定使用SQLite数据库来存储图书信息。在创建数据库和图书表的过程中，以下哪个步骤是正确的？（ ）
+        - generic [ref=e746]:
+          - generic [ref=e747] [cursor=pointer]:
+            - generic [ref=e748]: A
+            - paragraph [ref=e750]: 使用connect('library.db')创建数据库连接后，直接执行INSERT语句插入数据
+          - generic [ref=e751] [cursor=pointer]:
+            - generic [ref=e752]: B
+            - paragraph [ref=e754]: 创建表后，必须使用commit()方法提交事务，否则数据不会保存
+          - generic [ref=e755] [cursor=pointer]:
+            - generic [ref=e756]: C
+            - generic [ref=e757]:
+              - paragraph [ref=e758]: 关闭数据库连接时，先关闭游标，再关闭连接
+              - text: （你的答案）
+          - generic [ref=e759] [cursor=pointer]:
+            - generic [ref=e760]: D
+            - paragraph [ref=e762]: 使用CREATE TABLE语句时，必须指定主键
+        - generic [ref=e763]:
+          - generic [ref=e764]: 参考答案
+          - generic [ref=e765]: C
+        - generic [ref=e766]:
+          - generic [ref=e767]: 题目解析
+          - paragraph [ref=e769]: 创建表后才能插入数据。SQLite默认开启自动提交模式，无需手动commit()。关闭顺序通常是先游标后连接。CREATE TABLE不强制要求主键。
+      - generic [ref=e770]:
+        - generic [ref=e771]:
+          - generic [ref=e772]: 正确
+          - text: "[Single Choice题]"
+          - heading [level=3] [ref=e773]:
+            - text: "22."
+            - paragraph [ref=e774]: 物流轨迹跟踪系统中若需获取前3条记录，以下哪种方式最高效？（ ）conn = sqlite3.connect('logistics.db')
+            - paragraph [ref=e775]: cursor = conn.cursor()
+            - paragraph [ref=e776]: cursor.execute('''
+            - paragraph [ref=e777]: SELECT track_id, location, timestamp
+            - paragraph [ref=e778]: FROM tracking
+            - paragraph [ref=e779]: WHERE package_id = ?
+            - paragraph [ref=e780]: ORDER BY timestamp DESC''', ('PKG12345',))
+            - paragraph [ref=e781]: "# 获取最新轨迹"
+            - paragraph [ref=e782]: latest_record = cursor.fetchone()
+        - generic [ref=e783]:
+          - generic [ref=e784] [cursor=pointer]:
+            - generic [ref=e785]: A
+            - paragraph [ref=e787]: "[cursor.fetchone() for _ in range(3)]"
+          - generic [ref=e788] [cursor=pointer]:
+            - generic [ref=e789]: B
+            - generic [ref=e790]:
+              - paragraph [ref=e791]: cursor.fetchmany(3)
+              - text: （你的答案）
+          - generic [ref=e792] [cursor=pointer]:
+            - generic [ref=e793]: C
+            - paragraph [ref=e795]: cursor.fetchall()[:3]
+          - generic [ref=e796] [cursor=pointer]:
+            - generic [ref=e797]: D
+            - paragraph [ref=e799]: 循环调用fetchone()三次
+        - generic [ref=e800]:
+          - generic [ref=e801]: 参考答案
+          - generic [ref=e802]: B
+        - generic [ref=e803]:
+          - generic [ref=e804]: 题目解析
+          - paragraph [ref=e806]: 多次调用fetchone()需手动管理循环，效率低于单次fetchmany()。fetchmany(3)一次性获取3条数据，减少数据库交互次数。fetchall()获取全部数据后再切片，浪费资源（尤其数据量大时）
+      - generic [ref=e807]:
+        - generic [ref=e808]:
+          - generic [ref=e809]: 错误
+          - text: "[Single Choice题]"
+          - heading [level=3] [ref=e810]:
+            - text: "23."
+            - paragraph [ref=e811]: 用Python语言对SQLite数据库进行编程，实现打开和关闭stu.db数据库文件。下列命令语句，执行先后顺序正
+            - paragraph [ref=e812]: 确选项是？（ ）
+            - paragraph [ref=e813]: ①conn = sqlite3.connect("test.db")
+            - paragraph [ref=e814]: ②cur = conn.cursor( )
+            - paragraph [ref=e815]: ③import sqlite3
+            - paragraph [ref=e816]: ④conn.close( )
+            - paragraph [ref=e817]: ⑤cur.close( )
+        - generic [ref=e818]:
+          - generic [ref=e819] [cursor=pointer]:
+            - generic [ref=e820]: A
+            - paragraph [ref=e822]: ①②③④⑤
+          - generic [ref=e823] [cursor=pointer]:
+            - generic [ref=e824]: B
+            - paragraph [ref=e826]: ②①③⑤④
+          - generic [ref=e827] [cursor=pointer]:
+            - generic [ref=e828]: C
+            - generic [ref=e829]:
+              - paragraph [ref=e830]: ③①②⑤④
+              - text: （正确答案）
+          - generic [ref=e831] [cursor=pointer]:
+            - generic [ref=e832]: D
+            - generic [ref=e833]:
+              - paragraph [ref=e834]: ③①②④⑤
+              - text: （你的答案）
+        - generic [ref=e835]:
+          - generic [ref=e836]: 参考答案
+          - generic [ref=e837]: C
+        - generic [ref=e838]:
+          - generic [ref=e839]: 题目解析
+          - paragraph [ref=e841]: 先导入sqlite3模块,然后建立连接，建立游标，最后关闭。
+      - generic [ref=e842]:
+        - generic [ref=e843]:
+          - generic [ref=e844]: 正确
+          - text: "[Single Choice题]"
+          - heading [level=3] [ref=e845]:
+            - text: "24."
+            - paragraph [ref=e846]: 在图书馆管理系统中，有一个列表 new_books = [('Book 1', 'Author 1'), ('Book 2', 'Author 2')]，需要将这些书籍信息插入到 books 表中，以下代码正确的是？（ ）
+        - generic [ref=e847]:
+          - generic [ref=e848] [cursor=pointer]:
+            - generic [ref=e849]: A
+            - generic [ref=e850]:
+              - paragraph [ref=e851]: import sqlite3
+              - paragraph [ref=e852]: conn = sqlite3.connect('library.db')
+              - paragraph [ref=e853]: cursor = conn.cursor()
+              - paragraph [ref=e854]: cursor.executemany('INSERT INTO books (title, author) VALUES (?, ?)', new_book
+              - paragraph [ref=e855]: conn.commit()
+              - paragraph [ref=e856]: conn.close()
+              - text: （你的答案）
+          - generic [ref=e857] [cursor=pointer]:
+            - generic [ref=e858]: B
+            - generic [ref=e859]:
+              - paragraph [ref=e860]: import sqlite3
+              - paragraph [ref=e861]: conn = sqlite3.connect('library.db')
+              - paragraph [ref=e862]: cursor = conn.cursor()
+              - paragraph [ref=e863]: cursor.execute('INSERT INTO books (title, author) VALUES (?, ?)', new_books)
+              - paragraph [ref=e864]: conn.commit()
+              - paragraph [ref=e865]: conn.close()
+          - generic [ref=e866] [cursor=pointer]:
+            - generic [ref=e867]: C
+            - generic [ref=e868]:
+              - paragraph [ref=e869]: import sqlite3
+              - paragraph [ref=e870]: conn = sqlite3.connect('library.db')
+              - paragraph [ref=e871]: cursor = conn.cursor()
+              - paragraph [ref=e872]: cursor.executemany('INSERT INTO books (title, author) VALUES (?, ?)', new_book
+              - paragraph [ref=e873]: conn.commit()
+              - paragraph [ref=e874]: conn.close()
+          - generic [ref=e875] [cursor=pointer]:
+            - generic [ref=e876]: D
+            - generic [ref=e877]:
+              - paragraph [ref=e878]: import sqlite3
+              - paragraph [ref=e879]: conn = sqlite3.connect('library.db')
+              - paragraph [ref=e880]: cursor = conn.cursor()
+              - paragraph [ref=e881]: cursor.execute('INSERT INTO books (title, author) VALUES (?, ?)', new_books[0
+              - paragraph [ref=e882]: conn.commit()
+              - paragraph [ref=e883]: conn.close()
+        - generic [ref=e884]:
+          - generic [ref=e885]: 参考答案
+          - generic [ref=e886]: A
+        - generic [ref=e887]:
+          - generic [ref=e888]: 题目解析
+          - paragraph [ref=e890]: executemany() 方法用于批量插入数据，new_books 列表中的每个元组代表一条要插入的记录，使用 executemany() 可以将列表中的所有记录批量插入到 books 表中，代码正确。execute() 方法只能执行单条 SQL 语句，不能处理列表形式的多条记录，会导致错误。executemany() 应该接收一个包含多个元组的列表，而 new_books[0] 只是一个元组，会导致插入数据不完整。execute() 只能处理单条记录，new_books[0] 是一个元组，只能插入一条记录，不能插入列表中的所有记录。
+      - generic [ref=e891]:
+        - generic [ref=e892]:
+          - generic [ref=e893]: 正确
+          - text: "[Single Choice题]"
+          - heading [level=3] [ref=e894]:
+            - text: "25."
+            - paragraph [ref=e895]: Python语言关于类的说法错误的是？（ ）
+        - generic [ref=e896]:
+          - generic [ref=e897] [cursor=pointer]:
+            - generic [ref=e898]: A
+            - paragraph [ref=e900]: 函数可以定义到类中，称为方法。功能不变，使用格式不同
+          - generic [ref=e901] [cursor=pointer]:
+            - generic [ref=e902]: B
+            - paragraph [ref=e904]: 定义类后，必须定义一个类的实例才能使用类的方法
+          - generic [ref=e905] [cursor=pointer]:
+            - generic [ref=e906]: C
+            - generic [ref=e907]:
+              - paragraph [ref=e908]: 导入类必须重命名后才能使用，如：import turtle as t
+              - text: （你的答案）
+          - generic [ref=e909] [cursor=pointer]:
+            - generic [ref=e910]: D
+            - paragraph [ref=e912]: 可以导入单个类，也可以导入多个类。 如：导入单个：from car import Car 导入多个： from module_name import Class_a, Class_b
+        - generic [ref=e913]:
+          - generic [ref=e914]: 参考答案
+          - generic [ref=e915]: C
+        - generic [ref=e916]:
+          - generic [ref=e917]: 题目解析
+          - paragraph [ref=e919]: 导入类后可以使用原名，重命名不是必须的。
+      - generic [ref=e920]:
+        - generic [ref=e921]:
+          - generic [ref=e922]: 正确
+          - text: "[Judge题]"
+          - heading [level=3] [ref=e923]:
+            - text: "26."
+            - paragraph [ref=e924]: 在Python语言中，先定义类，再使用类创建出具体的对象：即实例。不同的实例可以带不同的参数，但它们使用相同的方法。（ ）
+        - generic [ref=e925]:
+          - generic [ref=e926] [cursor=pointer]:
+            - generic [ref=e927]: A
+            - generic [ref=e928]: 正确 （你的答案）
+          - generic [ref=e929] [cursor=pointer]:
+            - generic [ref=e930]: B
+            - generic [ref=e931]: 错误
+        - generic [ref=e932]:
+          - generic [ref=e933]: 参考答案
+          - generic [ref=e934]: T
+        - generic [ref=e935]:
+          - generic [ref=e936]: 题目解析
+          - paragraph [ref=e938]: 类：类是一种用户自定义的数据类型，它是对具有相同属性和方法的对象的抽象描述，定义了对象的属性和方法的蓝图。实例：实例是类的具体实现，是根据类创建出来的具体对象。每个实例都有自己独立的属性值，但可以共享类中定义的方法。参数与方法：在创建实例时，可以为实例的属性传入不同的参数，从而使不同的实例具有不同的状态。而方法是类中定义的行为，不同的实例可以调用相同的方法，只是在方法执行过程中，会根据实例自身的属性值进行不同的操作。
+      - generic [ref=e939]:
+        - generic [ref=e940]:
+          - generic [ref=e941]: 正确
+          - text: "[Judge题]"
+          - heading [level=3] [ref=e942]:
+            - text: "27."
+            - paragraph [ref=e943]: 在Python语言中，针对同一个对象（实例）的相同操作，可以定义类和类的方法，以便重复调用。
+        - generic [ref=e944]:
+          - generic [ref=e945] [cursor=pointer]:
+            - generic [ref=e946]: A
+            - generic [ref=e947]: 正确 （你的答案）
+          - generic [ref=e948] [cursor=pointer]:
+            - generic [ref=e949]: B
+            - generic [ref=e950]: 错误
+        - generic [ref=e951]:
+          - generic [ref=e952]: 参考答案
+          - generic [ref=e953]: T
+        - generic [ref=e954]:
+          - generic [ref=e955]: 题目解析
+          - paragraph [ref=e957]: 在面向对象编程中，类是一种封装数据和操作数据的结构。类中的方法本质上就是定义在类内部的函数。这些方法可以访问和操作类的属性（实例变量），并且可以被类的实例调用，从而实现特定的行为。
+      - generic [ref=e958]:
+        - generic [ref=e959]:
+          - generic [ref=e960]: 正确
+          - text: "[Judge题]"
+          - heading [level=3] [ref=e961]:
+            - text: "28."
+            - paragraph [ref=e962]: 在Python中，使用json.load()读取JSON文件时，文件对象必须以二进制模式打开（如'rb'）。（ ）
+        - generic [ref=e963]:
+          - generic [ref=e964] [cursor=pointer]:
+            - generic [ref=e965]: A
+            - generic [ref=e966]: 正确
+          - generic [ref=e967] [cursor=pointer]:
+            - generic [ref=e968]: B
+            - generic [ref=e969]: 错误 （你的答案）
+        - generic [ref=e970]:
+          - generic [ref=e971]: 参考答案
+          - generic [ref=e972]: F
+        - generic [ref=e973]:
+          - generic [ref=e974]: 题目解析
+          - paragraph [ref=e976]: JSON文件应以文本模式（'r'）打开，二进制模式会导致解码错误。
+      - generic [ref=e977]:
+        - generic [ref=e978]:
+          - generic [ref=e979]: 错误
+          - text: "[Judge题]"
+          - heading [level=3] [ref=e980]:
+            - text: "29."
+            - paragraph [ref=e981]: 在Python中，json.loads()可以将JSON字符串转为Python字典。（ ）
+        - generic [ref=e982]:
+          - generic [ref=e983] [cursor=pointer]:
+            - generic [ref=e984]: A
+            - generic [ref=e985]: 正确 （正确答案）
+          - generic [ref=e986] [cursor=pointer]:
+            - generic [ref=e987]: B
+            - generic [ref=e988]: 错误 （你的答案）
+        - generic [ref=e989]:
+          - generic [ref=e990]: 参考答案
+          - generic [ref=e991]: T
+        - generic [ref=e992]:
+          - generic [ref=e993]: 题目解析
+          - paragraph [ref=e995]: json.loads()用于JSON字符串反序列化。
+      - generic [ref=e996]:
+        - generic [ref=e997]:
+          - generic [ref=e998]: 正确
+          - text: "[Judge题]"
+          - heading [level=3] [ref=e999]:
+            - text: "30."
+            - paragraph [ref=e1000]: tkinter中主窗口必须手动设置geometry()才能显示。（ ）
+        - generic [ref=e1001]:
+          - generic [ref=e1002] [cursor=pointer]:
+            - generic [ref=e1003]: A
+            - generic [ref=e1004]: 正确
+          - generic [ref=e1005] [cursor=pointer]:
+            - generic [ref=e1006]: B
+            - generic [ref=e1007]: 错误 （你的答案）
+        - generic [ref=e1008]:
+          - generic [ref=e1009]: 参考答案
+          - generic [ref=e1010]: F
+        - generic [ref=e1011]:
+          - generic [ref=e1012]: 题目解析
+          - paragraph [ref=e1014]: 窗口会自动适应内容大小。
+      - generic [ref=e1015]:
+        - generic [ref=e1016]:
+          - generic [ref=e1017]: 正确
+          - text: "[Judge题]"
+          - heading [level=3] [ref=e1018]:
+            - text: "31."
+            - paragraph [ref=e1019]: numpy数组比Python普通列表占用内存更高，速度更慢。（ ）
+        - generic [ref=e1020]:
+          - generic [ref=e1021] [cursor=pointer]:
+            - generic [ref=e1022]: A
+            - generic [ref=e1023]: 正确
+          - generic [ref=e1024] [cursor=pointer]:
+            - generic [ref=e1025]: B
+            - generic [ref=e1026]: 错误 （你的答案）
+        - generic [ref=e1027]:
+          - generic [ref=e1028]: 参考答案
+          - generic [ref=e1029]: F
+        - generic [ref=e1030]:
+          - generic [ref=e1031]: 题目解析
+          - paragraph [ref=e1033]: numpy数组经过优化，占用内存更小，计算速度也比普通Python列表更快，特别适合做科学计算。
+      - generic [ref=e1034]:
+        - generic [ref=e1035]:
+          - generic [ref=e1036]: 正确
+          - text: "[Judge题]"
+          - heading [level=3] [ref=e1037]:
+            - text: "32."
+            - paragraph [ref=e1038]: numpy只能处理一维数据，不能处理多维矩阵。（ ）
+        - generic [ref=e1039]:
+          - generic [ref=e1040] [cursor=pointer]:
+            - generic [ref=e1041]: A
+            - generic [ref=e1042]: 正确
+          - generic [ref=e1043] [cursor=pointer]:
+            - generic [ref=e1044]: B
+            - generic [ref=e1045]: 错误 （你的答案）
+        - generic [ref=e1046]:
+          - generic [ref=e1047]: 参考答案
+          - generic [ref=e1048]: F
+        - generic [ref=e1049]:
+          - generic [ref=e1050]: 题目解析
+          - paragraph [ref=e1052]: numpy非常擅长处理一维、二维甚至多维数组，比如矩阵运算、科学计算等。
+      - generic [ref=e1053]:
+        - generic [ref=e1054]:
+          - generic [ref=e1055]: 正确
+          - text: "[Judge题]"
+          - heading [level=3] [ref=e1056]:
+            - text: "33."
+            - paragraph [ref=e1057]: Python 中的 with 语句在处理文件操作时，会自动关闭文件，即使在执行过程中发生异常也能保证文件被正确关闭。（ ）
+        - generic [ref=e1058]:
+          - generic [ref=e1059] [cursor=pointer]:
+            - generic [ref=e1060]: A
+            - generic [ref=e1061]: 正确 （你的答案）
+          - generic [ref=e1062] [cursor=pointer]:
+            - generic [ref=e1063]: B
+            - generic [ref=e1064]: 错误
+        - generic [ref=e1065]:
+          - generic [ref=e1066]: 参考答案
+          - generic [ref=e1067]: T
+        - generic [ref=e1068]:
+          - generic [ref=e1069]: 题目解析
+          - paragraph [ref=e1071]: with 语句会创建一个上下文管理器，在进入 with 代码块时打开文件，在离开代码块时，无论是否发生异常，都会自动调用文件对象的 close() 方法来关闭文件，避免资源泄漏。
+      - generic [ref=e1072]:
+        - generic [ref=e1073]:
+          - generic [ref=e1074]: 正确
+          - text: "[Judge题]"
+          - heading [level=3] [ref=e1075]:
+            - text: "34."
+            - paragraph [ref=e1076]: 在 Python 中，使用open()函数打开文件进行读取时，文件路径必须是绝对路径。（ ）
+        - generic [ref=e1077]:
+          - generic [ref=e1078] [cursor=pointer]:
+            - generic [ref=e1079]: A
+            - generic [ref=e1080]: 正确
+          - generic [ref=e1081] [cursor=pointer]:
+            - generic [ref=e1082]: B
+            - generic [ref=e1083]: 错误 （你的答案）
+        - generic [ref=e1084]:
+          - generic [ref=e1085]: 参考答案
+          - generic [ref=e1086]: F
+        - generic [ref=e1087]:
+          - generic [ref=e1088]: 题目解析
+          - paragraph [ref=e1090]: 在 Python 中，使用open()函数打开文件进行读取时，文件路径既可以是绝对路径，也可以是相对路径。相对路径是相对于当前工作目录来确定文件位置，使用相对路径可以使代码在不同环境下更灵活地运行。
+      - generic [ref=e1091]:
+        - generic [ref=e1092]:
+          - generic [ref=e1093]: 错误
+          - text: "[Judge题]"
+          - heading [level=3] [ref=e1094]:
+            - text: "35."
+            - paragraph [ref=e1095]: 一个学生成绩管理系统需要从SQLite数据库中查询学生信息。在执行查询操作时，fetchmany(size=2)会返回结果中的前两行。（ ）
+        - generic [ref=e1096]:
+          - generic [ref=e1097] [cursor=pointer]:
+            - generic [ref=e1098]: A
+            - generic [ref=e1099]: 正确 （你的答案）
+          - generic [ref=e1100] [cursor=pointer]:
+            - generic [ref=e1101]: B
+            - generic [ref=e1102]: 错误 （正确答案）
+        - generic [ref=e1103]:
+          - generic [ref=e1104]: 参考答案
+          - generic [ref=e1105]: F
+        - generic [ref=e1106]:
+          - generic [ref=e1107]: 题目解析
+          - paragraph [ref=e1109]: fetchmany(size=2)返回当前游标位置开始的2行，而非“前两行”。
+      - generic [ref=e1110]:
+        - generic [ref=e1111]:
+          - generic [ref=e1112]: 错误
+          - text: "[Coding题]"
+          - heading [level=3] [ref=e1113]:
+            - text: "36."
+            - paragraph [ref=e1114]: 管理电话号码
+            - paragraph [ref=e1115]: 编写一个使用SQLite管理电话号码的程序，功能有：显示所有电话号码、添加、删除和退出，请补全程序。
+            - paragraph [ref=e1116]: （本题无需运行通过，写入代码即可）
+            - paragraph [ref=e1117]: import sqlite3
+            - paragraph [ref=e1118]: "def init_db():"
+            - paragraph [ref=e1119]: conn = sqlite3.connect('phonebook.db')
+            - paragraph [ref=e1120]: cursor = conn.cursor()
+            - paragraph [ref=e1121]: cursor.execute("DROP TABLE IF EXISTS contacts")
+            - paragraph [ref=e1122]: cursor.execute('''CREATE TABLE contacts (name TEXT NOT NULL,phone TEXT PRIMAR
+            - paragraph [ref=e1123]: conn.commit()
+            - paragraph [ref=e1124]
+            - paragraph [ref=e1125]: return conn
+            - paragraph [ref=e1126]: "def show_all_contacts(conn):"
+            - paragraph [ref=e1127]: cursor = conn.cursor()
+            - paragraph [ref=e1128]: cursor.execute("SELECT name, phone FROM contacts ORDER BY name")
+            - paragraph [ref=e1129]: contacts = cursor. ①
+            - paragraph [ref=e1130]
+            - paragraph [ref=e1131]: "if not contacts:"
+            - paragraph [ref=e1132]
+            - paragraph [ref=e1133]: print("电话簿为空")
+            - paragraph [ref=e1134]
+            - paragraph [ref=e1135]: return
+            - paragraph [ref=e1136]
+            - paragraph [ref=e1137]: "for name, phone in contacts:"
+            - paragraph [ref=e1138]
+            - paragraph [ref=e1139]: "print(f\"{name}: {phone}\")"
+            - paragraph [ref=e1140]: "def add_contact(conn):"
+            - paragraph [ref=e1141]: "name = input(\"请输入姓名: \").strip()"
+            - paragraph [ref=e1142]: "phone = input(\"请输入电话号码: \").strip()"
+            - paragraph [ref=e1143]
+            - paragraph [ref=e1144]: "if not name or not phone:"
+            - paragraph [ref=e1145]
+            - paragraph [ref=e1146]: "print(\"错误: 姓名和电话都不能为空\")"
+            - paragraph [ref=e1147]
+            - paragraph [ref=e1148]: return
+            - paragraph [ref=e1149]
+            - paragraph [ref=e1150]: "try:"
+            - paragraph [ref=e1151]: cursor = conn.cursor()
+            - paragraph [ref=e1152]: cursor.execute("INSERT INTO contacts (name, phone) VALUES (?, ?)", (
+            - paragraph [ref=e1153]: conn.commit()
+            - paragraph [ref=e1154]
+            - paragraph [ref=e1155]: "print(f\"成功添加联系人: {name} - {phone}\")"
+            - paragraph [ref=e1156]
+            - paragraph [ref=e1157]: "except sqlite3.IntegrityError:"
+            - paragraph [ref=e1158]
+            - paragraph [ref=e1159]: "print(\"错误: 该电话号码已存在\")"
+            - paragraph [ref=e1160]: "def delete_contact(conn):"
+            - paragraph [ref=e1161]: "phone = input(\"请输入要删除的电话号码: \").strip()"
+            - paragraph [ref=e1162]
+            - paragraph [ref=e1163]: "if not phone:"
+            - paragraph [ref=e1164]
+            - paragraph [ref=e1165]: "print(\"错误: 请输入有效的电话号码\")"
+            - paragraph [ref=e1166]
+            - paragraph [ref=e1167]: return
+            - paragraph [ref=e1168]: cursor = conn.cursor()
+            - paragraph [ref=e1169]: cursor.execute("SELECT name FROM contacts WHERE phone=?", (phone,))
+            - paragraph [ref=e1170]: result = cursor. ④
+            - paragraph [ref=e1171]
+            - paragraph [ref=e1172]: "if not result:"
+            - paragraph [ref=e1173]
+            - paragraph [ref=e1174]: "print(\"错误: 未找到该电话号码\")"
+            - paragraph [ref=e1175]
+            - paragraph [ref=e1176]: return
+            - paragraph [ref=e1177]: "confirm = input(f\"确定要删除 {result[0]}({phone}) 吗? (y/n): \").lower()"
+            - paragraph [ref=e1178]
+            - paragraph [ref=e1179]: "if confirm == 'y':"
+            - paragraph [ref=e1180]: cursor.execute("DELETE FROM contacts WHERE phone=?", (phone,))
+            - paragraph [ref=e1181]: conn.commit()
+            - paragraph [ref=e1182]
+            - paragraph [ref=e1183]: print("联系人已删除")
+            - paragraph [ref=e1184]
+            - paragraph [ref=e1185]: "else:"
+            - paragraph [ref=e1186]
+            - paragraph [ref=e1187]: print("取消删除")
+            - paragraph [ref=e1188]: "# 主程序"
+            - paragraph [ref=e1189]: "def main():"
+            - paragraph [ref=e1190]: conn = init_db()
+            - paragraph [ref=e1191]
+            - paragraph [ref=e1192]: "while True:"
+            - paragraph [ref=e1193]
+            - paragraph [ref=e1194]: print("----------------")
+            - paragraph [ref=e1195]: show_all_contacts(conn)
+            - paragraph [ref=e1196]
+            - paragraph [ref=e1197]: print("\n请选择操作:")
+            - paragraph [ref=e1198]
+            - paragraph [ref=e1199]: print("1. 添加联系人")
+            - paragraph [ref=e1200]
+            - paragraph [ref=e1201]: print("2. 删除联系人")
+            - paragraph [ref=e1202]
+            - paragraph [ref=e1203]: print("0. 退出程序")
+            - paragraph [ref=e1204]: "choice = input(\"请输入选项(0-2): \").strip()"
+            - paragraph [ref=e1205]
+            - paragraph [ref=e1206]: "if choice == \"1\":"
+            - paragraph [ref=e1207]: add_contact(conn)
+            - paragraph [ref=e1208]
+            - paragraph [ref=e1209]: "elif choice == \"2\":"
+            - paragraph [ref=e1210]: delete_contact(conn)
+            - paragraph [ref=e1211]
+            - paragraph [ref=e1212]: "elif choice == \"0\":"
+            - paragraph [ref=e1213]
+            - paragraph [ref=e1214]: print("\n感谢使用电话簿管理系统，再见!")
+            - paragraph [ref=e1215]: conn.close()
+            - paragraph [ref=e1216]
+            - paragraph [ref=e1217]: break
+            - paragraph [ref=e1218]
+            - paragraph [ref=e1219]: "else:"
+            - paragraph [ref=e1220]
+            - paragraph [ref=e1221]: print("无效输入，请重新选择!")
+            - paragraph [ref=e1222]: "if __name__ == \"__main__\":"
+            - paragraph [ref=e1223]: main()
+            - paragraph [ref=e1224]
+        - generic [ref=e1225]:
+          - generic [ref=e1226]: 参考答案
+          - generic [ref=e1227]: x
+        - generic [ref=e1228]:
+          - generic [ref=e1229]: 题目解析
+          - generic [ref=e1230]:
+            - paragraph [ref=e1231]: import sqlite3
+            - paragraph [ref=e1232]: "def init_db():"
+            - paragraph [ref=e1233]: conn = sqlite3.connect('phonebook.db')
+            - paragraph [ref=e1234]: cursor = conn.cursor()
+            - paragraph [ref=e1235]: cursor.execute("DROP TABLE IF EXISTS contacts")
+            - paragraph [ref=e1236]: cursor.execute('''CREATE TABLE contacts (name TEXT NOT NULL,phone TE
+            - paragraph [ref=e1237]: conn.commit()
+            - paragraph [ref=e1238]
+            - paragraph [ref=e1239]: return conn
+            - paragraph [ref=e1240]: "def show_all_contacts(conn):"
+            - paragraph [ref=e1241]: cursor = conn.cursor()
+            - paragraph [ref=e1242]: cursor.execute("SELECT name, phone FROM contacts ORDER BY name")
+            - paragraph [ref=e1243]: contacts = cursor.fetchall()
+            - paragraph [ref=e1244]
+            - paragraph [ref=e1245]: "if not contacts:"
+            - paragraph [ref=e1246]
+            - paragraph [ref=e1247]: print("电话簿为空")
+            - paragraph [ref=e1248]
+            - paragraph [ref=e1249]: return
+            - paragraph [ref=e1250]
+            - paragraph [ref=e1251]: "for name, phone in contacts:"
+            - paragraph [ref=e1252]
+            - paragraph [ref=e1253]: "print(f\"{name}: {phone}\")"
+            - paragraph [ref=e1254]: "def add_contact(conn):"
+            - paragraph [ref=e1255]: "name = input(\"请输入姓名: \").strip()"
+            - paragraph [ref=e1256]: "phone = input(\"请输入电话号码: \").strip()"
+            - paragraph [ref=e1257]
+            - paragraph [ref=e1258]: "if not name or not phone:"
+            - paragraph [ref=e1259]
+            - paragraph [ref=e1260]: "print(\"错误: 姓名和电话都不能为空\")"
+            - paragraph [ref=e1261]
+            - paragraph [ref=e1262]: return
+            - paragraph [ref=e1263]
+            - paragraph [ref=e1264]: "try:"
+            - paragraph [ref=e1265]: cursor = conn.cursor()
+            - paragraph [ref=e1266]: cursor.execute("INSERT INTO contacts (name, phone) VALUES (?, ?)
+            - paragraph [ref=e1267]: conn.commit()
+            - paragraph [ref=e1268]
+            - paragraph [ref=e1269]: "print(f\"成功添加联系人: {name} - {phone}\")"
+            - paragraph [ref=e1270]
+            - paragraph [ref=e1271]: "except sqlite3.IntegrityError:"
+            - paragraph [ref=e1272]
+            - paragraph [ref=e1273]: "print(\"错误: 该电话号码已存在\")"
+            - paragraph [ref=e1274]: "def delete_contact(conn):"
+            - paragraph [ref=e1275]: "phone = input(\"请输入要删除的电话号码: \").strip()"
+            - paragraph [ref=e1276]
+            - paragraph [ref=e1277]: "if not phone:"
+            - paragraph [ref=e1278]
+            - paragraph [ref=e1279]: "print(\"错误: 请输入有效的电话号码\")"
+            - paragraph [ref=e1280]
+            - paragraph [ref=e1281]: return
+            - paragraph [ref=e1282]: cursor = conn.cursor()
+            - paragraph [ref=e1283]: cursor.execute("SELECT name FROM contacts WHERE phone=?", (phone,))
+            - paragraph [ref=e1284]: result = cursor.fetchone()
+            - paragraph [ref=e1285]
+            - paragraph [ref=e1286]: "if not result:"
+            - paragraph [ref=e1287]
+            - paragraph [ref=e1288]: "print(\"错误: 未找到该电话号码\")"
+            - paragraph [ref=e1289]
+            - paragraph [ref=e1290]: return
+            - paragraph [ref=e1291]: "confirm = input(f\"确定要删除 {result[0]}({phone}) 吗? (y/n): \").lowe"
+            - paragraph [ref=e1292]
+            - paragraph [ref=e1293]: "if confirm == 'y':"
+            - paragraph [ref=e1294]: cursor.execute("DELETE FROM contacts WHERE phone=?", (phone,))
+            - paragraph [ref=e1295]: conn.commit()
+            - paragraph [ref=e1296]
+            - paragraph [ref=e1297]: print("联系人已删除")
+            - paragraph [ref=e1298]
+            - paragraph [ref=e1299]: "else:"
+            - paragraph [ref=e1300]
+            - paragraph [ref=e1301]: print("取消删除")
+            - paragraph [ref=e1302]: "# 主程序"
+            - paragraph [ref=e1303]: "def main():"
+            - paragraph [ref=e1304]: conn = init_db()
+            - paragraph [ref=e1305]
+            - paragraph [ref=e1306]: "while True:"
+            - paragraph [ref=e1307]
+            - paragraph [ref=e1308]: print("----------------")
+            - paragraph [ref=e1309]: show_all_contacts(conn)
+            - paragraph [ref=e1310]
+            - paragraph [ref=e1311]: print("\n请选择操作:")
+            - paragraph [ref=e1312]
+            - paragraph [ref=e1313]: print("1. 添加联系人")
+            - paragraph [ref=e1314]
+            - paragraph [ref=e1315]: print("2. 删除联系人")
+            - paragraph [ref=e1316]
+            - paragraph [ref=e1317]: print("0. 退出程序")
+            - paragraph [ref=e1318]: "choice = input(\"请输入选项(0-2): \").strip()"
+            - paragraph [ref=e1319]: "if choice == \"1\":"
+            - paragraph [ref=e1320]: add_contact(conn)
+            - paragraph [ref=e1321]
+            - paragraph [ref=e1322]: "elif choice == \"2\":"
+            - paragraph [ref=e1323]: delete_contact(conn)
+            - paragraph [ref=e1324]
+            - paragraph [ref=e1325]: "elif choice == \"0\":"
+            - paragraph [ref=e1326]
+            - paragraph [ref=e1327]: print("\n感谢使用电话簿管理系统，再见!")
+            - paragraph [ref=e1328]: conn.close()
+            - paragraph [ref=e1329]
+            - paragraph [ref=e1330]: break
+            - paragraph [ref=e1331]
+            - paragraph [ref=e1332]: "else:"
+            - paragraph [ref=e1333]
+            - paragraph [ref=e1334]: print("无效输入，请重新选择!")
+            - paragraph [ref=e1335]: "if __name__ == \"__main__\":"
+            - paragraph [ref=e1336]: main()
+            - paragraph [ref=e1337]: 评分标准：
+            - paragraph [ref=e1338]: （1）fetchall()（或等效答案）；（3分）
+            - paragraph [ref=e1339]: （2）name（或等效答案）； （2分）
+            - paragraph [ref=e1340]: （3）phone（或等效答案）； （2分）
+            - paragraph [ref=e1341]: （4）fetchone()（或等效答案）。（3分）
+      - generic [ref=e1342]:
+        - generic [ref=e1343]:
+          - generic [ref=e1344]: 错误
+          - text: "[Coding题]"
+          - heading [level=3] [ref=e1345]:
+            - text: "37."
+            - paragraph [ref=e1346]: 工资系统
+            - paragraph [ref=e1347]: 某学校需要开发一个教师工资计算系统，该系统需要根据教师的职称、基本工资和课时工资自动计算每位教师
+            - paragraph [ref=e1348]: 的月工资。教师的工资由两部分组成：
+            - paragraph [ref=e1349]: 结构工资 = 基本工资 × 职称系数
+            - paragraph [ref=e1350]: 总工资 = 结构工资 + 课时工资
+            - paragraph [ref=e1351]: 学校制定了不同职称对应的配置标准：
+            - paragraph [ref=e1352]
+            - paragraph [ref=e1353]: 对于未列出的职称，使用默认值：基本工资5000，职称系数1.0。
+            - paragraph [ref=e1354]: 输入输出示例
+            - paragraph [ref=e1355]: 输入数据格式为元组：(姓名, 职称, 课时工资)
+            - paragraph [ref=e1356]: test_cases = [ ("张老师", "一级教师", 1200), ("李老师", "副高级教师", 1500),("王老师", "特级教师", 2000) ]
+            - paragraph [ref=e1357]: 预期输出：
+            - paragraph [ref=e1358]: 张老师(一级教师)总工资：7800.0
+            - paragraph [ref=e1359]: 李老师(副高级教师)总工资：11100.0
+            - paragraph [ref=e1360]: 王老师(特级教师)总工资：7000.0
+            - paragraph [ref=e1361]: 相关Python程序如下，请补全代码完成功能实现。
+            - paragraph [ref=e1362]: "TITLE_CONFIG = {"
+            - paragraph [ref=e1363]
+            - paragraph [ref=e1364]: "\"二级教师\": {\"coeff\": 1.0, \"base\": 5000},"
+            - paragraph [ref=e1365]
+            - paragraph [ref=e1366]: "\"一级教师\": {\"coeff\": 1.1, \"base\": 6000},"
+            - paragraph [ref=e1367]: "\"副高级教师\": {\"coeff\": 1.2, \"base\": 8000}"
+            - paragraph [ref=e1368]: "}"
+            - paragraph [ref=e1369]: "class Teacher:"
+            - paragraph [ref=e1370]
+            - paragraph [ref=e1371]: "def __init__(self, name, title, hourly_wage):"
+            - paragraph [ref=e1372]: self.name = name
+            - paragraph [ref=e1373]: self.title = title
+            - paragraph [ref=e1374]: self.hourly_wage = hourly_wage
+            - paragraph [ref=e1375]: "self.config = TITLE_CONFIG.get(title, {\"coeff\": 1.0, \"base\": 5000})"
+            - paragraph [ref=e1376]
+            - paragraph [ref=e1377]: "def calculate_structural_salary(self):"
+            - paragraph [ref=e1378]
+            - paragraph [ref=e1379]: return self.config["base"] * ①
+            - paragraph [ref=e1380]
+            - paragraph [ref=e1381]: "def total_salary(self):"
+            - paragraph [ref=e1382]
+            - paragraph [ref=e1383]: return self.calculate_structural_salary() + ②
+            - paragraph [ref=e1384]: test_cases = [("张老师", "一级教师", 1200), ("李老师", "副高级教师", 1500), ("王老
+            - paragraph [ref=e1385]: "for case in test_cases:"
+            - paragraph [ref=e1386]: ③ = Teacher(*case)
+            - paragraph [ref=e1387]
+            - paragraph [ref=e1388]: "print(f\"{teacher.name}({teacher.title})总工资：{ ④ :.1f}\")"
+        - generic [ref=e1389]:
+          - generic [ref=e1390]: 参考答案
+          - generic [ref=e1391]: x
+        - generic [ref=e1392]:
+          - generic [ref=e1393]: 题目解析
+          - generic [ref=e1394]:
+            - paragraph [ref=e1395]: "TITLE_CONFIG = {"
+            - paragraph [ref=e1396]
+            - paragraph [ref=e1397]: "\"二级教师\": {\"coeff\": 1.0, \"base\": 5000},"
+            - paragraph [ref=e1398]
+            - paragraph [ref=e1399]: "\"一级教师\": {\"coeff\": 1.1, \"base\": 6000},"
+            - paragraph [ref=e1400]
+            - paragraph [ref=e1401]: "\"副高级教师\": {\"coeff\": 1.2, \"base\": 8000}"
+            - paragraph [ref=e1402]: "}"
+            - paragraph [ref=e1403]: "class Teacher:"
+            - paragraph [ref=e1404]
+            - paragraph [ref=e1405]: "def __init__(self, name, title, hourly_wage):"
+            - paragraph [ref=e1406]: self.name = name
+            - paragraph [ref=e1407]: self.title = title
+            - paragraph [ref=e1408]: self.hourly_wage = hourly_wage
+            - paragraph [ref=e1409]: "self.config = TITLE_CONFIG.get(title, {\"coeff\": 1.0, \"base\": 500"
+            - paragraph [ref=e1410]
+            - paragraph [ref=e1411]: "def calculate_structural_salary(self):"
+            - paragraph [ref=e1412]
+            - paragraph [ref=e1413]: return self.config["base"] * self.config["coeff"]
+            - paragraph [ref=e1414]
+            - paragraph [ref=e1415]: "def total_salary(self):"
+            - paragraph [ref=e1416]
+            - paragraph [ref=e1417]: return self.calculate_structural_salary() + self.hourly_wage
+            - paragraph [ref=e1418]: test_cases = [("张老师", "一级教师", 1200), ("李老师", "副高级教师", 1500
+            - paragraph [ref=e1419]: "for case in test_cases:"
+            - paragraph [ref=e1420]: teacher = Teacher(*case)
+            - paragraph [ref=e1421]
+            - paragraph [ref=e1422]: "print(f\"{teacher.name}({teacher.title})总工资：{teacher.total_salary"
+            - paragraph [ref=e1423]: 评分标准：
+            - paragraph [ref=e1424]: （1）self.config["coeff"] （或等效答案）；（3分）
+            - paragraph [ref=e1425]: （2）self.hourly_wage（或等效答案）；（3分）
+            - paragraph [ref=e1426]: （3）teacher（或等效答案） ；（2分）
+            - paragraph [ref=e1427]: （4）teacher.total_salary()（或等效答案） 。（2分）
+            - paragraph [ref=e1428]
+      - generic [ref=e1429]:
+        - generic [ref=e1430]:
+          - generic [ref=e1431]: 错误
+          - text: "[Coding题]"
+          - heading [level=3] [ref=e1432]:
+            - text: "38."
+            - paragraph [ref=e1433]: IP地址记录
+            - paragraph [ref=e1434]: 小明的IP地址记录在文件ip_list.txt中，但其中有些IP属于内网（局域网IP段如192.开头），小明想要：
+            - paragraph [ref=e1435]: （1）读取所有IP地址
+            - paragraph [ref=e1436]: （2）删除每行末尾换行符
+            - paragraph [ref=e1437]: （3）筛选出不是以192.开头的IP地址
+            - paragraph [ref=e1438]: （4）将这些IP地址逆序排列后保存到新文件ip_result.txt
+            - paragraph [ref=e1439]: （5）并在屏幕上显示每一条被保存的IP
+            - paragraph [ref=e1440]: 请根据下面代码框架补充完整（共4个填空）。
+            - paragraph [ref=e1441]: "# 读取ip_list.txt"
+            - paragraph [ref=e1442]: "with open('/data/ip_list.txt', 'r') as f:"
+            - paragraph [ref=e1443]: ip_list = ①
+            - paragraph [ref=e1444]: "# 处理IP列表"
+            - paragraph [ref=e1445]: clean_list = []
+            - paragraph [ref=e1446]: "for ip in ip_list:"
+            - paragraph [ref=e1447]: ip = ip.strip('\n')
+            - paragraph [ref=e1448]
+            - paragraph [ref=e1449]: "if not ip.startswith( ② ):"
+            - paragraph [ref=e1450]: clean_list.append(ip)
+            - paragraph [ref=e1451]: "# 逆序排列"
+            - paragraph [ref=e1452]: clean_list.reverse()
+            - paragraph [ref=e1453]: "# 保存到新文件并输出"
+            - paragraph [ref=e1454]: "with open('ip_result.txt', 'w') as f:"
+            - paragraph [ref=e1455]
+            - paragraph [ref=e1456]: "for ip in clean_list:"
+            - paragraph [ref=e1457]: f.write(ip + "\n")
+            - paragraph [ref=e1458]
+            - paragraph [ref=e1459]: print( ③ )
+            - paragraph [ref=e1460]: a= ④ ("按p退出程序")
+            - paragraph [ref=e1461]: "if a==\"p\":"
+            - paragraph [ref=e1462]: exit()
+        - generic [ref=e1463]:
+          - generic [ref=e1464]: 参考答案
+          - generic [ref=e1465]: x
+        - generic [ref=e1466]:
+          - generic [ref=e1467]: 题目解析
+          - generic [ref=e1468]:
+            - paragraph [ref=e1469]: "# 读取ip_list.txt"
+            - paragraph [ref=e1470]: "with open('/data/ip_list.txt', 'r') as f:"
+            - paragraph [ref=e1471]: ip_list = f.readlines()
+            - paragraph [ref=e1472]: "# 处理IP列表"
+            - paragraph [ref=e1473]: clean_list = []
+            - paragraph [ref=e1474]: "for ip in ip_list:"
+            - paragraph [ref=e1475]: ip = ip.strip('\n')
+            - paragraph [ref=e1476]
+            - paragraph [ref=e1477]: "if not ip.startswith('192.' ):"
+            - paragraph [ref=e1478]: clean_list.append(ip)
+            - paragraph [ref=e1479]: "# 逆序排列"
+            - paragraph [ref=e1480]: clean_list.reverse()
+            - paragraph [ref=e1481]: "# 保存到新文件并输出"
+            - paragraph [ref=e1482]: "with open('ip_result.txt', 'w') as f:"
+            - paragraph [ref=e1483]
+            - paragraph [ref=e1484]: "for ip in clean_list:"
+            - paragraph [ref=e1485]: f.write(ip + "\n")
+            - paragraph [ref=e1486]
+            - paragraph [ref=e1487]: print(ip)
+            - paragraph [ref=e1488]: a=input("按p退出程序")
+            - paragraph [ref=e1489]: "if a==\"p\":"
+            - paragraph [ref=e1490]: exit()
+            - paragraph [ref=e1491]: 评分标准：
+            - paragraph [ref=e1492]: （1）f.readlines()（或等效答案）；（3分）
+            - paragraph [ref=e1493]: （2）'192.'（或等效答案）；（3分）
+            - paragraph [ref=e1494]: （3）ip（或等效答案）；（2分）
+            - paragraph [ref=e1495]: （4）input（或等效答案）。（2分）
+  - contentinfo [ref=e1496]:
+    - generic [ref=e1497]:
+      - generic [ref=e1498]:
+        - img "CODE STUDY" [ref=e1499]
+        - paragraph [ref=e1500]: 专注于青少年信息学奥赛与编程能力提升训练。
+      - generic [ref=e1501]:
+        - heading "快速链接" [level=4] [ref=e1502]
+        - list [ref=e1503]:
+          - listitem [ref=e1504]:
+            - link "题库练习" [ref=e1505] [cursor=pointer]:
+              - /url: /problems/scratch/
+          - listitem [ref=e1506]:
+            - link "OJ题库" [ref=e1507] [cursor=pointer]:
+              - /url: /oj/
+          - listitem [ref=e1508]:
+            - link "题解分享" [ref=e1509] [cursor=pointer]:
+              - /url: /share/
+          - listitem [ref=e1510]:
+            - link "学习排行" [ref=e1511] [cursor=pointer]:
+              - /url: /user/rank/
+      - generic [ref=e1512]:
+        - heading "联系我们" [level=4] [ref=e1513]
+        - list [ref=e1514]:
+          - listitem [ref=e1515]:
+            - link "在线工具" [ref=e1516] [cursor=pointer]:
+              - /url: https://dazidazi.com
+          - listitem [ref=e1517]:
+            - link "备案信息" [ref=e1518] [cursor=pointer]:
+              - /url: https://beian.miit.gov.cn/
+    - generic [ref=e1519]:
+      - text: All right reserved©极客晨星少儿编程辉县校区 |
+      - link "豫ICP备2022024360号-1" [ref=e1520] [cursor=pointer]:
+        - /url: https://beian.miit.gov.cn/

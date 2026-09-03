@@ -1,0 +1,2 @@
+[ -117219ms] [LOG] 【Debug】首次载入触发, 页面类型为 repository/tree @ chrome-extension://dhdgffkkebhmkfjojejmpbldmpobfkfo/userscript.html?name=GitHub-%25E4%25B8%25AD%25E6%2596%2587%25E5%258C%2596%25E6%258F%2592%25E4%25BB%25B6.user.js&id=7a6cded6-c7eb-43d6-bef1-ff780f91bd17:29934
+[ -117189ms] [LOG] 当前环境不支持 onurlchange 事件，使用传统URL检测方式 @ chrome-extension://dhdgffkkebhmkfjojejmpbldmpobfkfo/userscript.html?name=GitHub-%25E4%25B8%25AD%25E6%2596%2587%25E5%258C%2596%25E6%258F%2592%25E4%25BB%25B6.user.js&id=7a6cded6-c7eb-43d6-bef1-ff780f91bd17:29866

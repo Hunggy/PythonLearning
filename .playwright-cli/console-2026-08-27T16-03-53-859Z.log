@@ -1,0 +1,20 @@
+[     217ms] [WARNING] document.domain mutation is ignored because the surrounding agent cluster is origin-keyed. @ https://bailian.console.aliyun.com/:168
+[     218ms] [WARNING] document.domain mutation is ignored because the surrounding agent cluster is origin-keyed. @ https://g.alicdn.com/isipfe/efm-fe/3.5.704/url-mapping.js:0
+[     358ms] [WARNING] document.domain mutation is ignored because the surrounding agent cluster is origin-keyed. @ https://bailian.console.aliyun.com/cn-beijing?tab=model:168
+[     359ms] [WARNING] document.domain mutation is ignored because the surrounding agent cluster is origin-keyed. @ https://g.alicdn.com/isipfe/efm-fe/3.5.704/url-mapping.js:0
+[     360ms] [WARNING] document.domain mutation is ignored because the surrounding agent cluster is origin-keyed. @ https://g.alicdn.com/isipfe/efm-fe/3.5.704/bootstrap.js:0
+[     362ms] [LOG] ██╗  ██╗██╗                                     
+██║  ██║██║                                     
+███████║██║                                     
+██╔══██║██║                                     
+██║  ██║██║▄█╗                                  
+╚═╝  ╚═╝╚═╝╚═╝                                  
+                                                
+██████╗  █████╗ ██╗██╗     ██╗ █████╗ ███╗   ██╗
+██╔══██╗██╔══██╗██║██║     ██║██╔══██╗████╗  ██║
+██████╔╝███████║██║██║     ██║███████║██╔██╗ ██║
+██╔══██╗██╔══██║██║██║     ██║██╔══██║██║╚██╗██║
+██████╔╝██║  ██║██║███████╗██║██║  ██║██║ ╚████║
+╚═════╝ ╚═╝  ╚═╝╚═╝╚══════╝╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝
+                                                 @ https://g.alicdn.com/isipfe/efm-fe/3.4.232/noopconsole.js:0
+[  159933ms] [ERROR] Permissions policy violation: unload is not allowed in this document. @ https://g.alicdn.com/isipfe/beebot/6.6.0/lib/qiankun/qiankun.min.js:0

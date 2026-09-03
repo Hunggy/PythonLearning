@@ -1,0 +1,531 @@
+[-1735017ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://gcjkstar.cn/problems/27980/error/:0
+[-1734589ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://gcjkstar.cn/favicon.ico:0
+[-1735011ms] [WARNING] jQuery.Deferred exception: Morris is not defined ReferenceError: Morris is not defined
+    at Object.initFunction (https://gcjkstar.cn/static/js/custom-scripts.js:26:13)
+    at HTMLDocument.<anonymous> (https://gcjkstar.cn/static/js/custom-scripts.js:209:17)
+    at e (https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:2:30038)
+    at t (https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:2:30340) undefined @ https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:1
+[       3ms] ReferenceError: Morris is not defined
+    at Object.initFunction (https://gcjkstar.cn/static/js/custom-scripts.js:26:13)
+    at HTMLDocument.<anonymous> (https://gcjkstar.cn/static/js/custom-scripts.js:209:17)
+    at e (https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:2:30038)
+    at t (https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:2:30340)
+[  336385ms] [LOG] ===TOPIC=== @ :0
+[  336386ms] [LOG] 36.
+
+管理电话号码
+
+编写一个使用SQLite管理电话号码的程序，功能有：显示所有电话号码、添加、删除和退出，请补全程序。
+
+（本题无需运行通过，写入代码即可）
+
+import sqlite3
+
+def init_db():
+
+conn = sqlite3.connect('phonebook.db')
+
+cursor = conn.cursor()
+
+cursor.execute("DROP TABLE IF EXISTS contacts")
+
+cursor.execute('''CREATE TABLE contacts (name TEXT NOT NULL,phone TEXT PRIMAR
+
+conn.commit()
+
+return conn
+
+def show_all_contacts(conn):
+
+cursor = conn.cursor()
+
+cursor.execute("SELECT name, phone FROM contacts ORDER BY name")
+
+contacts = cursor. ①
+
+if not contacts:
+
+print("电话簿为空")
+
+return
+
+for name, phone in contacts:
+
+print(f"{name}: {phone}")
+
+def add_contact(conn):
+
+name = input("请输入姓名: ").strip()
+
+phone = input("请输入电话号码: ").strip()
+
+if not name or not phone:
+
+print("错误: 姓名和电话都不能为空")
+
+return
+
+try:
+
+cursor = conn.cursor()
+
+cursor.execute("INSERT INTO contacts (name, phone) VALUES (?, ?)", (
+
+conn.commit()
+
+print(f"成功添加联系人: {name} - {phone}")
+
+except sqlite3.IntegrityError:
+
+print("错误: 该电话号码已存在")
+
+def delete_contact(conn):
+
+phone = input("请输入要删除的电话号码: ").strip()
+
+if not phone:
+
+print("错误: 请输入有效的电话号码")
+
+return
+
+cursor = conn.cursor()
+
+cursor.execute("SELECT name FROM contacts WHERE phone=?", (phone,))
+
+result = cursor. ④
+
+if not result:
+
+print("错误: 未找到该电话号码")
+
+return
+
+confirm = input(f"确定要删除 {result[0]}({phone}) 吗? (y/n): ").lower()
+
+if confirm == 'y':
+
+cursor.execute("DELETE FROM contacts WHERE phone=?", (phone,))
+
+conn.commit()
+
+print("联系人已删除")
+
+else:
+
+print("取消删除")
+
+# 主程序
+
+def main():
+
+conn = init_db()
+
+while True:
+
+print("----------------")
+
+show_all_contacts(conn)
+
+print("\n请选择操作:")
+
+print("1. 添加联系人")
+
+print("2. 删除联系人")
+
+print("0. 退出程序")
+
+choice = input("请输入选项(0-2): ").strip()
+
+if choice == "1":
+
+add_contact(conn)
+
+elif choice == "2":
+
+delete_contact(conn)
+
+elif choice == "0":
+
+print("\n感谢使用电话簿管理系统，再见!")
+
+conn.close()
+
+break
+
+else:
+
+print("无效输入，请重新选择!")
+
+if __name__ == "__main__":
+
+main()
+
+
+
+---DETAIL---
+错误 [Coding题]
+36.
+
+管理电话号码
+
+编写一个使用SQLite管理电话号码的程序，功能有：显示所有电话号码、添加、删除和退出，请补全程序。
+
+（本题无需运行通过，写入代码即可）
+
+import sqlite3
+
+def init_db():
+
+conn = sqlite3.connect('phonebook.db')
+
+cursor = conn.cursor()
+
+cursor.execute("DROP TABLE IF EXISTS contacts")
+
+cursor.execute('''CREATE TABLE contacts (name TEXT NOT NULL,phone TEXT PRIMAR
+
+conn.commit()
+
+return conn
+
+def show_all_contacts(conn):
+
+cursor = conn.cursor()
+
+cursor.execute("SELECT name, phone FROM contacts ORDER BY name")
+
+contacts = cursor. ①
+
+if not co ###  ### 参考答案
+x ### 题目解析
+
+import sqlite3
+
+def init_db():
+
+conn = sqlite3.connect('phonebook.db')
+
+cursor = conn.cursor()
+
+cursor.execute("DROP TABLE IF EXISTS contacts")
+
+cursor.execute('''CREATE TABLE contacts (name TEXT NOT NULL,phone TE
+
+conn.commit()
+
+return conn
+
+def show_all_contacts(conn):
+
+cursor = conn.cursor()
+
+cursor.execute("SELECT name, phone FROM contacts ORDER BY name")
+
+contacts = cursor.fetchall()
+
+if not contacts:
+
+print("电话簿为空")
+
+return
+
+for name, phone in contacts:
+
+print(f"{name}: {phone}")
+
+de ###  @ :0
+[  336386ms] [LOG] ===TOPIC=== @ :0
+[  336386ms] [LOG] 37.
+
+工资系统
+
+某学校需要开发一个教师工资计算系统，该系统需要根据教师的职称、基本工资和课时工资自动计算每位教师
+
+的月工资。教师的工资由两部分组成：
+
+结构工资 = 基本工资 × 职称系数
+
+总工资 = 结构工资 + 课时工资
+
+学校制定了不同职称对应的配置标准：
+
+对于未列出的职称，使用默认值：基本工资5000，职称系数1.0。
+
+输入输出示例
+
+输入数据格式为元组：(姓名, 职称, 课时工资)
+
+test_cases = [ ("张老师", "一级教师", 1200), ("李老师", "副高级教师", 1500),("王老师", "特级教师", 2000) ]
+
+预期输出：
+
+张老师(一级教师)总工资：7800.0
+
+李老师(副高级教师)总工资：11100.0
+
+王老师(特级教师)总工资：7000.0
+
+相关Python程序如下，请补全代码完成功能实现。
+
+TITLE_CONFIG = {
+
+"二级教师": {"coeff": 1.0, "base": 5000},
+
+"一级教师": {"coeff": 1.1, "base": 6000},
+
+"副高级教师": {"coeff": 1.2, "base": 8000}
+
+}
+
+class Teacher:
+
+def __init__(self, name, title, hourly_wage):
+
+self.name = name
+
+self.title = title
+
+self.hourly_wage = hourly_wage
+
+self.config = TITLE_CONFIG.get(title, {"coeff": 1.0, "base": 5000})
+
+def calculate_structural_salary(self):
+
+return self.config["base"] * ①
+
+def total_salary(self):
+
+return self.calculate_structural_salary() + ②
+
+test_cases = [("张老师", "一级教师", 1200), ("李老师", "副高级教师", 1500), ("王老
+
+for case in test_cases:
+
+③ = Teacher(*case)
+
+print(f"{teacher.name}({teacher.title})总工资：{ ④ :.1f}")
+---DETAIL---
+错误 [Coding题]
+37.
+
+工资系统
+
+某学校需要开发一个教师工资计算系统，该系统需要根据教师的职称、基本工资和课时工资自动计算每位教师
+
+的月工资。教师的工资由两部分组成：
+
+结构工资 = 基本工资 × 职称系数
+
+总工资 = 结构工资 + 课时工资
+
+学校制定了不同职称对应的配置标准：
+
+对于未列出的职称，使用默认值：基本工资5000，职称系数1.0。
+
+输入输出示例
+
+输入数据格式为元组：(姓名, 职称, 课时工资)
+
+test_cases = [ ("张老师", "一级教师", 1200), ("李老师", "副高级教师", 1500),("王老师", "特级教师", 2000) ]
+
+预期输出：
+
+张老师(一级教师)总工资：7800.0
+
+李老师(副高级教师)总工资：11100.0
+
+王老师(特级教师)总工资：7000.0
+
+相关Python程序如下，请补全代码完成功能实现。
+
+TITLE_CONFIG = {
+
+"二级教师": {"coeff": 1.0, "base": 5000},
+
+"一级教师": {"coeff": 1.1, "base": 6000},
+
+ ###  ### 参考答案
+x ### 题目解析
+
+TITLE_CONFIG = {
+
+"二级教师": {"coeff": 1.0, "base": 5000},
+
+"一级教师": {"coeff": 1.1, "base": 6000},
+
+"副高级教师": {"coeff": 1.2, "base": 8000}
+
+}
+
+class Teacher:
+
+def __init__(self, name, title, hourly_wage):
+
+self.name = name
+
+self.title = title
+
+self.hourly_wage = hourly_wage
+
+self.config = TITLE_CONFIG.get(title, {"coeff": 1.0, "base": 500
+
+def calculate_structural_salary(self):
+
+return self.config["base"] * self.config["coeff"]
+
+def total_salary(self):
+
+return self.calculate_structural_salary() ###  @ :0
+[  336386ms] [LOG] ===TOPIC=== @ :0
+[  336386ms] [LOG] 38.
+
+IP地址记录
+
+小明的IP地址记录在文件ip_list.txt中，但其中有些IP属于内网（局域网IP段如192.开头），小明想要：
+
+（1）读取所有IP地址
+
+（2）删除每行末尾换行符
+
+（3）筛选出不是以192.开头的IP地址
+
+（4）将这些IP地址逆序排列后保存到新文件ip_result.txt
+
+（5）并在屏幕上显示每一条被保存的IP
+
+请根据下面代码框架补充完整（共4个填空）。
+
+# 读取ip_list.txt
+
+with open('/data/ip_list.txt', 'r') as f:
+
+ip_list = ①
+
+# 处理IP列表
+
+clean_list = []
+
+for ip in ip_list:
+
+ip = ip.strip('\n')
+
+if not ip.startswith( ② ):
+
+clean_list.append(ip)
+
+# 逆序排列
+
+clean_list.reverse()
+
+# 保存到新文件并输出
+
+with open('ip_result.txt', 'w') as f:
+
+for ip in clean_list:
+
+f.write(ip + "\n")
+
+print( ③ )
+
+a= ④ ("按p退出程序")
+
+if a=="p":
+
+exit()
+---DETAIL---
+错误 [Coding题]
+38.
+
+IP地址记录
+
+小明的IP地址记录在文件ip_list.txt中，但其中有些IP属于内网（局域网IP段如192.开头），小明想要：
+
+（1）读取所有IP地址
+
+（2）删除每行末尾换行符
+
+（3）筛选出不是以192.开头的IP地址
+
+（4）将这些IP地址逆序排列后保存到新文件ip_result.txt
+
+（5）并在屏幕上显示每一条被保存的IP
+
+请根据下面代码框架补充完整（共4个填空）。
+
+# 读取ip_list.txt
+
+with open('/data/ip_list.txt', 'r') as f:
+
+ip_list = ①
+
+# 处理IP列表
+
+clean_list = []
+
+for ip in ip_list:
+
+ip = ip.strip('\n')
+
+if not ip.startswith( ② ):
+
+clean_list.append(ip)
+
+# 逆序排列
+
+clean_list.reverse()
+
+# 保存到新文件并输出
+
+with open('ip_result.txt', 'w') as f:
+
+for ip in cl ###  ### 参考答案
+x ### 题目解析
+
+# 读取ip_list.txt
+
+with open('/data/ip_list.txt', 'r') as f:
+
+ip_list = f.readlines()
+
+# 处理IP列表
+
+clean_list = []
+
+for ip in ip_list:
+
+ip = ip.strip('\n')
+
+if not ip.startswith('192.' ):
+
+clean_list.append(ip)
+
+# 逆序排列
+
+clean_list.reverse()
+
+# 保存到新文件并输出
+
+with open('ip_result.txt', 'w') as f:
+
+for ip in clean_list:
+
+f.write(ip + "\n")
+
+print(ip)
+
+a=input("按p退出程序")
+
+if a=="p":
+
+exit()
+
+评分标准：
+
+（1）f.readlines()（或等效答案）；（3分）
+
+（2）'192.'（或等效答案）；（3分）
+
+（3）ip（或等效答案）；（2分）
+
+（4）input（或等效答案）。（2分） ###  @ :0

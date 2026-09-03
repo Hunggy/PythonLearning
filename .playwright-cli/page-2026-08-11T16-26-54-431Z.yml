@@ -1,0 +1,341 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to content" [ref=e4] [cursor=pointer]:
+        - /url: "#start-of-content"
+      - banner "Global navigation menu" [ref=e8]:
+        - generic [ref=e9]:
+          - generic [ref=e10]:
+            - button "Open menu" [ref=e12] [cursor=pointer]
+            - link "Homepage (g then d)" [ref=e15] [cursor=pointer]:
+              - /url: /
+          - generic [ref=e18]:
+            - navigation "Breadcrumbs" [ref=e19]:
+              - list [ref=e20]:
+                - listitem [ref=e21]:
+                  - link "jonaslgtm" [ref=e22] [cursor=pointer]:
+                    - /url: /jonaslgtm
+                - listitem [ref=e24]:
+                  - link "gesp-exam-questions" [ref=e25] [cursor=pointer]:
+                    - /url: /jonaslgtm/gesp-exam-questions
+                  - button "Switch repository (alt shift r)" [ref=e26] [cursor=pointer]
+            - button "Open quick search dialog, type / to search" [ref=e31] [cursor=pointer]:
+              - generic [ref=e33]:
+                - generic:
+                  - text: Type
+                  - generic: /
+                  - text: to search
+          - generic [ref=e34]:
+            - generic [ref=e35]:
+              - generic [ref=e38]:
+                - link "Chat with Copilot" [ref=e40] [cursor=pointer]:
+                  - /url: /copilot
+                - button "Open Copilot…" [ref=e45] [cursor=pointer]
+              - button "Create new..." [ref=e47] [cursor=pointer]
+              - generic [ref=e49]:
+                - link "All issues" [ref=e50] [cursor=pointer]:
+                  - /url: /issues
+                - link "All pull requests" [ref=e54] [cursor=pointer]:
+                  - /url: /pulls
+                - link "All repositories" [ref=e57] [cursor=pointer]:
+                  - /url: /repos
+            - link "You have no unread notifications (g then n)" [ref=e60] [cursor=pointer]:
+              - /url: /notifications
+            - button "Open user navigation menu" [ref=e64] [cursor=pointer]:
+              - img "User avatar" [ref=e65]
+        - heading "Repository navigation" [level=2] [ref=e66]
+        - navigation "Repository" [ref=e67]:
+          - list [ref=e68]:
+            - listitem [ref=e69]:
+              - link "Code" [ref=e70] [cursor=pointer]:
+                - /url: /jonaslgtm/gesp-exam-questions
+            - listitem [ref=e75]:
+              - link "Issues" [ref=e76] [cursor=pointer]:
+                - /url: /jonaslgtm/gesp-exam-questions/issues
+            - listitem [ref=e82]:
+              - link "Pull requests" [ref=e83] [cursor=pointer]:
+                - /url: /jonaslgtm/gesp-exam-questions/pulls
+            - listitem [ref=e88]:
+              - link "Agents" [ref=e89] [cursor=pointer]:
+                - /url: /jonaslgtm/gesp-exam-questions/agents?author=Hunggy
+            - listitem [ref=e95]:
+              - link "Actions" [ref=e96] [cursor=pointer]:
+                - /url: /jonaslgtm/gesp-exam-questions/actions
+            - listitem [ref=e101]:
+              - link "Projects" [ref=e102] [cursor=pointer]:
+                - /url: /jonaslgtm/gesp-exam-questions/projects
+            - listitem [ref=e107]:
+              - link "Security and quality" [ref=e108] [cursor=pointer]:
+                - /url: /jonaslgtm/gesp-exam-questions/security
+            - listitem [ref=e113]:
+              - link "Insights" [ref=e114] [cursor=pointer]:
+                - /url: /jonaslgtm/gesp-exam-questions/pulse
+    - main [ref=e122]:
+      - generic [ref=e130]:
+        - generic [ref=e132]:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading "折叠文件树" [level=2]:
+                      - button "折叠文件树" [expanded]
+                    - heading "文件" [level=2]
+                  - generic:
+                    - generic:
+                      - button "main branch":
+                        - generic: main
+                    - generic:
+                      - link "添加文件":
+                        - /url: /jonaslgtm/gesp-exam-questions/new/main/03-%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98%E3%80%90%E9%A2%98%E5%BA%93%E3%80%91/Python/6%E7%BA%A7
+                      - button "搜索此仓库 (forward slash)"
+                - generic:
+                  - generic:
+                    - combobox "Go to file"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: t
+                          - generic: T
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - navigation "File Tree Navigation":
+                          - tree "Files":
+                            - treeitem "01-认证大纲" [level=1]
+                            - treeitem "02-样题" [level=1]
+                            - treeitem "03-历年真题【题库】" [expanded] [level=1]:
+                              - group "03-历年真题【题库】":
+                                - treeitem "C++" [level=2]
+                                - treeitem "Python" [expanded] [level=2]:
+                                  - group "Python":
+                                    - treeitem "1级" [level=3]
+                                    - treeitem "2级" [level=3]
+                                    - treeitem "3级" [level=3]
+                                    - treeitem "4级" [level=3]
+                                    - treeitem "5级" [level=3]
+                                    - treeitem "6级" [expanded] [level=3]:
+                                      - group "6级":
+                                        - treeitem "CCF-GESP+2023.09+认证Python+6级试题.pdf" [level=4]
+                                        - treeitem "CCF-GESP+2023.12+认证Python+6级试题.pdf" [level=4]
+                                        - treeitem "CCF-GESP+2024.09+认证Python+6级试题.pdf" [level=4]
+                                        - treeitem "CCF-GESP+2024.12+认证Python+6级试题.pdf" [level=4]
+                                        - treeitem "CCF-GESP+2025.03+认证Python+6级试题.pdf" [level=4]
+                                        - treeitem "CCF-GESP+2025.06+认证Python+6级试题.pdf" [level=4]
+                                        - treeitem "CCF-GESP+2025.09+认证Python+6级试题.pdf" [level=4]
+                                        - treeitem "CCF-GESP+2025.12+认证Python+6级试题.pdf" [level=4]
+                                    - treeitem "7级" [level=3]
+                                    - treeitem "8级" [level=3]
+                                - treeitem "图形化" [level=2]
+                            - treeitem "04-历年真题【解析】" [level=1]
+                            - treeitem "LICENSE" [level=1]
+                            - treeitem "README.md" [level=1]
+          - slider "Draggable pane splitter" [ref=e134]
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - navigation "Breadcrumbs":
+                            - heading "Breadcrumbs" [level=2]
+                            - list:
+                              - listitem:
+                                - link "gesp-exam-questions":
+                                  - /url: /jonaslgtm/gesp-exam-questions/tree/main
+                              - listitem:
+                                - text: /
+                                - link "03-历年真题【题库】":
+                                  - /url: /jonaslgtm/gesp-exam-questions/tree/main/03-%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98%E3%80%90%E9%A2%98%E5%BA%93%E3%80%91
+                              - listitem:
+                                - text: /
+                                - link "Python":
+                                  - /url: /jonaslgtm/gesp-exam-questions/tree/main/03-%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98%E3%80%90%E9%A2%98%E5%BA%93%E3%80%91/Python
+                          - generic:
+                            - text: /
+                            - heading "6级" [level=1]
+                            - text: /
+                          - button "Copy path"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading "Directory actions" [level=2]
+                            - generic:
+                              - heading "添加文件" [level=2]
+                              - button "Add file":
+                                - generic: 添加文件
+                            - heading "更多选项" [level=2]
+                            - button "更多选项"
+              - generic:
+                - generic:
+                  - generic:
+                    - heading "Latest commit" [level=2]
+                    - generic:
+                      - generic:
+                        - generic:
+                          - link "jonaslgtm":
+                            - /url: /jonaslgtm
+                            - img "jonaslgtm"
+                          - link "commits by jonaslgtm":
+                            - /url: /jonaslgtm/gesp-exam-questions/commits?author=jonaslgtm
+                            - text: jonaslgtm
+                      - generic:
+                        - generic:
+                          - generic:
+                            - link "更新 2025年12月 GESP 认证真题":
+                              - /url: /jonaslgtm/gesp-exam-questions/commit/91cf8868cdbe1cd7cdec29868eb1ddf85556b6b6
+                    - generic:
+                      - generic:
+                        - generic:
+                          - link "Commit 91cf886":
+                            - /url: /jonaslgtm/gesp-exam-questions/commit/91cf8868cdbe1cd7cdec29868eb1ddf85556b6b6
+                            - text: 91cf886
+                          - text: ·
+                          - generic "2026年1月5日 GMT+8 09:05": 2026年1月5日7个月前
+                      - generic:
+                        - heading "历史" [level=2]
+                        - link "历史":
+                          - /url: /jonaslgtm/gesp-exam-questions/commits/main/03-%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98%E3%80%90%E9%A2%98%E5%BA%93%E3%80%91/Python/6%E7%BA%A7
+                - generic:
+                  - generic:
+                    - heading "Folders and files" [level=2]
+                    - table "Folders and files":
+                      - rowgroup:
+                        - row "文件名 最后提交消息 最后提交时间":
+                          - columnheader "文件名"
+                          - columnheader "最后提交消息":
+                            - generic "Last commit message": 最后提交消息
+                          - columnheader "最后提交时间":
+                            - generic "Last commit date": 最后提交时间
+                      - rowgroup:
+                        - row "parent directory Parent directory":
+                          - cell "parent directory Parent directory":
+                            - heading "parent directory" [level=3]
+                            - link "Parent directory":
+                              - /url: /jonaslgtm/gesp-exam-questions/tree/main/03-%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98%E3%80%90%E9%A2%98%E5%BA%93%E3%80%91/Python
+                              - generic: ..
+                        - row "CCF-GESP+2023.09+认证Python+6级试题.pdf, (File) 项目更新 Oct 3, 202511个月前":
+                          - cell "CCF-GESP+2023.09+认证Python+6级试题.pdf, (File)":
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link "CCF-GESP+2023.09+认证Python+6级试题.pdf, (File)":
+                                      - /url: /jonaslgtm/gesp-exam-questions/blob/main/03-%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98%E3%80%90%E9%A2%98%E5%BA%93%E3%80%91/Python/6%E7%BA%A7/CCF-GESP%2B2023.09%2B%E8%AE%A4%E8%AF%81Python%2B6%E7%BA%A7%E8%AF%95%E9%A2%98.pdf
+                                      - text: CCF-GESP+2023.09+认证Python+6级试题.pdf
+                          - cell "项目更新":
+                            - generic:
+                              - generic:
+                                - link "项目更新":
+                                  - /url: /jonaslgtm/gesp-exam-questions/commit/3ab9e87ec4adaef9d4966b2ec57eb91fdbe511d0
+                          - cell "Oct 3, 202511个月前"
+                        - row "CCF-GESP+2023.12+认证Python+6级试题.pdf, (File) 项目更新 Oct 3, 202511个月前":
+                          - cell "CCF-GESP+2023.12+认证Python+6级试题.pdf, (File)":
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link "CCF-GESP+2023.12+认证Python+6级试题.pdf, (File)":
+                                      - /url: /jonaslgtm/gesp-exam-questions/blob/main/03-%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98%E3%80%90%E9%A2%98%E5%BA%93%E3%80%91/Python/6%E7%BA%A7/CCF-GESP%2B2023.12%2B%E8%AE%A4%E8%AF%81Python%2B6%E7%BA%A7%E8%AF%95%E9%A2%98.pdf
+                                      - text: CCF-GESP+2023.12+认证Python+6级试题.pdf
+                          - cell "项目更新":
+                            - generic:
+                              - generic:
+                                - link "项目更新":
+                                  - /url: /jonaslgtm/gesp-exam-questions/commit/3ab9e87ec4adaef9d4966b2ec57eb91fdbe511d0
+                          - cell "Oct 3, 202511个月前"
+                        - row "CCF-GESP+2024.09+认证Python+6级试题.pdf, (File) 项目更新 Oct 3, 202511个月前":
+                          - cell "CCF-GESP+2024.09+认证Python+6级试题.pdf, (File)":
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link "CCF-GESP+2024.09+认证Python+6级试题.pdf, (File)":
+                                      - /url: /jonaslgtm/gesp-exam-questions/blob/main/03-%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98%E3%80%90%E9%A2%98%E5%BA%93%E3%80%91/Python/6%E7%BA%A7/CCF-GESP%2B2024.09%2B%E8%AE%A4%E8%AF%81Python%2B6%E7%BA%A7%E8%AF%95%E9%A2%98.pdf
+                                      - text: CCF-GESP+2024.09+认证Python+6级试题.pdf
+                          - cell "项目更新":
+                            - generic:
+                              - generic:
+                                - link "项目更新":
+                                  - /url: /jonaslgtm/gesp-exam-questions/commit/3ab9e87ec4adaef9d4966b2ec57eb91fdbe511d0
+                          - cell "Oct 3, 202511个月前"
+                        - row "CCF-GESP+2024.12+认证Python+6级试题.pdf, (File) 项目更新 Oct 3, 202511个月前":
+                          - cell "CCF-GESP+2024.12+认证Python+6级试题.pdf, (File)":
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link "CCF-GESP+2024.12+认证Python+6级试题.pdf, (File)":
+                                      - /url: /jonaslgtm/gesp-exam-questions/blob/main/03-%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98%E3%80%90%E9%A2%98%E5%BA%93%E3%80%91/Python/6%E7%BA%A7/CCF-GESP%2B2024.12%2B%E8%AE%A4%E8%AF%81Python%2B6%E7%BA%A7%E8%AF%95%E9%A2%98.pdf
+                                      - text: CCF-GESP+2024.12+认证Python+6级试题.pdf
+                          - cell "项目更新":
+                            - generic:
+                              - generic:
+                                - link "项目更新":
+                                  - /url: /jonaslgtm/gesp-exam-questions/commit/3ab9e87ec4adaef9d4966b2ec57eb91fdbe511d0
+                          - cell "Oct 3, 202511个月前"
+                        - row "CCF-GESP+2025.03+认证Python+6级试题.pdf, (File) 项目更新 Oct 3, 202511个月前":
+                          - cell "CCF-GESP+2025.03+认证Python+6级试题.pdf, (File)":
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link "CCF-GESP+2025.03+认证Python+6级试题.pdf, (File)":
+                                      - /url: /jonaslgtm/gesp-exam-questions/blob/main/03-%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98%E3%80%90%E9%A2%98%E5%BA%93%E3%80%91/Python/6%E7%BA%A7/CCF-GESP%2B2025.03%2B%E8%AE%A4%E8%AF%81Python%2B6%E7%BA%A7%E8%AF%95%E9%A2%98.pdf
+                                      - text: CCF-GESP+2025.03+认证Python+6级试题.pdf
+                          - cell "项目更新":
+                            - generic:
+                              - generic:
+                                - link "项目更新":
+                                  - /url: /jonaslgtm/gesp-exam-questions/commit/3ab9e87ec4adaef9d4966b2ec57eb91fdbe511d0
+                          - cell "Oct 3, 202511个月前"
+                        - row "CCF-GESP+2025.06+认证Python+6级试题.pdf, (File) 项目更新 Oct 3, 202511个月前":
+                          - cell "CCF-GESP+2025.06+认证Python+6级试题.pdf, (File)":
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link "CCF-GESP+2025.06+认证Python+6级试题.pdf, (File)":
+                                      - /url: /jonaslgtm/gesp-exam-questions/blob/main/03-%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98%E3%80%90%E9%A2%98%E5%BA%93%E3%80%91/Python/6%E7%BA%A7/CCF-GESP%2B2025.06%2B%E8%AE%A4%E8%AF%81Python%2B6%E7%BA%A7%E8%AF%95%E9%A2%98.pdf
+                                      - text: CCF-GESP+2025.06+认证Python+6级试题.pdf
+                          - cell "项目更新":
+                            - generic:
+                              - generic:
+                                - link "项目更新":
+                                  - /url: /jonaslgtm/gesp-exam-questions/commit/3ab9e87ec4adaef9d4966b2ec57eb91fdbe511d0
+                          - cell "Oct 3, 202511个月前"
+                        - row "CCF-GESP+2025.09+认证Python+6级试题.pdf, (File) Update 2025.09 C++ & Python 认证真题 Oct 3, 202511个月前":
+                          - cell "CCF-GESP+2025.09+认证Python+6级试题.pdf, (File)":
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link "CCF-GESP+2025.09+认证Python+6级试题.pdf, (File)":
+                                      - /url: /jonaslgtm/gesp-exam-questions/blob/main/03-%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98%E3%80%90%E9%A2%98%E5%BA%93%E3%80%91/Python/6%E7%BA%A7/CCF-GESP%2B2025.09%2B%E8%AE%A4%E8%AF%81Python%2B6%E7%BA%A7%E8%AF%95%E9%A2%98.pdf
+                                      - text: CCF-GESP+2025.09+认证Python+6级试题.pdf
+                          - cell "Update 2025.09 C++ & Python 认证真题":
+                            - generic:
+                              - generic:
+                                - link "Update 2025.09 C++ & Python 认证真题":
+                                  - /url: /jonaslgtm/gesp-exam-questions/commit/c3748394d7e5aa72169dae4ff8b16cab4024f7c6
+                          - cell "Oct 3, 202511个月前"
+                        - row "CCF-GESP+2025.12+认证Python+6级试题.pdf, (File) 更新 2025年12月 GESP 认证真题 Jan 5, 20267个月前":
+                          - cell "CCF-GESP+2025.12+认证Python+6级试题.pdf, (File)":
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link "CCF-GESP+2025.12+认证Python+6级试题.pdf, (File)":
+                                      - /url: /jonaslgtm/gesp-exam-questions/blob/main/03-%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98%E3%80%90%E9%A2%98%E5%BA%93%E3%80%91/Python/6%E7%BA%A7/CCF-GESP%2B2025.12%2B%E8%AE%A4%E8%AF%81Python%2B6%E7%BA%A7%E8%AF%95%E9%A2%98.pdf
+                                      - text: CCF-GESP+2025.12+认证Python+6级试题.pdf
+                          - cell "更新 2025年12月 GESP 认证真题":
+                            - generic:
+                              - generic:
+                                - link "更新 2025年12月 GESP 认证真题":
+                                  - /url: /jonaslgtm/gesp-exam-questions/commit/91cf8868cdbe1cd7cdec29868eb1ddf85556b6b6
+                          - cell "Jan 5, 20267个月前"
+  - alert [ref=e138]

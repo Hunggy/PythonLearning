@@ -1,0 +1,2 @@
+[      -1ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://console.groq.com/keys:0
+[      66ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://console.groq.com/favicon.ico:0

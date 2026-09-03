@@ -1,0 +1,163 @@
+- generic [active] [ref=f12e1]:
+  - banner [ref=f12e2]:
+    - navigation [ref=f12e3]:
+      - link "CODE STUDY Programming Practice Platform" [ref=f12e4] [cursor=pointer]:
+        - /url: /home/
+        - generic [ref=f12e5]: CODE STUDY
+        - generic [ref=f12e6]: Programming Practice Platform
+      - generic [ref=f12e7]:
+        - generic [ref=f12e8]:
+          - link "主页" [ref=f12e9] [cursor=pointer]:
+            - /url: /home/
+          - button "等考题库 ▾" [ref=f12e11] [cursor=pointer]:
+            - text: 等考题库
+            - generic [ref=f12e12]: ▾
+          - button "课程内容 ▾" [ref=f12e14] [cursor=pointer]:
+            - text: 课程内容
+            - generic [ref=f12e15]: ▾
+          - link "视频课程" [ref=f12e16] [cursor=pointer]:
+            - /url: /video/
+          - button "OJ题库 ▾" [ref=f12e18] [cursor=pointer]:
+            - text: OJ题库
+            - generic [ref=f12e19]: ▾
+          - link "打字练习" [ref=f12e20] [cursor=pointer]:
+            - /url: /typing/
+          - link "灌水区" [ref=f12e21] [cursor=pointer]:
+            - /url: /moments/
+          - link "题解分享" [ref=f12e22] [cursor=pointer]:
+            - /url: /share/
+          - link "排行榜" [ref=f12e23] [cursor=pointer]:
+            - /url: /user/rank/
+        - generic [ref=f12e25] [cursor=pointer]:
+          - img "avatar" [ref=f12e26]
+          - generic [ref=f12e27]: Hunggy
+  - main [ref=f12e28]:
+    - complementary [ref=f12e29]:
+      - generic [ref=f12e30]: 题目列表
+      - generic [ref=f12e31]:
+        - generic [ref=f12e32] [cursor=pointer]: "1"
+        - generic [ref=f12e33] [cursor=pointer]: "2"
+        - generic [ref=f12e34] [cursor=pointer]: "3"
+        - generic [ref=f12e35] [cursor=pointer]: "4"
+        - generic [ref=f12e36] [cursor=pointer]: "5"
+        - generic [ref=f12e37] [cursor=pointer]: "6"
+        - generic [ref=f12e38] [cursor=pointer]: "7"
+        - generic [ref=f12e39] [cursor=pointer]: "8"
+        - generic [ref=f12e40] [cursor=pointer]: "9"
+        - generic [ref=f12e41] [cursor=pointer]: "10"
+        - generic [ref=f12e42] [cursor=pointer]: "11"
+        - generic [ref=f12e43] [cursor=pointer]: "12"
+        - generic [ref=f12e44] [cursor=pointer]: "13"
+        - generic [ref=f12e45] [cursor=pointer]: "14"
+        - generic [ref=f12e46] [cursor=pointer]: "15"
+        - generic [ref=f12e47] [cursor=pointer]: "16"
+        - generic [ref=f12e48] [cursor=pointer]: "17"
+        - generic [ref=f12e49] [cursor=pointer]: "18"
+        - generic [ref=f12e50] [cursor=pointer]: "19"
+        - generic [ref=f12e51] [cursor=pointer]: "20"
+        - generic [ref=f12e52] [cursor=pointer]: "21"
+        - generic [ref=f12e53] [cursor=pointer]: "22"
+        - generic [ref=f12e54] [cursor=pointer]: "23"
+        - generic [ref=f12e55] [cursor=pointer]: "24"
+        - generic [ref=f12e56] [cursor=pointer]: "25"
+        - generic [ref=f12e57] [cursor=pointer]: "26"
+        - generic [ref=f12e58] [cursor=pointer]: "27"
+        - generic [ref=f12e59] [cursor=pointer]: "28"
+        - generic [ref=f12e60] [cursor=pointer]: "29"
+        - generic [ref=f12e61] [cursor=pointer]: "30"
+        - generic [ref=f12e62] [cursor=pointer]: "31"
+        - generic [ref=f12e63] [cursor=pointer]: "32"
+        - generic [ref=f12e64] [cursor=pointer]: "33"
+        - generic [ref=f12e65] [cursor=pointer]: "34"
+        - generic [ref=f12e66] [cursor=pointer]: "35"
+        - generic [ref=f12e67] [cursor=pointer]: "36"
+        - generic [ref=f12e68] [cursor=pointer]: "37"
+        - generic [ref=f12e69] [cursor=pointer]: "38"
+      - generic [ref=f12e70]:
+        - paragraph [ref=f12e71]: ● 当前题目
+        - paragraph [ref=f12e72]: ● 已作答题目
+    - generic [ref=f12e74]:
+      - generic [ref=f12e75]:
+        - generic [ref=f12e76]:
+          - generic [ref=f12e77]: 在线答题训练
+          - heading "Python六级2024-09" [level=2] [ref=f12e78]
+        - generic [ref=f12e79]:
+          - generic [ref=f12e80]:
+            - generic [ref=f12e81]: 剩余时间
+            - generic [ref=f12e82]: 31:47
+            - generic [ref=f12e83]: 已答 35 / 38
+          - generic [ref=f12e84] [cursor=pointer]: 提交试卷
+      - generic [ref=f12e85]:
+        - generic [ref=f12e86]:
+          - generic [ref=f12e87]: Coding题
+          - heading [level=3] [ref=f12e88]:
+            - text: "36."
+            - paragraph [ref=f12e89]: 士兵瑞恩
+            - paragraph [ref=f12e90]: 按照需求填空：
+            - paragraph [ref=f12e91]: 1）士兵瑞恩有一把AK47
+            - paragraph [ref=f12e92]: 2）士兵有枪就可以开火
+            - paragraph [ref=f12e93]: 3）枪能够把子弹发射出去，每射击一次，子弹减少一个
+            - paragraph [ref=f12e94]: 4）枪能够装填子弹 --增加子弹的数量
+            - paragraph [ref=f12e95]: "class Gun():"
+            - paragraph [ref=f12e96]: "def ① (self,model):"
+            - paragraph [ref=f12e97]: "self.model = model self.bullet_count = 0 def add_bullet(self,count):"
+            - paragraph [ref=f12e98]: self.bullet_count += count
+            - paragraph [ref=f12e99]: "def shoot( ② ):"
+            - paragraph [ref=f12e100]: "if self.bullet_count <= 0:"
+            - paragraph [ref=f12e101]: print('%s没有子弹' %(self.model))
+            - paragraph [ref=f12e102]: "else: self.bullet_count ③ 1"
+            - paragraph [ref=f12e103]: print('%s的子弹数量为%s' %( ④ ,self.bullet_count))
+            - paragraph [ref=f12e104]: "class Soldier():"
+            - paragraph [ref=f12e105]: "def __init__(self,name):"
+            - paragraph [ref=f12e106]: self.name =name
+            - paragraph [ref=f12e107]: self.gun = None
+            - paragraph [ref=f12e108]: "def fire(self):"
+            - paragraph [ref=f12e109]: "if self.gun == None: print('%s没有枪' %(self.name))"
+            - paragraph [ref=f12e110]: "else: self.gun.add_bullet(5)"
+            - paragraph [ref=f12e111]: ⑤
+            - paragraph [ref=f12e112]: ak47 = Gun('AK47')
+            - paragraph [ref=f12e113]: ak47.add_bullet(10)
+            - paragraph [ref=f12e114]: ak47.shoot()
+            - paragraph [ref=f12e115]: ruien = Soldier('RE')
+            - paragraph [ref=f12e116]: ruien.gun = ak47
+            - paragraph [ref=f12e117]: ruien.fire()
+        - generic [ref=f12e119]:
+          - text: 本题为图形化编程题，请打开题目专属 Scratch 编辑器进行作答和保存。
+          - link "打开原题 Scratch 编辑器" [ref=f12e121] [cursor=pointer]:
+            - /url: /problems/27208/scratch/editor/?paper=28177
+      - generic [ref=f12e122]:
+        - button "上一题" [ref=f12e123] [cursor=pointer]
+        - button "下一题" [ref=f12e124] [cursor=pointer]
+  - contentinfo [ref=f12e125]:
+    - generic [ref=f12e126]:
+      - generic [ref=f12e127]:
+        - img "CODE STUDY" [ref=f12e128]
+        - paragraph [ref=f12e129]: 专注于青少年信息学奥赛与编程能力提升训练。
+      - generic [ref=f12e130]:
+        - heading "快速链接" [level=4] [ref=f12e131]
+        - list [ref=f12e132]:
+          - listitem [ref=f12e133]:
+            - link "题库练习" [ref=f12e134] [cursor=pointer]:
+              - /url: /problems/scratch/
+          - listitem [ref=f12e135]:
+            - link "OJ题库" [ref=f12e136] [cursor=pointer]:
+              - /url: /oj/
+          - listitem [ref=f12e137]:
+            - link "题解分享" [ref=f12e138] [cursor=pointer]:
+              - /url: /share/
+          - listitem [ref=f12e139]:
+            - link "学习排行" [ref=f12e140] [cursor=pointer]:
+              - /url: /user/rank/
+      - generic [ref=f12e141]:
+        - heading "联系我们" [level=4] [ref=f12e142]
+        - list [ref=f12e143]:
+          - listitem [ref=f12e144]:
+            - link "在线工具" [ref=f12e145] [cursor=pointer]:
+              - /url: https://dazidazi.com
+          - listitem [ref=f12e146]:
+            - link "备案信息" [ref=f12e147] [cursor=pointer]:
+              - /url: https://beian.miit.gov.cn/
+    - generic [ref=f12e148]:
+      - text: All right reserved©极客晨星少儿编程辉县校区 |
+      - link "豫ICP备2022024360号-1" [ref=f12e149] [cursor=pointer]:
+        - /url: https://beian.miit.gov.cn/

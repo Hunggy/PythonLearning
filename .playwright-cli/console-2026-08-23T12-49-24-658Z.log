@@ -1,0 +1,11 @@
+[ -204720ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://gcjkstar.cn/problems/python/:0
+[ -204717ms] [WARNING] jQuery.Deferred exception: Morris is not defined ReferenceError: Morris is not defined
+    at Object.initFunction (https://gcjkstar.cn/static/js/custom-scripts.js:26:13)
+    at HTMLDocument.<anonymous> (https://gcjkstar.cn/static/js/custom-scripts.js:209:17)
+    at e (https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:2:30038)
+    at t (https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:2:30340) undefined @ https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:1
+[       2ms] ReferenceError: Morris is not defined
+    at Object.initFunction (https://gcjkstar.cn/static/js/custom-scripts.js:26:13)
+    at HTMLDocument.<anonymous> (https://gcjkstar.cn/static/js/custom-scripts.js:209:17)
+    at e (https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:2:30038)
+    at t (https://gcjkstar.cn/static/js/jquery-3.6.1.min.js:2:30340)

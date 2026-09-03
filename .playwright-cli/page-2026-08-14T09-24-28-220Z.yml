@@ -1,0 +1,766 @@
+- generic [ref=e1]:
+  - generic: 2026年3月青少年软件编程python六级等级考试试卷
+  - generic [ref=e7]:
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - text: 答题卡
+        - generic [ref=e12]:
+          - generic [ref=e13]: 
+          - text: 点击题型或题号可切换
+      - generic [ref=e17]:
+        - button " 单选题（0/25） 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25" [ref=e19]:
+          - generic [ref=e21]: 
+          - generic [ref=e24]:
+            - generic [ref=e25]: 单选题（0/25）
+            - generic [ref=e28]:
+              - link "1" [ref=e30] [cursor=pointer]:
+                - /url: problem-0
+              - link "2" [ref=e32] [cursor=pointer]:
+                - /url: problem-1
+              - link "3" [ref=e34] [cursor=pointer]:
+                - /url: problem-2
+              - link "4" [ref=e36] [cursor=pointer]:
+                - /url: problem-3
+              - link "5" [ref=e38] [cursor=pointer]:
+                - /url: problem-4
+              - link "6" [ref=e40] [cursor=pointer]:
+                - /url: problem-5
+              - link "7" [ref=e42] [cursor=pointer]:
+                - /url: problem-6
+              - link "8" [ref=e44] [cursor=pointer]:
+                - /url: problem-7
+              - link "9" [ref=e46] [cursor=pointer]:
+                - /url: problem-8
+              - link "10" [ref=e48] [cursor=pointer]:
+                - /url: problem-9
+              - link "11" [ref=e50] [cursor=pointer]:
+                - /url: problem-10
+              - link "12" [ref=e52] [cursor=pointer]:
+                - /url: problem-11
+              - link "13" [ref=e54] [cursor=pointer]:
+                - /url: problem-12
+              - link "14" [ref=e56] [cursor=pointer]:
+                - /url: problem-13
+              - link "15" [ref=e58] [cursor=pointer]:
+                - /url: problem-14
+              - link "16" [ref=e60] [cursor=pointer]:
+                - /url: problem-15
+              - link "17" [ref=e62] [cursor=pointer]:
+                - /url: problem-16
+              - link "18" [ref=e64] [cursor=pointer]:
+                - /url: problem-17
+              - link "19" [ref=e66] [cursor=pointer]:
+                - /url: problem-18
+              - link "20" [ref=e68] [cursor=pointer]:
+                - /url: problem-19
+              - link "21" [ref=e70] [cursor=pointer]:
+                - /url: problem-20
+              - link "22" [ref=e72] [cursor=pointer]:
+                - /url: problem-21
+              - link "23" [ref=e74] [cursor=pointer]:
+                - /url: problem-22
+              - link "24" [ref=e76] [cursor=pointer]:
+                - /url: problem-23
+              - link "25" [ref=e78] [cursor=pointer]:
+                - /url: problem-24
+        - button " 判断题（0/10） 1 2 3 4 5 6 7 8 9 10" [ref=e80] [cursor=pointer]:
+          - generic [ref=e82]: 
+          - generic [ref=e85]:
+            - generic [ref=e86]: 判断题（0/10）
+            - generic [ref=e89]:
+              - link "1" [ref=e91]:
+                - /url: problem-0
+              - link "2" [ref=e93]:
+                - /url: problem-1
+              - link "3" [ref=e95]:
+                - /url: problem-2
+              - link "4" [ref=e97]:
+                - /url: problem-3
+              - link "5" [ref=e99]:
+                - /url: problem-4
+              - link "6" [ref=e101]:
+                - /url: problem-5
+              - link "7" [ref=e103]:
+                - /url: problem-6
+              - link "8" [ref=e105]:
+                - /url: problem-7
+              - link "9" [ref=e107]:
+                - /url: problem-8
+              - link "10" [ref=e109]:
+                - /url: problem-9
+        - button " 填空题（0/3） 1 2 3" [ref=e111] [cursor=pointer]:
+          - generic [ref=e112]: 
+          - generic [ref=e115]:
+            - generic [ref=e116]: 填空题（0/3）
+            - generic [ref=e119]:
+              - link "1" [ref=e121]:
+                - /url: problem-0
+              - link "2" [ref=e123]:
+                - /url: problem-1
+              - link "3" [ref=e125]:
+                - /url: problem-2
+      - generic [ref=e126]:
+        - generic [ref=e127]: 未答题
+        - generic [ref=e129]: 已答题
+    - generic [ref=e132]:
+      - generic [ref=e133]:
+        - generic [ref=e134]: 单选题
+        - text: 共50分
+      - generic [ref=e136]:
+        - generic [ref=e138]:
+          - generic [ref=e139]: "1."
+          - generic [ref=e144]:
+            - paragraph [ref=e152]: 关于Python中SQLite数据类型说法错误的是？ （ ）
+            - generic [ref=e159]:
+              - generic [ref=e161] [cursor=pointer]:
+                - radio "A. 整数使用INT，如：3,6，-8" [ref=e163]
+                - generic [ref=e166]:
+                  - generic [ref=e167]: A.
+                  - paragraph [ref=e171]: 整数使用INT，如：3,6，-8
+              - generic [ref=e173] [cursor=pointer]:
+                - radio "B. 字符串使用TEXT，如：“computer”" [ref=e175]
+                - generic [ref=e178]:
+                  - generic [ref=e179]: B.
+                  - paragraph [ref=e183]: 字符串使用TEXT，如：“computer”
+              - generic [ref=e185] [cursor=pointer]:
+                - radio "C. 浮点数使用REAL，如：6.15" [ref=e187]
+                - generic [ref=e190]:
+                  - generic [ref=e191]: C.
+                  - paragraph [ref=e195]: 浮点数使用REAL，如：6.15
+              - generic [ref=e197] [cursor=pointer]:
+                - radio "D. 二进制文件使用BLOB，如：图片" [ref=e199]
+                - generic [ref=e202]:
+                  - generic [ref=e203]: D.
+                  - paragraph [ref=e207]: 二进制文件使用BLOB，如：图片
+        - generic [ref=e209]:
+          - generic [ref=e210]: "2."
+          - generic [ref=e215]:
+            - paragraph [ref=e223]: 关于Python中SQLite说法正确的是？（ ）
+            - generic [ref=e230]:
+              - generic [ref=e232] [cursor=pointer]:
+                - radio "A. 创建表格结构时，只能使用大写字母，如： cursor.execute（'''CREATE TABLE TIKU （题目 TEXT NOT NULL，答案 TEXT NOT NULL）''" [ref=e234]
+                - generic [ref=e237]:
+                  - generic [ref=e238]: A.
+                  - paragraph [ref=e242]: 创建表格结构时，只能使用大写字母，如： cursor.execute（'''CREATE TABLE TIKU （题目 TEXT NOT NULL，答案 TEXT NOT NULL）''
+              - generic [ref=e244] [cursor=pointer]:
+                - radio "B. 建立数据库连接和游标后必须关闭连接，关闭游标和关闭数据库的顺序没有要求。 如：已知：k= sqlite3.connect('题库.db') a = k.cursor()使用k.close（）;a.close（） 和a.close（）;k.close（）都可以正常运行。" [ref=e246]
+                - generic [ref=e249]:
+                  - generic [ref=e250]: B.
+                  - paragraph [ref=e254]: 建立数据库连接和游标后必须关闭连接，关闭游标和关闭数据库的顺序没有要求。 如：已知：k= sqlite3.connect('题库.db') a = k.cursor()使用k.close（）;a.close（） 和a.close（）;k.close（）都可以正常运行。
+              - generic [ref=e256] [cursor=pointer]:
+                - radio "C. 建立数据库实例时命名方式与变量命名规则相同，如：conn = sqlite3.connect('题库.db')" [ref=e258]
+                - generic [ref=e261]:
+                  - generic [ref=e262]: C.
+                  - paragraph [ref=e266]: 建立数据库实例时命名方式与变量命名规则相同，如：conn = sqlite3.connect('题库.db')
+              - generic [ref=e268] [cursor=pointer]:
+                - radio "D. 语句execute（）执行一条SQL语句 ，语句executemany可执行多条SQL语句，语句之间用逗号分开。" [ref=e270]
+                - generic [ref=e273]:
+                  - generic [ref=e274]: D.
+                  - paragraph [ref=e278]: 语句execute（）执行一条SQL语句 ，语句executemany可执行多条SQL语句，语句之间用逗号分开。
+        - generic [ref=e280]:
+          - generic [ref=e281]: "3."
+          - generic [ref=e286]:
+            - paragraph [ref=e294]: 运行程序后，不能在txt文件中输出以下内容的Python程序是？ （ ） 姓名： 性别：
+            - generic [ref=e301]:
+              - generic [ref=e303] [cursor=pointer]:
+                - 'radio "A. with open(\"t.txt\",\"w+\") as t1: t1.write(\"姓名：\\n性别：\")" [ref=e305]'
+                - generic [ref=e308]:
+                  - generic [ref=e309]: A.
+                  - code [ref=e314]: "with open(\"t.txt\",\"w+\") as t1: t1.write(\"姓名：\\n性别：\")"
+              - generic [ref=e316] [cursor=pointer]:
+                - 'radio "B. a=''姓名：\\n性别：'' with open(\"t.txt\",\"w\") as t1: t1.write(a)" [ref=e318]'
+                - generic [ref=e321]:
+                  - generic [ref=e322]: B.
+                  - code [ref=e327]: "a='姓名：\\n性别：' with open(\"t.txt\",\"w\") as t1: t1.write(a)"
+              - generic [ref=e329] [cursor=pointer]:
+                - 'radio "C. with open(\"t.txt\",\"w\") as t1: t1.write(\"姓名：\") t1.write(\"性别：\")" [ref=e331]'
+                - generic [ref=e334]:
+                  - generic [ref=e335]: C.
+                  - code [ref=e340]: "with open(\"t.txt\",\"w\") as t1: t1.write(\"姓名：\") t1.write(\"性别：\")"
+              - generic [ref=e342] [cursor=pointer]:
+                - 'radio "D. with open(\"t.txt\",\"w\") as t1: t1.write(\"姓名：\") t1.write(\"\\n性别：\")" [ref=e344]'
+                - generic [ref=e347]:
+                  - generic [ref=e348]: D.
+                  - code [ref=e353]: "with open(\"t.txt\",\"w\") as t1: t1.write(\"姓名：\") t1.write(\"\\n性别：\")"
+        - generic [ref=e355]:
+          - generic [ref=e356]: "4."
+          - generic [ref=e361]:
+            - generic [ref=e368]:
+              - paragraph [ref=e369]: 已知数据库题库.db的内容如下图所示，编写程序输出数据库中所有记录，空白处应选择的语句是？（ ）
+              - code [ref=e371]:
+                - text: "import sqlite3 k= sqlite3.connect('题库.db') a = k.cursor() a.execute('SELECT rowid, 题目, 答案 FROM tiku ORDER BY rowid') for row in _____________: print("
+                - generic [ref=e372]:
+                  - text: f"
+                  - generic [ref=e373]: "{row[1]}"
+                  - generic [ref=e374]: "{row[2]}"
+                  - text: "\""
+                - text: ) a.close() k.close()
+            - generic [ref=e381]:
+              - generic [ref=e383] [cursor=pointer]:
+                - radio "A. k.fetchall()" [ref=e385]
+                - generic [ref=e388]:
+                  - generic [ref=e389]: A.
+                  - paragraph [ref=e393]: k.fetchall()
+              - generic [ref=e395] [cursor=pointer]:
+                - radio "B. k.fetchmany()" [ref=e397]
+                - generic [ref=e400]:
+                  - generic [ref=e401]: B.
+                  - paragraph [ref=e405]: k.fetchmany()
+              - generic [ref=e407] [cursor=pointer]:
+                - radio "C. a.fetchall()" [ref=e409]
+                - generic [ref=e412]:
+                  - generic [ref=e413]: C.
+                  - paragraph [ref=e417]: a.fetchall()
+              - generic [ref=e419] [cursor=pointer]:
+                - radio "D. a.fetchmany()" [ref=e421]
+                - generic [ref=e424]:
+                  - generic [ref=e425]: D.
+                  - paragraph [ref=e429]: a.fetchmany()
+        - generic [ref=e431]:
+          - generic [ref=e432]: "5."
+          - generic [ref=e437]:
+            - paragraph [ref=e445]: 关于Python中SQLite说法错误的是？ （ ）
+            - generic [ref=e452]:
+              - generic [ref=e454] [cursor=pointer]:
+                - radio "A. 有同学向数据库中插入数据后关闭程序，打开数据库文件发现没有插入成功，原因可能是因为没有conn.commit()语句" [ref=e456]
+                - generic [ref=e459]:
+                  - generic [ref=e460]: A.
+                  - paragraph [ref=e464]: 有同学向数据库中插入数据后关闭程序，打开数据库文件发现没有插入成功，原因可能是因为没有conn.commit()语句
+              - generic [ref=e466] [cursor=pointer]:
+                - radio "B. 可以使用conn.execute('''SQL语句''')执行SQL语句" [ref=e468]
+                - generic [ref=e471]:
+                  - generic [ref=e472]: B.
+                  - paragraph [ref=e476]: 可以使用conn.execute('''SQL语句''')执行SQL语句
+              - generic [ref=e478] [cursor=pointer]:
+                - radio "C. 同一个数据库可以包含多个表" [ref=e480]
+                - generic [ref=e483]:
+                  - generic [ref=e484]: C.
+                  - paragraph [ref=e488]: 同一个数据库可以包含多个表
+              - generic [ref=e490] [cursor=pointer]:
+                - radio "D. 使用conn = sqlite3.connect('example.db')连接数据库时，如果example.db不存在，程序会报错" [ref=e492]
+                - generic [ref=e495]:
+                  - generic [ref=e496]: D.
+                  - paragraph [ref=e500]: 使用conn = sqlite3.connect('example.db')连接数据库时，如果example.db不存在，程序会报错
+        - generic [ref=e502]:
+          - generic [ref=e503]: "6."
+          - generic [ref=e508]:
+            - paragraph [ref=e516]: 关于打开文件的方法，以下说法正确的是？ （ ）
+            - generic [ref=e523]:
+              - generic [ref=e525] [cursor=pointer]:
+                - 'radio "A. 如果文件a.txt有多行字符，运行以下程序将输出所有内容 with open(\"a.txt\",\"r\") as f: print(f.readline())" [ref=e527]'
+                - generic [ref=e530]:
+                  - generic [ref=e531]: A.
+                  - generic [ref=e534]:
+                    - paragraph [ref=e535]: 如果文件a.txt有多行字符，运行以下程序将输出所有内容
+                    - code [ref=e537]: "with open(\"a.txt\",\"r\") as f: print(f.readline())"
+              - generic [ref=e539] [cursor=pointer]:
+                - 'radio "B. 如果文件a.txt有多行字符，运行以下程序将输出第1行的内容 with open(\"a.txt\",\"r\") as f: print(f.readlines()[1])" [ref=e541]'
+                - generic [ref=e544]:
+                  - generic [ref=e545]: B.
+                  - generic [ref=e548]:
+                    - paragraph [ref=e549]: 如果文件a.txt有多行字符，运行以下程序将输出第1行的内容
+                    - code [ref=e551]: "with open(\"a.txt\",\"r\") as f: print(f.readlines()[1])"
+              - generic [ref=e553] [cursor=pointer]:
+                - radio "C. 使用open()方法打开文件，运行完后可以不加close()" [ref=e555]
+                - generic [ref=e558]:
+                  - generic [ref=e559]: C.
+                  - paragraph [ref=e563]: 使用open()方法打开文件，运行完后可以不加close()
+              - generic [ref=e565] [cursor=pointer]:
+                - 'radio "D. 使用with open(\"a.txt\"，\"r\") as f: 打开文件a.txt，运行后可以不加f.close()，文件a.txt可以自动关闭" [ref=e567]'
+                - generic [ref=e570]:
+                  - generic [ref=e571]: D.
+                  - paragraph [ref=e575]: "使用with open(\"a.txt\"，\"r\") as f: 打开文件a.txt，运行后可以不加f.close()，文件a.txt可以自动关闭"
+        - generic [ref=e577]:
+          - generic [ref=e578]: "7."
+          - generic [ref=e583]:
+            - paragraph [ref=e591]: 运行下面哪一段Python程序，可以正确向文件a.txt中写入“测试写入”四个字？ （ ）
+            - generic [ref=e598]:
+              - generic [ref=e600] [cursor=pointer]:
+                - radio "A. f=open('a.txt','w') f.write('测试写入')" [ref=e602]
+                - generic [ref=e605]:
+                  - generic [ref=e606]: A.
+                  - code [ref=e611]: f=open('a.txt','w') f.write('测试写入')
+              - generic [ref=e613] [cursor=pointer]:
+                - 'radio "B. with open(''a.txt'',''r'') as f: f.write(''测试写入'') f.close()" [ref=e615]'
+                - generic [ref=e618]:
+                  - generic [ref=e619]: B.
+                  - code [ref=e624]: "with open('a.txt','r') as f: f.write('测试写入') f.close()"
+              - generic [ref=e626] [cursor=pointer]:
+                - 'radio "C. with open(''a.txt'',''w'') as f: f.write(''测试写入'')" [ref=e628]'
+                - generic [ref=e631]:
+                  - generic [ref=e632]: C.
+                  - code [ref=e637]: "with open('a.txt','w') as f: f.write('测试写入')"
+              - generic [ref=e639] [cursor=pointer]:
+                - radio "D. f=open('a.txt','w') f.write('测试写入') f.flush()" [ref=e641]
+                - generic [ref=e644]:
+                  - generic [ref=e645]: D.
+                  - code [ref=e650]: f=open('a.txt','w') f.write('测试写入') f.flush()
+        - generic [ref=e652]:
+          - generic [ref=e653]: "8."
+          - generic [ref=e658]:
+            - paragraph [ref=e666]: 小明编写一段Python程序，让全班同学通过输入学号的方式进行签到，未签到的同学学号记录在文件student.txt中。以下说法错误的是？ （ ）
+            - generic [ref=e673]:
+              - generic [ref=e675] [cursor=pointer]:
+                - radio "A. 打开文件student.txt不能使用r和rb模式" [ref=e677]
+                - generic [ref=e680]:
+                  - generic [ref=e681]: A.
+                  - paragraph [ref=e685]: 打开文件student.txt不能使用r和rb模式
+              - generic [ref=e687] [cursor=pointer]:
+                - radio "B. 文件student.txt可以保存于电脑中任意位置，如桌面，打开文件时设置好文件路径即可" [ref=e689]
+                - generic [ref=e692]:
+                  - generic [ref=e693]: B.
+                  - paragraph [ref=e697]: 文件student.txt可以保存于电脑中任意位置，如桌面，打开文件时设置好文件路径即可
+              - generic [ref=e699] [cursor=pointer]:
+                - radio "C. 假如共有50名学生，学号从1到50。可以先在文件student.txt中输入50个学号，每行一个学号。每签到一人，就从文件中删除一个学号，班主任可以随时查看文件student.txt，以了解未到班的学生" [ref=e701]
+                - generic [ref=e704]:
+                  - generic [ref=e705]: C.
+                  - paragraph [ref=e709]: 假如共有50名学生，学号从1到50。可以先在文件student.txt中输入50个学号，每行一个学号。每签到一人，就从文件中删除一个学号，班主任可以随时查看文件student.txt，以了解未到班的学生
+              - generic [ref=e711] [cursor=pointer]:
+                - radio "D. 不论如何编写程序，程序关闭后重新启动，对于已经签到的同学都只能重新签到" [ref=e713]
+                - generic [ref=e716]:
+                  - generic [ref=e717]: D.
+                  - paragraph [ref=e721]: 不论如何编写程序，程序关闭后重新启动，对于已经签到的同学都只能重新签到
+        - generic [ref=e723]:
+          - generic [ref=e724]: "9."
+          - generic [ref=e729]:
+            - generic [ref=e736]:
+              - paragraph [ref=e737]: 在Python中，下面代码的输出结果？（ ）
+              - code [ref=e739]: import numpy as np arr = np.array([1, 2, 3, 4, 5]) print(arr[::2].sum())
+            - generic [ref=e746]:
+              - generic [ref=e748] [cursor=pointer]:
+                - radio "A. 15" [ref=e750]
+                - generic [ref=e753]:
+                  - generic [ref=e754]: A.
+                  - paragraph [ref=e758]: "15"
+              - generic [ref=e760] [cursor=pointer]:
+                - radio "B. 9" [ref=e762]
+                - generic [ref=e765]:
+                  - generic [ref=e766]: B.
+                  - paragraph [ref=e770]: "9"
+              - generic [ref=e772] [cursor=pointer]:
+                - radio "C. 6" [ref=e774]
+                - generic [ref=e777]:
+                  - generic [ref=e778]: C.
+                  - paragraph [ref=e782]: "6"
+              - generic [ref=e784] [cursor=pointer]:
+                - radio "D. 报错" [ref=e786]
+                - generic [ref=e789]:
+                  - generic [ref=e790]: D.
+                  - paragraph [ref=e794]: 报错
+        - generic [ref=e796]:
+          - generic [ref=e797]: "10."
+          - generic [ref=e802]:
+            - generic [ref=e809]:
+              - paragraph [ref=e810]: 编写Python程序，绘制如下图所示的直线，程序空白处应填？（ ）
+              - code [ref=e812]: import matplotlib.pyplot as p import numpy as np x= np.array([0,1,2,3,4,5]) p. (x,'o:r') p.show()
+            - generic [ref=e819]:
+              - generic [ref=e821] [cursor=pointer]:
+                - radio "A. bar" [ref=e823]
+                - generic [ref=e826]:
+                  - generic [ref=e827]: A.
+                  - paragraph [ref=e831]: bar
+              - generic [ref=e833] [cursor=pointer]:
+                - radio "B. bath" [ref=e835]
+                - generic [ref=e838]:
+                  - generic [ref=e839]: B.
+                  - paragraph [ref=e843]: bath
+              - generic [ref=e845] [cursor=pointer]:
+                - radio "C. plot" [ref=e847]
+                - generic [ref=e850]:
+                  - generic [ref=e851]: C.
+                  - paragraph [ref=e855]: plot
+              - generic [ref=e857] [cursor=pointer]:
+                - radio "D. lib" [ref=e859]
+                - generic [ref=e862]:
+                  - generic [ref=e863]: D.
+                  - paragraph [ref=e867]: lib
+        - generic [ref=e869]:
+          - generic [ref=e870]: "11."
+          - generic [ref=e875]:
+            - generic [ref=e882]:
+              - paragraph [ref=e883]: 在Python中，以下代码的输出结果是？（ ）
+              - code [ref=e885]: arr = np.arange(6).reshape(2,3)
+            - generic [ref=e892]:
+              - generic [ref=e894] [cursor=pointer]:
+                - radio "A. print(arr[:, ::-1])" [ref=e896]
+                - generic [ref=e899]:
+                  - generic [ref=e900]: A.
+                  - paragraph [ref=e904]: print(arr[:, ::-1])
+              - generic [ref=e906] [cursor=pointer]:
+                - radio "B. [[2 1 0] [5 4 3]]" [ref=e908]
+                - generic [ref=e911]:
+                  - generic [ref=e912]: B.
+                  - paragraph [ref=e916]: "[[2 1 0] [5 4 3]]"
+              - generic [ref=e918] [cursor=pointer]:
+                - radio "C. [[0 1 2] [3 4 5]]" [ref=e920]
+                - generic [ref=e923]:
+                  - generic [ref=e924]: C.
+                  - paragraph [ref=e928]: "[[0 1 2] [3 4 5]]"
+              - generic [ref=e930] [cursor=pointer]:
+                - radio "D. [[3 4 5] [0 1 2]]" [ref=e932]
+                - generic [ref=e935]:
+                  - generic [ref=e936]: D.
+                  - paragraph [ref=e940]: "[[3 4 5] [0 1 2]]"
+        - generic [ref=e942]:
+          - generic [ref=e943]: "12."
+          - generic [ref=e948]:
+            - generic [ref=e955]:
+              - paragraph [ref=e956]: 在Python中，以下代码的功能是？（ ）
+              - code [ref=e958]: import matplotlib.pyplot as plt x=1;y1=2;y2=3 plt.figure(figsize=(8,4)) plt.subplot(121) plt.plot(x, y1) plt.subplot(122) plt.hist(y2) plt.show()
+            - generic [ref=e965]:
+              - generic [ref=e967] [cursor=pointer]:
+                - radio "A. 创建柱状图" [ref=e969]
+                - generic [ref=e972]:
+                  - generic [ref=e973]: A.
+                  - paragraph [ref=e977]: 创建柱状图
+              - generic [ref=e979] [cursor=pointer]:
+                - radio "B. 叠加绘制两种图形" [ref=e981]
+                - generic [ref=e984]:
+                  - generic [ref=e985]: B.
+                  - paragraph [ref=e989]: 叠加绘制两种图形
+              - generic [ref=e991] [cursor=pointer]:
+                - radio "C. 创建折线图和散点图" [ref=e993]
+                - generic [ref=e996]:
+                  - generic [ref=e997]: C.
+                  - paragraph [ref=e1001]: 创建折线图和散点图
+              - generic [ref=e1003] [cursor=pointer]:
+                - radio "D. 创建1行2列的子图布局及并排的折线图和直方图" [ref=e1005]
+                - generic [ref=e1008]:
+                  - generic [ref=e1009]: D.
+                  - paragraph [ref=e1013]: 创建1行2列的子图布局及并排的折线图和直方图
+        - generic [ref=e1015]:
+          - generic [ref=e1016]: "13."
+          - generic [ref=e1021]:
+            - paragraph [ref=e1029]: 小明想创建一个汽车类 Car 的对象，表示一辆2025年生产的丰田卡罗拉，以下哪行代码可以正确创建这个实例？（ ）
+            - generic [ref=e1036]:
+              - generic [ref=e1038] [cursor=pointer]:
+                - radio "A. Car(\"Toyota\", \"Corolla\", 2025)" [ref=e1040]
+                - generic [ref=e1043]:
+                  - generic [ref=e1044]: A.
+                  - paragraph [ref=e1048]: Car("Toyota", "Corolla", 2025)
+              - generic [ref=e1050] [cursor=pointer]:
+                - radio "B. car = Car.make(\"Toyota\", \"Corolla\", 2025)" [ref=e1052]
+                - generic [ref=e1055]:
+                  - generic [ref=e1056]: B.
+                  - paragraph [ref=e1060]: car = Car.make("Toyota", "Corolla", 2025)
+              - generic [ref=e1062] [cursor=pointer]:
+                - radio "C. car = Car(\"Toyota\", \"Corolla\", 2025)" [ref=e1064]
+                - generic [ref=e1067]:
+                  - generic [ref=e1068]: C.
+                  - paragraph [ref=e1072]: car = Car("Toyota", "Corolla", 2025)
+              - generic [ref=e1074] [cursor=pointer]:
+                - radio "D. car = make.Car(\"Toyota\", \"Corolla\", 2025)" [ref=e1076]
+                - generic [ref=e1079]:
+                  - generic [ref=e1080]: D.
+                  - paragraph [ref=e1084]: car = make.Car("Toyota", "Corolla", 2025)
+        - generic [ref=e1086]:
+          - generic [ref=e1087]: "14."
+          - generic [ref=e1092]:
+            - generic [ref=e1099]:
+              - paragraph [ref=e1100]: 有如下Python代码，如果执行：print(d.sound())，结果是？ （ ）
+              - code [ref=e1102]: "class Animal: def sound(self): return \"叫声\" class Dog(Animal): def sound(self): return \"汪汪\" a = Animal() d = Dog()"
+            - generic [ref=e1109]:
+              - generic [ref=e1111] [cursor=pointer]:
+                - radio "A. \"叫声\"" [ref=e1113]
+                - generic [ref=e1116]:
+                  - generic [ref=e1117]: A.
+                  - paragraph [ref=e1121]: "\"叫声\""
+              - generic [ref=e1123] [cursor=pointer]:
+                - radio "B. \"汪汪\"" [ref=e1125]
+                - generic [ref=e1128]:
+                  - generic [ref=e1129]: B.
+                  - paragraph [ref=e1133]: "\"汪汪\""
+              - generic [ref=e1135] [cursor=pointer]:
+                - radio "C. 报错，子类不能重写父类方法" [ref=e1137]
+                - generic [ref=e1140]:
+                  - generic [ref=e1141]: C.
+                  - paragraph [ref=e1145]: 报错，子类不能重写父类方法
+              - generic [ref=e1147] [cursor=pointer]:
+                - radio "D. 无输出" [ref=e1149]
+                - generic [ref=e1152]:
+                  - generic [ref=e1153]: D.
+                  - paragraph [ref=e1157]: 无输出
+        - generic [ref=e1159]:
+          - generic [ref=e1160]: "15."
+          - generic [ref=e1165]:
+            - paragraph [ref=e1173]: 小明写一个 Phone 类来模拟手机使用过程。他希望能更新手机电量，用方法 update_battery() 来完成。下面哪个方法定义可以正确修改实例的电量属性？（ ）
+            - generic [ref=e1180]:
+              - generic [ref=e1182] [cursor=pointer]:
+                - 'radio "A. def update_battery(percent): self.battery = percent" [ref=e1184]'
+                - generic [ref=e1187]:
+                  - generic [ref=e1188]: A.
+                  - code [ref=e1193]: "def update_battery(percent): self.battery = percent"
+              - generic [ref=e1195] [cursor=pointer]:
+                - 'radio "B. def update_battery(self, percent): self.battery = percent" [ref=e1197]'
+                - generic [ref=e1200]:
+                  - generic [ref=e1201]: B.
+                  - code [ref=e1206]: "def update_battery(self, percent): self.battery = percent"
+              - generic [ref=e1208] [cursor=pointer]:
+                - 'radio "C. def update_battery(self, percent): battery = percent" [ref=e1210]'
+                - generic [ref=e1213]:
+                  - generic [ref=e1214]: C.
+                  - code [ref=e1219]: "def update_battery(self, percent): battery = percent"
+              - generic [ref=e1221] [cursor=pointer]:
+                - 'radio "D. def update_battery(self): self.battery == percent" [ref=e1223]'
+                - generic [ref=e1226]:
+                  - generic [ref=e1227]: D.
+                  - code [ref=e1232]: "def update_battery(self): self.battery == percent"
+        - generic [ref=e1234]:
+          - generic [ref=e1235]: "16."
+          - generic [ref=e1240]:
+            - generic [ref=e1247]:
+              - paragraph [ref=e1248]: 某家具工厂需要批量计算板材的体积，使用了下面这个类：
+              - code [ref=e1250]: "class Board: def __init__(self, l, w, h): self.l = l self.w = w self.h = h"
+              - paragraph [ref=e1251]: 如果要增加一个方法get_volume()返回体积，以下定义最合适的是？（ ）
+            - generic [ref=e1258]:
+              - generic [ref=e1260] [cursor=pointer]:
+                - 'radio "A. def get_volume(l, w, h): return l * w * h" [ref=e1262]'
+                - generic [ref=e1265]:
+                  - generic [ref=e1266]: A.
+                  - code [ref=e1271]: "def get_volume(l, w, h): return l * w * h"
+              - generic [ref=e1273] [cursor=pointer]:
+                - 'radio "B. def get_volume(): return self.l * self.w * self.h" [ref=e1275]'
+                - generic [ref=e1278]:
+                  - generic [ref=e1279]: B.
+                  - code [ref=e1284]: "def get_volume(): return self.l * self.w * self.h"
+              - generic [ref=e1286] [cursor=pointer]:
+                - 'radio "C. def get_volume(self): return self.l * self.w * self.h" [ref=e1288]'
+                - generic [ref=e1291]:
+                  - generic [ref=e1292]: C.
+                  - code [ref=e1297]: "def get_volume(self): return self.l * self.w * self.h"
+              - generic [ref=e1299] [cursor=pointer]:
+                - 'radio "D. def get_volume(self, l, w, h): return l * w * h" [ref=e1301]'
+                - generic [ref=e1304]:
+                  - generic [ref=e1305]: D.
+                  - code [ref=e1310]: "def get_volume(self, l, w, h): return l * w * h"
+        - generic [ref=e1312]:
+          - generic [ref=e1313]: "17."
+          - generic [ref=e1318]:
+            - paragraph [ref=e1326]: 在一个电商系统中，服务器接收到客户端发送的包含商品信息（如名称、价格、库存数量等）的 JSON 字符串，需要将其解析为 Python 对象进行处理。以下代码能正确解析 JSON 字符串的是？（ ）
+            - generic [ref=e1333]:
+              - generic [ref=e1335] [cursor=pointer]:
+                - 'radio "A. import json json_str = ''{\"name\": \"iPhone\", \"price\": 999, \"quantity\": 10}'' data = json.load(json_str) print(data)" [ref=e1337]'
+                - generic [ref=e1340]:
+                  - generic [ref=e1341]: A.
+                  - code [ref=e1346]: "import json json_str = '{\"name\": \"iPhone\", \"price\": 999, \"quantity\": 10}' data = json.load(json_str) print(data)"
+              - generic [ref=e1348] [cursor=pointer]:
+                - 'radio "B. import json json_str = ''{\"name\": \"iPhone\", \"price\": 999, \"quantity\": 10}'' data = json.loads(json_str) print(data)" [ref=e1350]'
+                - generic [ref=e1353]:
+                  - generic [ref=e1354]: B.
+                  - code [ref=e1359]: "import json json_str = '{\"name\": \"iPhone\", \"price\": 999, \"quantity\": 10}' data = json.loads(json_str) print(data)"
+              - generic [ref=e1361] [cursor=pointer]:
+                - 'radio "C. import json json_str = ''{\"name\": \"iPhone\", \"price\": 999, \"quantity\": 10}'' data = json.dump(json_str) print(data)" [ref=e1363]'
+                - generic [ref=e1366]:
+                  - generic [ref=e1367]: C.
+                  - code [ref=e1372]: "import json json_str = '{\"name\": \"iPhone\", \"price\": 999, \"quantity\": 10}' data = json.dump(json_str) print(data)"
+              - generic [ref=e1374] [cursor=pointer]:
+                - 'radio "D. import json json_str = ''{\"name\": \"iPhone\", \"price\": 999, \"quantity\": 10}'' data = json.dumps(json_str) print(data)" [ref=e1376]'
+                - generic [ref=e1379]:
+                  - generic [ref=e1380]: D.
+                  - code [ref=e1385]: "import json json_str = '{\"name\": \"iPhone\", \"price\": 999, \"quantity\": 10}' data = json.dumps(json_str) print(data)"
+        - generic [ref=e1387]:
+          - generic [ref=e1388]: "18."
+          - generic [ref=e1393]:
+            - generic [ref=e1400]:
+              - paragraph [ref=e1401]: 小明获取到各旅游景点周一到周日的游客情况，并存储在一个“tourist_data.csv”文件中，其文件内部分内容如下图所示：
+              - code [ref=e1403]: "import csv total_visitors = [] with open('tourist_data.csv', 'r') as f: reader = csv.reader(f) for row in reader: total = sum([int(num) for num in row[1:]]) total_visitors.append(total) print(total_visitors)"
+              - paragraph [ref=e1404]: 假设 tourist_data.csv 文件存在，但运行上述代码时出现 FileNotFoundError 异常，可能的原因是什么？ （ ）
+            - generic [ref=e1411]:
+              - generic [ref=e1413] [cursor=pointer]:
+                - radio "A. tourist_data.csv 文件路径错误" [ref=e1415]
+                - generic [ref=e1418]:
+                  - generic [ref=e1419]: A.
+                  - paragraph [ref=e1423]: tourist_data.csv 文件路径错误
+              - generic [ref=e1425] [cursor=pointer]:
+                - radio "B. csv 模块导入错误" [ref=e1427]
+                - generic [ref=e1430]:
+                  - generic [ref=e1431]: B.
+                  - paragraph [ref=e1435]: csv 模块导入错误
+              - generic [ref=e1437] [cursor=pointer]:
+                - radio "C. csv.reader 使用方法错误" [ref=e1439]
+                - generic [ref=e1442]:
+                  - generic [ref=e1443]: C.
+                  - paragraph [ref=e1447]: csv.reader 使用方法错误
+              - generic [ref=e1449] [cursor=pointer]:
+                - radio "D. sum 函数使用错误" [ref=e1451]
+                - generic [ref=e1454]:
+                  - generic [ref=e1455]: D.
+                  - paragraph [ref=e1459]: sum 函数使用错误
+        - generic [ref=e1461]:
+          - generic [ref=e1462]: "19."
+          - generic [ref=e1467]:
+            - generic [ref=e1474]:
+              - paragraph [ref=e1475]: 某Pyhon程序如下，运行后输出的结果为？ （ ）
+              - code [ref=e1477]: "scores = [[80, 85, 90], [75, 80, 88], [92, 95, 98]] average_scores = [] for i in range(len(scores)): total = 0 for j in range(len(scores[i])): total += scores[i][j avg = total / len(scores[i]) average_scores.append(avg) print(average_scores)"
+            - generic [ref=e1484]:
+              - generic [ref=e1486] [cursor=pointer]:
+                - radio "A. [85, 81, 95]" [ref=e1488]
+                - generic [ref=e1491]:
+                  - generic [ref=e1492]: A.
+                  - paragraph [ref=e1496]: "[85, 81, 95]"
+              - generic [ref=e1498] [cursor=pointer]:
+                - radio "B. [85.0, 81.0, 95.0]" [ref=e1500]
+                - generic [ref=e1503]:
+                  - generic [ref=e1504]: B.
+                  - paragraph [ref=e1508]: "[85.0, 81.0, 95.0]"
+              - generic [ref=e1510] [cursor=pointer]:
+                - radio "C. [80, 75, 92]" [ref=e1512]
+                - generic [ref=e1515]:
+                  - generic [ref=e1516]: C.
+                  - paragraph [ref=e1520]: "[80, 75, 92]"
+              - generic [ref=e1522] [cursor=pointer]:
+                - radio "D. [85, 80, 95]" [ref=e1524]
+                - generic [ref=e1527]:
+                  - generic [ref=e1528]: D.
+                  - paragraph [ref=e1532]: "[85, 80, 95]"
+        - generic [ref=e1534]:
+          - generic [ref=e1535]: "20."
+          - generic [ref=e1540]:
+            - paragraph [ref=e1548]: 以下哪种 tkinter 的布局管理器能够按照从左到右、从上到下的顺序排列控件？ （ ）
+            - generic [ref=e1555]:
+              - generic [ref=e1557] [cursor=pointer]:
+                - radio "A. grid 布局" [ref=e1559]
+                - generic [ref=e1562]:
+                  - generic [ref=e1563]: A.
+                  - paragraph [ref=e1567]: grid 布局
+              - generic [ref=e1569] [cursor=pointer]:
+                - radio "B. pack 布局" [ref=e1571]
+                - generic [ref=e1574]:
+                  - generic [ref=e1575]: B.
+                  - paragraph [ref=e1579]: pack 布局
+              - generic [ref=e1581] [cursor=pointer]:
+                - radio "C. place 布局" [ref=e1583]
+                - generic [ref=e1586]:
+                  - generic [ref=e1587]: C.
+                  - paragraph [ref=e1591]: place 布局
+              - generic [ref=e1593] [cursor=pointer]:
+                - radio "D. middle布局" [ref=e1595]
+                - generic [ref=e1598]:
+                  - generic [ref=e1599]: D.
+                  - paragraph [ref=e1603]: middle布局
+        - generic [ref=e1605]:
+          - generic [ref=e1606]: "21."
+          - generic [ref=e1611]:
+            - paragraph [ref=e1619]: 在 tkinter 中，以下哪个语句用于创建主窗口？ （ ）
+            - generic [ref=e1626]:
+              - generic [ref=e1628] [cursor=pointer]:
+                - radio "A. root = tk.Tk()" [ref=e1630]
+                - generic [ref=e1633]:
+                  - generic [ref=e1634]: A.
+                  - paragraph [ref=e1638]: root = tk.Tk()
+              - generic [ref=e1640] [cursor=pointer]:
+                - radio "B. root = tk.Window()" [ref=e1642]
+                - generic [ref=e1645]:
+                  - generic [ref=e1646]: B.
+                  - paragraph [ref=e1650]: root = tk.Window()
+              - generic [ref=e1652] [cursor=pointer]:
+                - radio "C. root = tk.MainWindow()" [ref=e1654]
+                - generic [ref=e1657]:
+                  - generic [ref=e1658]: C.
+                  - paragraph [ref=e1662]: root = tk.MainWindow()
+              - generic [ref=e1664] [cursor=pointer]:
+                - radio "D. root = tk.Frame()" [ref=e1666]
+                - generic [ref=e1669]:
+                  - generic [ref=e1670]: D.
+                  - paragraph [ref=e1674]: root = tk.Frame()
+        - generic [ref=e1676]:
+          - generic [ref=e1677]: "22."
+          - generic [ref=e1682]:
+            - paragraph [ref=e1690]: 在tkinter中，什么方法可以实现按照行、列的方式摆放组件？（ ）
+            - generic [ref=e1697]:
+              - generic [ref=e1699] [cursor=pointer]:
+                - radio "A. place()" [ref=e1701]
+                - generic [ref=e1704]:
+                  - generic [ref=e1705]: A.
+                  - paragraph [ref=e1709]: place()
+              - generic [ref=e1711] [cursor=pointer]:
+                - radio "B. grid()" [ref=e1713]
+                - generic [ref=e1716]:
+                  - generic [ref=e1717]: B.
+                  - paragraph [ref=e1721]: grid()
+              - generic [ref=e1723] [cursor=pointer]:
+                - radio "C. pack()" [ref=e1725]
+                - generic [ref=e1728]:
+                  - generic [ref=e1729]: C.
+                  - paragraph [ref=e1733]: pack()
+              - generic [ref=e1735] [cursor=pointer]:
+                - radio "D. geometry()" [ref=e1737]
+                - generic [ref=e1740]:
+                  - generic [ref=e1741]: D.
+                  - paragraph [ref=e1745]: geometry()
+        - generic [ref=e1747]:
+          - generic [ref=e1748]: "23."
+          - generic [ref=e1753]:
+            - paragraph [ref=e1761]: 下列关于数据的说法，不正确的是？ （ ）
+            - generic [ref=e1768]:
+              - generic [ref=e1770] [cursor=pointer]:
+                - radio "A. 一维数据可由列表表示，也可用集合表示" [ref=e1772]
+                - generic [ref=e1775]:
+                  - generic [ref=e1776]: A.
+                  - paragraph [ref=e1780]: 一维数据可由列表表示，也可用集合表示
+              - generic [ref=e1782] [cursor=pointer]:
+                - radio "B. 一维数据采用线性方式组织，必须是有序的" [ref=e1784]
+                - generic [ref=e1787]:
+                  - generic [ref=e1788]: B.
+                  - paragraph [ref=e1792]: 一维数据采用线性方式组织，必须是有序的
+              - generic [ref=e1794] [cursor=pointer]:
+                - radio "C. 二维数据可由二维列表表达，也可由表格或csv格式的文件表达" [ref=e1796]
+                - generic [ref=e1799]:
+                  - generic [ref=e1800]: C.
+                  - paragraph [ref=e1804]: 二维数据可由二维列表表达，也可由表格或csv格式的文件表达
+              - generic [ref=e1806] [cursor=pointer]:
+                - radio "D. 二维数据由多个一维数据构成" [ref=e1808]
+                - generic [ref=e1811]:
+                  - generic [ref=e1812]: D.
+                  - paragraph [ref=e1816]: 二维数据由多个一维数据构成
+        - generic [ref=e1818]:
+          - generic [ref=e1819]: "24."
+          - generic [ref=e1824]:
+            - paragraph [ref=e1832]: 在Python编程中，使用tkinter模块创建GUI应用程序时，可以使用什么方法来显示窗口？（ ）
+            - generic [ref=e1839]:
+              - generic [ref=e1841] [cursor=pointer]:
+                - radio "A. create()" [ref=e1843]
+                - generic [ref=e1846]:
+                  - generic [ref=e1847]: A.
+                  - paragraph [ref=e1851]: create()
+              - generic [ref=e1853] [cursor=pointer]:
+                - radio "B. run()" [ref=e1855]
+                - generic [ref=e1858]:
+                  - generic [ref=e1859]: B.
+                  - paragraph [ref=e1863]: run()
+              - generic [ref=e1865] [cursor=pointer]:
+                - radio "C. show()" [ref=e1867]
+                - generic [ref=e1870]:
+                  - generic [ref=e1871]: C.
+                  - paragraph [ref=e1875]: show()
+              - generic [ref=e1877] [cursor=pointer]:
+                - radio "D. mainloop()" [ref=e1879]
+                - generic [ref=e1882]:
+                  - generic [ref=e1883]: D.
+                  - paragraph [ref=e1887]: mainloop()
+        - generic [ref=e1889]:
+          - generic [ref=e1890]: "25."
+          - generic [ref=e1895]:
+            - paragraph [ref=e1903]: 以下关于 CSV 文件的描述，正确的是？ （ ）
+            - generic [ref=e1910]:
+              - generic [ref=e1912] [cursor=pointer]:
+                - radio "A. CSV 文件只能存储一维数据" [ref=e1914]
+                - generic [ref=e1917]:
+                  - generic [ref=e1918]: A.
+                  - paragraph [ref=e1922]: CSV 文件只能存储一维数据
+              - generic [ref=e1924] [cursor=pointer]:
+                - radio "B. CSV 文件中每一行数据必须包含相同数量的元素" [ref=e1926]
+                - generic [ref=e1929]:
+                  - generic [ref=e1930]: B.
+                  - paragraph [ref=e1934]: CSV 文件中每一行数据必须包含相同数量的元素
+              - generic [ref=e1936] [cursor=pointer]:
+                - radio "C. CSV 文件的扩展名可以随意修改" [ref=e1938]
+                - generic [ref=e1941]:
+                  - generic [ref=e1942]: C.
+                  - paragraph [ref=e1946]: CSV 文件的扩展名可以随意修改
+              - generic [ref=e1948] [cursor=pointer]:
+                - radio "D. CSV 文件中数据之间只能用逗号分隔" [ref=e1950]
+                - generic [ref=e1953]:
+                  - generic [ref=e1954]: D.
+                  - paragraph [ref=e1958]: CSV 文件中数据之间只能用逗号分隔
+      - generic [ref=e1959]: 进入判断题

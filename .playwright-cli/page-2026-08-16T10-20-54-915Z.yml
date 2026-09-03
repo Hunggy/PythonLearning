@@ -1,0 +1,469 @@
+- generic [ref=f9e1]:
+  - generic [ref=f9e2]:
+    - generic [ref=f9e3]:
+      - banner [ref=f9e4]:
+        - generic [ref=f9e5]:
+          - navigation [ref=f9e6]:
+            - link [ref=f9e7] [cursor=pointer]:
+              - /url: /
+              - img "acgo题库" [ref=f9e11]
+            - list [ref=f9e12]:
+              - listitem [ref=f9e13]:
+                - link "首页" [ref=f9e14] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f9e15]:
+                - link "题库" [ref=f9e16] [cursor=pointer]:
+                  - /url: /problemset/
+              - listitem [ref=f9e17]:
+                - link "学习" [ref=f9e18] [cursor=pointer]:
+                  - /url: /collection/
+              - listitem [ref=f9e19]: 天梯
+              - listitem [ref=f9e20]: 备赛
+              - listitem [ref=f9e21]:
+                - link "资讯" [ref=f9e22] [cursor=pointer]:
+                  - /url: /information/
+              - listitem [ref=f9e23]:
+                - link "竞赛" [ref=f9e24] [cursor=pointer]:
+                  - /url: /contest/
+              - listitem [ref=f9e25]:
+                - link "讨论" [ref=f9e26] [cursor=pointer]:
+                  - /url: /discuss/
+              - listitem [ref=f9e27]:
+                - link "团队" [ref=f9e28] [cursor=pointer]:
+                  - /url: /team/
+              - listitem [ref=f9e29]:
+                - link "商城" [ref=f9e30] [cursor=pointer]:
+                  - /url: /mall/
+          - generic [ref=f9e31]:
+            - generic [ref=f9e34]: 
+            - generic [ref=f9e36]: 
+            - generic [ref=f9e38]:
+              - img "userId_5510044" [ref=f9e41]
+              - text:      
+      - main [ref=f9e44]:
+        - generic [ref=f9e45]:
+          - generic [ref=f9e47]:
+            - heading "电子学会考级" [level=4] [ref=f9e48]
+            - list
+          - generic [ref=f9e49]:
+            - link "C++" [ref=f9e50] [cursor=pointer]:
+              - /url: /practice/info?matchSourceId=4&subjectType=3
+            - link "Python" [ref=f9e51] [cursor=pointer]:
+              - /url: /practice/info?matchSourceId=4&subjectType=2
+          - generic [ref=f9e53]:
+            - link "赛事概况" [ref=f9e54] [cursor=pointer]:
+              - /url: /practice/info?matchSourceId=4&subjectType=2
+            - link "历年真题" [ref=f9e55] [cursor=pointer]:
+              - /url: /practice/pastQuestion?matchSourceId=4&subjectType=2
+          - generic [ref=f9e57]:
+            - generic [ref=f9e58]:
+              - button "重置" [ref=f9e59] [cursor=pointer]:
+                - generic [ref=f9e60]: 
+                - text: 重置
+              - generic [ref=f9e61]:
+                - textbox "请输入试卷名称" [ref=f9e62]
+                - button "" [ref=f9e63] [cursor=pointer]
+              - generic [ref=f9e66] [cursor=pointer]:
+                - paragraph [ref=f9e67]: 完成状态
+                - generic: 
+              - generic [ref=f9e69] [cursor=pointer]:
+                - paragraph [ref=f9e70]: 年份
+                - generic: 
+              - generic [ref=f9e72] [cursor=pointer]:
+                - paragraph [ref=f9e73]: 等级
+                - generic: 
+            - generic [ref=f9e75]:
+              - generic [ref=f9e77]:
+                - generic [ref=f9e78]:
+                  - heading "2025年12月青少年软件编程python六级等级考试试卷" [level=4] [ref=f9e80]
+                  - generic [ref=f9e81]:
+                    - paragraph [ref=f9e82]: 年份2025
+                    - paragraph [ref=f9e83]: 等级6级
+                - generic [ref=f9e84]:
+                  - generic [ref=f9e85]:
+                    - paragraph [ref=f9e86]: "94"
+                    - paragraph [ref=f9e87]:
+                      - generic [ref=f9e88]: 
+                      - text: 1小时28分
+                  - generic [ref=f9e89]:
+                    - link "查看报告" [ref=f9e90] [cursor=pointer]:
+                      - /url: /practice/report/520
+                    - button "重新练习" [ref=f9e91] [cursor=pointer]
+              - generic [ref=f9e93]:
+                - generic [ref=f9e94]:
+                  - heading "2026年3月青少年软件编程python六级等级考试试卷" [level=4] [ref=f9e96]
+                  - generic [ref=f9e97]:
+                    - paragraph [ref=f9e98]: 年份2026
+                    - paragraph [ref=f9e99]: 等级6级
+                - generic [ref=f9e100]:
+                  - generic [ref=f9e101]:
+                    - paragraph [ref=f9e102]: "96"
+                    - paragraph [ref=f9e103]:
+                      - generic [ref=f9e104]: 
+                      - text: 1小时21分
+                  - generic [ref=f9e105]:
+                    - link "查看报告" [ref=f9e106] [cursor=pointer]:
+                      - /url: /practice/report/519
+                    - button "重新练习" [ref=f9e107] [cursor=pointer]
+              - generic [ref=f9e109]:
+                - generic [ref=f9e110]:
+                  - heading "2026年3月Python电子学会二级真题卷" [level=4] [ref=f9e112]
+                  - generic [ref=f9e113]:
+                    - paragraph [ref=f9e114]: 年份2026
+                    - paragraph [ref=f9e115]: 等级2级
+                - button "开始练习" [ref=f9e118] [cursor=pointer]
+              - generic [ref=f9e120]:
+                - generic [ref=f9e121]:
+                  - heading "2025年12月Python电子学会二级真题卷" [level=4] [ref=f9e123]
+                  - generic [ref=f9e124]:
+                    - paragraph [ref=f9e125]: 年份2025
+                    - paragraph [ref=f9e126]: 等级2级
+                - button "开始练习" [ref=f9e129] [cursor=pointer]
+              - generic [ref=f9e131]:
+                - generic [ref=f9e132]:
+                  - heading "2026年3月-电子学会一级真题" [level=4] [ref=f9e134]
+                  - generic [ref=f9e135]:
+                    - paragraph [ref=f9e136]: 年份2026
+                    - paragraph [ref=f9e137]: 等级1级
+                - button "开始练习" [ref=f9e140] [cursor=pointer]
+              - generic [ref=f9e142]:
+                - generic [ref=f9e143]:
+                  - heading "2025年9月Python电子学会二级真题卷" [level=4] [ref=f9e145]
+                  - generic [ref=f9e146]:
+                    - paragraph [ref=f9e147]: 年份2025
+                    - paragraph [ref=f9e148]: 等级2级
+                - generic [ref=f9e149]:
+                  - generic [ref=f9e150]:
+                    - paragraph [ref=f9e151]: "92"
+                    - paragraph [ref=f9e152]:
+                      - generic [ref=f9e153]: 
+                      - text: 1小时1分
+                  - generic [ref=f9e154]:
+                    - link "查看报告" [ref=f9e155] [cursor=pointer]:
+                      - /url: /practice/report/388
+                    - button "重新练习" [ref=f9e156] [cursor=pointer]
+              - generic [ref=f9e158]:
+                - generic [ref=f9e159]:
+                  - heading "2025年9月Python电子学会一级真题卷" [level=4] [ref=f9e161]
+                  - generic [ref=f9e162]:
+                    - paragraph [ref=f9e163]: 年份2025
+                    - paragraph [ref=f9e164]: 等级1级
+                - button "开始练习" [ref=f9e167] [cursor=pointer]
+              - generic [ref=f9e169]:
+                - generic [ref=f9e170]:
+                  - heading "2025年3月青少年软件编程python三级等级考试试卷" [level=4] [ref=f9e172]
+                  - generic [ref=f9e173]:
+                    - paragraph [ref=f9e174]: 年份2025
+                    - paragraph [ref=f9e175]: 等级3级
+                - generic [ref=f9e176]:
+                  - generic [ref=f9e177]:
+                    - paragraph [ref=f9e178]: "6"
+                    - paragraph [ref=f9e179]:
+                      - generic [ref=f9e180]: 
+                      - text: 0小时7分
+                  - generic [ref=f9e181]:
+                    - link "查看报告" [ref=f9e182] [cursor=pointer]:
+                      - /url: /practice/report/380
+                    - button "重新练习" [ref=f9e183] [cursor=pointer]
+              - generic [ref=f9e185]:
+                - generic [ref=f9e186]:
+                  - heading "2025年3月青少年软件编程python四级等级考试试卷" [level=4] [ref=f9e188]
+                  - generic [ref=f9e189]:
+                    - paragraph [ref=f9e190]: 年份2025
+                    - paragraph [ref=f9e191]: 等级4级
+                - button "开始练习" [ref=f9e194] [cursor=pointer]
+              - generic [ref=f9e196]:
+                - generic [ref=f9e197]:
+                  - heading "2025年3月青少年软件编程python一级等级考试试卷" [level=4] [ref=f9e199]
+                  - generic [ref=f9e200]:
+                    - paragraph [ref=f9e201]: 年份2025
+                    - paragraph [ref=f9e202]: 等级1级
+                - button "开始练习" [ref=f9e205] [cursor=pointer]
+              - generic [ref=f9e207]:
+                - generic [ref=f9e208]:
+                  - heading "2025年3月青少年软件编程python二级等级考试试卷" [level=4] [ref=f9e210]
+                  - generic [ref=f9e211]:
+                    - paragraph [ref=f9e212]: 年份2025
+                    - paragraph [ref=f9e213]: 等级2级
+                - generic [ref=f9e214]:
+                  - generic [ref=f9e215]:
+                    - paragraph [ref=f9e216]: "62"
+                    - paragraph [ref=f9e217]:
+                      - generic [ref=f9e218]: 
+                      - text: 0小时39分
+                  - generic [ref=f9e219]:
+                    - link "查看报告" [ref=f9e220] [cursor=pointer]:
+                      - /url: /practice/report/377
+                    - button "重新练习" [ref=f9e221] [cursor=pointer]
+              - generic [ref=f9e223]:
+                - generic [ref=f9e224]:
+                  - heading "2025年6月青少年软件编程python四级等级考试试卷" [level=4] [ref=f9e226]
+                  - generic [ref=f9e227]:
+                    - paragraph [ref=f9e228]: 年份2025
+                    - paragraph [ref=f9e229]: 等级4级
+                - button "开始练习" [ref=f9e232] [cursor=pointer]
+              - generic [ref=f9e234]:
+                - generic [ref=f9e235]:
+                  - heading "2025年6月青少年软件编程python二级等级考试试卷" [level=4] [ref=f9e237]
+                  - generic [ref=f9e238]:
+                    - paragraph [ref=f9e239]: 年份2025
+                    - paragraph [ref=f9e240]: 等级2级
+                - generic [ref=f9e241]:
+                  - generic [ref=f9e242]:
+                    - paragraph [ref=f9e243]: "52"
+                    - paragraph [ref=f9e244]:
+                      - generic [ref=f9e245]: 
+                      - text: 0小时23分
+                  - generic [ref=f9e246]:
+                    - link "查看报告" [ref=f9e247] [cursor=pointer]:
+                      - /url: /practice/report/375
+                    - button "重新练习" [ref=f9e248] [cursor=pointer]
+              - generic [ref=f9e250]:
+                - generic [ref=f9e251]:
+                  - heading "2025年6月青少年软件编程python一级等级考试试卷" [level=4] [ref=f9e253]
+                  - generic [ref=f9e254]:
+                    - paragraph [ref=f9e255]: 年份2025
+                    - paragraph [ref=f9e256]: 等级1级
+                - button "开始练习" [ref=f9e259] [cursor=pointer]
+              - generic [ref=f9e261]:
+                - generic [ref=f9e262]:
+                  - heading "2025年9月Python电子学会三级真题卷" [level=4] [ref=f9e264]
+                  - generic [ref=f9e265]:
+                    - paragraph [ref=f9e266]: 年份2025
+                    - paragraph [ref=f9e267]: 等级3级
+                - button "开始练习" [ref=f9e270] [cursor=pointer]
+              - generic [ref=f9e272]:
+                - generic [ref=f9e273]:
+                  - heading "2025年9月Python电子学会四级真题卷" [level=4] [ref=f9e275]
+                  - generic [ref=f9e276]:
+                    - paragraph [ref=f9e277]: 年份2025
+                    - paragraph [ref=f9e278]: 等级4级
+                - button "开始练习" [ref=f9e281] [cursor=pointer]
+              - generic [ref=f9e283]:
+                - generic [ref=f9e284]:
+                  - heading "2025年9月Python电子学会五级真题卷" [level=4] [ref=f9e286]
+                  - generic [ref=f9e287]:
+                    - paragraph [ref=f9e288]: 年份2025
+                    - paragraph [ref=f9e289]: 等级5级
+                - button "开始练习" [ref=f9e292] [cursor=pointer]
+              - generic [ref=f9e294]:
+                - generic [ref=f9e295]:
+                  - heading "24年12月Python电子学会四级" [level=4] [ref=f9e297]
+                  - generic [ref=f9e298]:
+                    - paragraph [ref=f9e299]: 年份2024
+                    - paragraph [ref=f9e300]: 等级4级
+                - button "开始练习" [ref=f9e303] [cursor=pointer]
+              - generic [ref=f9e305]:
+                - generic [ref=f9e306]:
+                  - heading "24年12月Python电子学会三级" [level=4] [ref=f9e308]
+                  - generic [ref=f9e309]:
+                    - paragraph [ref=f9e310]: 年份2024
+                    - paragraph [ref=f9e311]: 等级3级
+                - button "开始练习" [ref=f9e314] [cursor=pointer]
+              - generic [ref=f9e316]:
+                - generic [ref=f9e317]:
+                  - heading "24年12月Python电子学会二级" [level=4] [ref=f9e319]
+                  - generic [ref=f9e320]:
+                    - paragraph [ref=f9e321]: 年份2024
+                    - paragraph [ref=f9e322]: 等级2级
+                - button "开始练习" [ref=f9e325] [cursor=pointer]
+              - generic [ref=f9e327]:
+                - generic [ref=f9e328]:
+                  - heading "24年12月Python电子学会一级" [level=4] [ref=f9e330]
+                  - generic [ref=f9e331]:
+                    - paragraph [ref=f9e332]: 年份2024
+                    - paragraph [ref=f9e333]: 等级1级
+                - button "开始练习" [ref=f9e336] [cursor=pointer]
+              - generic [ref=f9e338]:
+                - generic [ref=f9e339]:
+                  - heading "2023年12月Python电子学会三级真题卷" [level=4] [ref=f9e341]
+                  - generic [ref=f9e342]:
+                    - paragraph [ref=f9e343]: 年份2023
+                    - paragraph [ref=f9e344]: 等级3级
+                - button "开始练习" [ref=f9e347] [cursor=pointer]
+              - generic [ref=f9e349]:
+                - generic [ref=f9e350]:
+                  - heading "2024年6月python电子学会五级真题卷" [level=4] [ref=f9e352]
+                  - generic [ref=f9e353]:
+                    - paragraph [ref=f9e354]: 年份2024
+                    - paragraph [ref=f9e355]: 等级5级
+                - button "开始练习" [ref=f9e358] [cursor=pointer]
+              - generic [ref=f9e360]:
+                - generic [ref=f9e361]:
+                  - heading "2024年9月Python电子学会二级真题卷" [level=4] [ref=f9e363]
+                  - generic [ref=f9e364]:
+                    - paragraph [ref=f9e365]: 年份2024
+                    - paragraph [ref=f9e366]: 等级2级
+                - button "开始练习" [ref=f9e369] [cursor=pointer]
+              - generic [ref=f9e371]:
+                - generic [ref=f9e372]:
+                  - heading "2024年9月Python电子学会三级真题卷" [level=4] [ref=f9e374]
+                  - generic [ref=f9e375]:
+                    - paragraph [ref=f9e376]: 年份2024
+                    - paragraph [ref=f9e377]: 等级3级
+                - button "开始练习" [ref=f9e380] [cursor=pointer]
+              - generic [ref=f9e382]:
+                - generic [ref=f9e383]:
+                  - heading "2024年9月Python电子学会一级真题卷" [level=4] [ref=f9e385]
+                  - generic [ref=f9e386]:
+                    - paragraph [ref=f9e387]: 年份2024
+                    - paragraph [ref=f9e388]: 等级1级
+                - button "开始练习" [ref=f9e391] [cursor=pointer]
+              - generic [ref=f9e393]:
+                - generic [ref=f9e394]:
+                  - heading "2023年9月Python电子学会二级真题卷" [level=4] [ref=f9e396]
+                  - generic [ref=f9e397]:
+                    - paragraph [ref=f9e398]: 年份2023
+                    - paragraph [ref=f9e399]: 等级2级
+                - button "开始练习" [ref=f9e402] [cursor=pointer]
+              - generic [ref=f9e404]:
+                - generic [ref=f9e405]:
+                  - heading "2023年9月Python电子学会三级真题卷" [level=4] [ref=f9e407]
+                  - generic [ref=f9e408]:
+                    - paragraph [ref=f9e409]: 年份2023
+                    - paragraph [ref=f9e410]: 等级3级
+                - button "开始练习" [ref=f9e413] [cursor=pointer]
+              - generic [ref=f9e415]:
+                - generic [ref=f9e416]:
+                  - heading "2023年9月Python电子学会四级真题卷" [level=4] [ref=f9e418]
+                  - generic [ref=f9e419]:
+                    - paragraph [ref=f9e420]: 年份2023
+                    - paragraph [ref=f9e421]: 等级4级
+                - button "开始练习" [ref=f9e424] [cursor=pointer]
+              - generic [ref=f9e426]:
+                - generic [ref=f9e427]:
+                  - heading "2023年9月Python电子学会五级真题卷" [level=4] [ref=f9e429]
+                  - generic [ref=f9e430]:
+                    - paragraph [ref=f9e431]: 年份2023
+                    - paragraph [ref=f9e432]: 等级5级
+                - button "开始练习" [ref=f9e435] [cursor=pointer]
+              - generic [ref=f9e437]:
+                - generic [ref=f9e438]:
+                  - heading "2023年12月Python电子学会一级真题卷" [level=4] [ref=f9e440]
+                  - generic [ref=f9e441]:
+                    - paragraph [ref=f9e442]: 年份2023
+                    - paragraph [ref=f9e443]: 等级1级
+                - button "开始练习" [ref=f9e446] [cursor=pointer]
+              - generic [ref=f9e448]:
+                - generic [ref=f9e449]:
+                  - heading "2023年12月Python电子学会二级真题卷" [level=4] [ref=f9e451]
+                  - generic [ref=f9e452]:
+                    - paragraph [ref=f9e453]: 年份2023
+                    - paragraph [ref=f9e454]: 等级2级
+                - button "开始练习" [ref=f9e457] [cursor=pointer]
+              - generic [ref=f9e459]:
+                - generic [ref=f9e460]:
+                  - heading "2023年12月Python电子学会四级真题卷" [level=4] [ref=f9e462]
+                  - generic [ref=f9e463]:
+                    - paragraph [ref=f9e464]: 年份2023
+                    - paragraph [ref=f9e465]: 等级4级
+                - button "开始练习" [ref=f9e468] [cursor=pointer]
+              - generic [ref=f9e470]:
+                - generic [ref=f9e471]:
+                  - heading "2023年12月Python电子学会六级真题卷" [level=4] [ref=f9e473]
+                  - generic [ref=f9e474]:
+                    - paragraph [ref=f9e475]: 年份2023
+                    - paragraph [ref=f9e476]: 等级6级
+                - button "开始练习" [ref=f9e479] [cursor=pointer]
+              - generic [ref=f9e481]:
+                - generic [ref=f9e482]:
+                  - heading "2024年3月Python电子学会二级真题卷" [level=4] [ref=f9e484]
+                  - generic [ref=f9e485]:
+                    - paragraph [ref=f9e486]: 年份2024
+                    - paragraph [ref=f9e487]: 等级2级
+                - button "开始练习" [ref=f9e490] [cursor=pointer]
+              - generic [ref=f9e492]:
+                - generic [ref=f9e493]:
+                  - heading "2024年3月Python电子学会一级真题卷" [level=4] [ref=f9e495]
+                  - generic [ref=f9e496]:
+                    - paragraph [ref=f9e497]: 年份2024
+                    - paragraph [ref=f9e498]: 等级1级
+                - button "开始练习" [ref=f9e501] [cursor=pointer]
+              - generic [ref=f9e503]:
+                - generic [ref=f9e504]:
+                  - heading "2024年3月Python电子学会三级真题卷" [level=4] [ref=f9e506]
+                  - generic [ref=f9e507]:
+                    - paragraph [ref=f9e508]: 年份2024
+                    - paragraph [ref=f9e509]: 等级3级
+                - button "开始练习" [ref=f9e512] [cursor=pointer]
+              - generic [ref=f9e514]:
+                - generic [ref=f9e515]:
+                  - heading "2024年3月Python电子学会四级真题卷" [level=4] [ref=f9e517]
+                  - generic [ref=f9e518]:
+                    - paragraph [ref=f9e519]: 年份2024
+                    - paragraph [ref=f9e520]: 等级4级
+                - button "开始练习" [ref=f9e523] [cursor=pointer]
+              - generic [ref=f9e525]:
+                - generic [ref=f9e526]:
+                  - heading "2024年3月Python电子学会五级真题卷" [level=4] [ref=f9e528]
+                  - generic [ref=f9e529]:
+                    - paragraph [ref=f9e530]: 年份2024
+                    - paragraph [ref=f9e531]: 等级5级
+                - button "开始练习" [ref=f9e534] [cursor=pointer]
+              - generic [ref=f9e536]:
+                - generic [ref=f9e537]:
+                  - heading "2024年3月Python电子学会六级真题卷" [level=4] [ref=f9e539]
+                  - generic [ref=f9e540]:
+                    - paragraph [ref=f9e541]: 年份2024
+                    - paragraph [ref=f9e542]: 等级6级
+                - button "开始练习" [ref=f9e545] [cursor=pointer]
+              - generic [ref=f9e547]:
+                - generic [ref=f9e548]:
+                  - heading "2024年6月Python电子学会一级真题卷" [level=4] [ref=f9e550]
+                  - generic [ref=f9e551]:
+                    - paragraph [ref=f9e552]: 年份2024
+                    - paragraph [ref=f9e553]: 等级1级
+                - button "开始练习" [ref=f9e556] [cursor=pointer]
+              - generic [ref=f9e558]:
+                - generic [ref=f9e559]:
+                  - heading "2024年6月Python电子学会二级真题卷" [level=4] [ref=f9e561]
+                  - generic [ref=f9e562]:
+                    - paragraph [ref=f9e563]: 年份2024
+                    - paragraph [ref=f9e564]: 等级2级
+                - button "开始练习" [ref=f9e567] [cursor=pointer]
+              - generic [ref=f9e569]:
+                - generic [ref=f9e570]:
+                  - heading "2024年6月Python电子学会三级真题卷" [level=4] [ref=f9e572]
+                  - generic [ref=f9e573]:
+                    - paragraph [ref=f9e574]: 年份2024
+                    - paragraph [ref=f9e575]: 等级3级
+                - button "开始练习" [ref=f9e578] [cursor=pointer]
+              - generic [ref=f9e580]:
+                - generic [ref=f9e581]:
+                  - heading "2024年6月Python电子学会四级真题卷" [level=4] [ref=f9e583]
+                  - generic [ref=f9e584]:
+                    - paragraph [ref=f9e585]: 年份2024
+                    - paragraph [ref=f9e586]: 等级4级
+                - button "开始练习" [ref=f9e589] [cursor=pointer]
+              - generic [ref=f9e591]:
+                - generic [ref=f9e592]:
+                  - heading "2024年6月Python电子学会六级真题卷" [level=4] [ref=f9e594]
+                  - generic [ref=f9e595]:
+                    - paragraph [ref=f9e596]: 年份2024
+                    - paragraph [ref=f9e597]: 等级6级
+                - button "开始练习" [ref=f9e600] [cursor=pointer]
+      - contentinfo [ref=f9e601]:
+        - generic [ref=f9e602]:
+          - generic [ref=f9e603]:
+            - generic [ref=f9e604]:
+              - link "用户协议" [ref=f9e605] [cursor=pointer]:
+                - /url: /protocol/user
+              - link "隐私政策" [ref=f9e606] [cursor=pointer]:
+                - /url: /protocol/privacy
+            - generic [ref=f9e607]:
+              - text: 邮箱地址：
+              - link "service@acgo.cn" [ref=f9e608] [cursor=pointer]:
+                - /url: mailto:service@acgo.cn
+            - generic [ref=f9e609]: 联系我们：400-0596-872 ( 工作时间：9:00~22:00 )
+          - generic [ref=f9e611] [cursor=pointer]:
+            - generic [ref=f9e612]: 
+            - paragraph [ref=f9e613]: QQ群
+        - generic [ref=f9e615]:
+          - img "国徽" [ref=f9e620]
+          - link "浙公网安备33011002018299号" [ref=f9e621] [cursor=pointer]:
+            - /url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33011002018299
+          - link "浙ICP备16018668号-27" [ref=f9e622] [cursor=pointer]:
+            - /url: https://beian.miit.gov.cn
+          - generic [ref=f9e623]: Copyright © 2021-2026 ACGO All Rights Reserved.
+    - button "获取验证码" [ref=f9e626] [cursor=pointer]
+  - alert [ref=f9e627]
