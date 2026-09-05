@@ -47,21 +47,28 @@ web_wrong_notes/
 创建 `init_db.py`：
 - 连接 `databases/wrong_notes.db`
 - 创建表（字段见下方）
-- 把 `archive/wrong_notes.md` 的内容导入
+- 解析 `archive/wrong_notes.md` 并导入
 - 写一个 `app.py` 路由 `/list` 显示所有错题
 
-**表结构**：
+**表结构**（匹配 wrong_notes.md 实际格式）：
 | 字段 | 类型 | 说明 |
 |------|------|------|
 | id | INTEGER PRIMARY KEY | 自增ID |
-| question | TEXT | 题目 |
-| category | TEXT | 分类（类对象/文件/可视化/SQLite/tkinter） |
-| wrong_answer | TEXT | 你的错误答案 |
-| correct_answer | TEXT | 正确答案 |
-| note | TEXT | 备注/理解 |
-| created_at | TIMESTAMP | 创建时间 |
+| category | TEXT | 分类（文件操作/类与对象/SQLite...） |
+| title | TEXT | 要点标题（**加粗**部分） |
+| content | TEXT | 完整内容（整条笔记） |
+| priority | TEXT | 重点标记（🔴/⚠️/🚫/空） |
 
-**验证**：访问 `/list` 看到错题列表
+**解析规则**（init_db.py 怎么读 wrong_notes.md）：
+- 读文件，逐行处理
+- 行以 `## ` 开头 → 分类名（如"1. 文件操作"→截取"文件操作"）
+- 行以 `- ` 开头 → 一条知识点：
+  - 提取 `**...**` 内容 → title
+  - 整行去掉 `- ` → content
+  - 检测 🔴/⚠️/🚫 标记 → priority（没有则为空）
+- 其他行（`# `、`>`、空行）→ 跳过
+
+**验证**：访问 `/list` 看到按分类分组的笔记列表
 
 ### Step 3：模板渲染（20分钟）
 - 创建 `templates/base.html`（导航栏、页脚）
@@ -115,6 +122,35 @@ cur = conn.cursor()
 cur.execute("SELECT * FROM wrong_notes")
 rows = cur.fetchall()
 conn.close()
+```
+
+### 解析 wrong_notes.md 导入数据库
+```python
+import re
+
+def parse_wrong_notes(md_path):
+    """把 wrong_notes.md 解析成 [(category, title, content, priority), ...]"""
+    notes = []
+    category = ""
+    with open(md_path, encoding="utf-8") as f:
+        for line in f:
+            line = line.rstrip()
+            if line.startswith("## "):
+                # 分类：取"数字. 名称"里的名称
+                category = re.sub(r"^## \d+\.\s*", "", line).split("（")[0]
+            elif line.startswith("- **"):
+                # 提取加粗标题
+                m = re.match(r"- \*\*(.+?)\*\*[：:]\s*(.*)", line)
+                title = m.group(1) if m else line[2:]
+                content = m.group(2) if m else ""
+                # 检测重点标记
+                priority = ""
+                for mark in ("🔴", "⚠️", "🚫"):
+                    if mark in line:
+                        priority = mark
+                        break
+                notes.append((category, title, content, priority))
+    return notes
 ```
 
 ## 五、参考资源
