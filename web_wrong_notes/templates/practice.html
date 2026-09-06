@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block title %}练习{% endblock %}
+
+{% block content %}
+<h2 class="mb-4">随机练习 <span class="badge bg-primary">{{ notes|length }} 题</span></h2>
+
+<div class="mb-3">
+    <a href="/practice" class="btn btn-primary">換一批</a>
+    <a href="/list" class="btn btn-secondary">返回列表</a>
+</div>
+
+{% for note in notes %}
+    <div class="card mb-3">
+        <div class="card-body">
+             <!-- 分类（点击可筛选）-->
+        <a href="/category/{{ note.category }}" class="badge bg-secondary text-decoration-none">
+            {{ note.category }}
+        </a>
+
+          <!-- 优先级 -->
+        {% if note.priority == '🔴' %}
+            <span class="badge bg-danger">🔴</span>
+        {% elif note.priority == '⚠️' %}
+            <span class="badge bg-warning text-dark">⚠️</span>
+        {% elif note.priority == '🚫' %}
+            <span class="badge bg-dark">🚫</span>
+        {% endif %}
+        
+        <!-- 题干：只显示标题 -->
+        <h5 class="card-title mt-2">📝 {{ note.title }}</h5>
+
+        <!-- 答案：折叠（5c 加按钮展开） -->
+        {% if note.content %}
+        <p class="card-text text-muted answer" style="display:none;">
+            💡 {{ note.content }}
+        </p>
+        {% endif %}
+
+        <button class="btn btn-sm btn-outline-primary toggle-answer">显示答案</button>
+    </div>
+</div>
+{% endfor %}
+<script>
+document.querySelectorAll('.toggle-answer').forEach(btn => {
+    btn.addEventListener('click', function() {
+        // 找同一个 card-body 里的 .answer 元素
+        const answer = this.parentElement.querySelector('.answer');
+        if (!answer) return;
+        if (answer.style.display === 'none') {
+            answer.style.display = 'block';
+            this.textContent = '隐藏答案';
+        } else {
+            answer.style.display = 'none';
+            this.textContent = '显示答案';
+        }
+    });
+});
+</script>
+{% endblock %}

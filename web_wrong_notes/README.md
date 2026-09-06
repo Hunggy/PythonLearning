@@ -1,171 +1,112 @@
-# Flask 错题本项目 - 启动方案
+# web_wrong_notes - Flask 错题本
 
-> 创建日期：2026-09-03  
-> 计划详情：`.omo/plans/next-steps.md` → 方向一
+> 基于六级备考错题清单的 Web 检索工具  
+> 创建：2026-09-03 · 完成：2026-09-06
 
-## 一、环境准备（5分钟）
+## 一、功能
 
-### 1. 检查 Python
+| 路由 | 功能 |
+|---|---|
+| `/` | 首页 |
+| `/list` | 全部 55 条错题（带 Bootstrap 卡片样式） |
+| `/search?q=关键词` | 标题/内容模糊搜索 |
+| `/category/<name>` | 按分类筛选（支持 `平台歧义 / 卷面 bug` 这类带 `/` 的分类） |
+| `/practice` | 随机抽 10 题练习，点"显示答案"查看详解 |
+
+## 二、技术栈
+
+- **Python 3.14** + **Flask 3.1.3**
+- **SQLite 3**（标准库 `sqlite3`）
+- **Jinja2** 模板（Flask 自带）
+- **Bootstrap 5.3**（CDN 引入，零本地依赖）
+
+## 三、运行
+
 ```powershell
-& "C:\Users\Hunggy\AppData\Local\Programs\Python\Python314\python.exe" --version
-```
-预期输出：`Python 3.14.x`
-
-### 2. 安装 Flask
-```powershell
+# 1. 安装 Flask（首次）
 & "C:\Users\Hunggy\AppData\Local\Programs\Python\Python314\python.exe" -m pip install flask
+
+# 2. 初始化数据库 + 导入数据（首次或重新导入）
+& "C:\Users\Hunggy\AppData\Local\Programs\Python\Python314\python.exe" init_db.py
+
+# 3. 启动 Flask
+& "C:\Users\Hunggy\AppData\Local\Programs\Python\Python314\python.exe" app.py
+
+# 4. 浏览器访问
+# http://127.0.0.1:5000/list
 ```
 
-## 二、项目结构
+## 四、文件结构
 
 ```
 web_wrong_notes/
 ├── README.md          # 本文件
-├── app.py             # Flask 主程序（明天写）
-├── init_db.py         # 初始化数据库+导入数据（明天写）
-├── templates/         # HTML 模板（明天建）
-│   ├── base.html
-│   ├── index.html
-│   ├── detail.html
-│   └── practice.html
-└── databases/         # 数据库文件夹（明天建）
-    └── wrong_notes.db
+├── app.py             # Flask 主程序：5 个路由
+├── init_db.py         # 数据库初始化 + markdown 解析导入
+├── templates/         # Jinja2 模板
+│   ├── base.html      #   骨架（导航栏 + Bootstrap + 页脚）
+│   ├── index.html     #   错题列表（被 /list /search /category 共用）
+│   └── practice.html  #   随机练习页（带 JS 显示/隐藏答案）
+└── databases/
+    └── wrong_notes.db # SQLite 数据（55 条）
 ```
 
-## 三、启动步骤（明天按顺序做）
+## 五、数据来源
 
-### Step 1：Flask Hello World（10分钟）
-创建 `app.py`，实现：
-- 导入 Flask
-- 创建应用实例
-- 写一个路由 `/`，返回"Hello 错题本"
-- 启动开发服务器
+`init_db.py` 解析 `../archive/wrong_notes.md`（六级备考错题清单）入库。
+表结构：
 
-**验证**：浏览器打开 `http://127.0.0.1:5000` 看到文字
-
-### Step 2：初始化数据库（15分钟）
-创建 `init_db.py`：
-- 连接 `databases/wrong_notes.db`
-- 创建表（字段见下方）
-- 解析 `archive/wrong_notes.md` 并导入
-- 写一个 `app.py` 路由 `/list` 显示所有错题
-
-**表结构**（匹配 wrong_notes.md 实际格式）：
 | 字段 | 类型 | 说明 |
-|------|------|------|
-| id | INTEGER PRIMARY KEY | 自增ID |
-| category | TEXT | 分类（文件操作/类与对象/SQLite...） |
-| title | TEXT | 要点标题（**加粗**部分） |
-| content | TEXT | 完整内容（整条笔记） |
-| priority | TEXT | 重点标记（🔴/⚠️/🚫/空） |
+|---|---|---|
+| id | INTEGER PK AUTOINCREMENT | 自增 ID |
+| category | TEXT | 分类（文件操作/类与对象/SQLite…） |
+| title | TEXT | 要点标题（`xxx` 部分） |
+| content | TEXT | 详细说明 |
+| priority | TEXT | 重点标记（🔴/⚠️/🚫/空）|
 
-**解析规则**（init_db.py 怎么读 wrong_notes.md）：
-- 读文件，逐行处理
-- 行以 `## ` 开头 → 分类名（如"1. 文件操作"→截取"文件操作"）
-- 行以 `- ` 开头 → 一条知识点：
-  - 提取 `**...**` 内容 → title
-  - 整行去掉 `- ` → content
-  - 检测 🔴/⚠️/🚫 标记 → priority（没有则为空）
-- 其他行（`# `、`>`、空行）→ 跳过
+## 六、核心代码片段
 
-**验证**：访问 `/list` 看到按分类分组的笔记列表
-
-### Step 3：模板渲染（20分钟）
-- 创建 `templates/base.html`（导航栏、页脚）
-- 创建 `templates/index.html`（错题列表）
-- 用 Bootstrap CDN 美化（不用学 CSS）
-
-**验证**：列表页有样式，手机也能看
-
-### Step 4：搜索 + 筛选（20分钟）
-- 添加 `/search?q=关键词` 路由
-- 添加 `/category/<name>` 路由（按分类筛选）
-
-**验证**：能搜索、能按分类筛选
-
-### Step 5：随机练习（15分钟）
-- 添加 `/practice` 路由
-- 随机抽 10 题，显示题目，隐藏答案
-- 点击"显示答案"显示对错
-
-**验证**：能随机出题
-
-## 四、关键代码片段（明天看）
-
-### 数据库路径（避免在根目录创建）
+### 数据库路径（避免污染根目录）
 ```python
-import os
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 DB_DIR = os.path.join(BASE_DIR, 'databases')
 os.makedirs(DB_DIR, exist_ok=True)
 DB_PATH = os.path.join(DB_DIR, 'wrong_notes.db')
 ```
 
-### Flask 最小应用
+### 让 fetchall() 返回字典（Jinja2 才能用 `note.title`）
 ```python
-from flask import Flask
-app = Flask(__name__)
+def dict_factory(cursor, row):
+    return {col[0]: row[idx] for idx, col in enumerate(cursor.description)}
 
-@app.route('/')
-def home():
-    return 'Hello 错题本'
-
-if __name__ == '__main__':
-    app.run(debug=True)
-```
-
-### 连接数据库
-```python
-import sqlite3
 conn = sqlite3.connect(DB_PATH)
-cur = conn.cursor()
-cur.execute("SELECT * FROM wrong_notes")
-rows = cur.fetchall()
-conn.close()
+conn.row_factory = dict_factory
+rows = conn.cursor().execute('SELECT * FROM wrong_notes').fetchall()
 ```
 
-### 解析 wrong_notes.md 导入数据库
+### 路由支持带 `/` 的分类
 ```python
-import re
-
-def parse_wrong_notes(md_path):
-    """把 wrong_notes.md 解析成 [(category, title, content, priority), ...]"""
-    notes = []
-    category = ""
-    with open(md_path, encoding="utf-8") as f:
-        for line in f:
-            line = line.rstrip()
-            if line.startswith("## "):
-                # 分类：取"数字. 名称"里的名称
-                category = re.sub(r"^## \d+\.\s*", "", line).split("（")[0]
-            elif line.startswith("- **"):
-                # 提取加粗标题
-                m = re.match(r"- \*\*(.+?)\*\*[：:]\s*(.*)", line)
-                title = m.group(1) if m else line[2:]
-                content = m.group(2) if m else ""
-                # 检测重点标记
-                priority = ""
-                for mark in ("🔴", "⚠️", "🚫"):
-                    if mark in line:
-                        priority = mark
-                        break
-                notes.append((category, title, content, priority))
-    return notes
+@app.route('/category/<path:name>')   # ⭐ path: 允许斜杠
+def category(name): ...
 ```
 
-## 五、参考资源
+## 七、踩过的坑
 
-- Flask 官方教程：https://flask.palletsprojects.com/tutorial/
-- Bootstrap CDN：https://getbootstrap.com/docs/5.3/getting-started/introduction/
-- Jinja2 模板：https://jinja.palletsprojects.com/
+1. **markdown 解析**：原方案正则太严格（只匹配 `- **xxx**：`），漏掉一半笔记。改成"加粗可选 + emoji 可选"后才收齐 55 条。
+2. **`<name>` vs `<path:name>`**：分类名 `平台歧义 / 卷面 bug` 的 `/` 会被路由器当成多段路径 → 404。改用 `<path:name>`。
+3. **VSCode 集成浏览器**：徽章在集成浏览器里鼠标变 I 字、点不动——改用 Chrome 正常。
+4. **Bootstrap 中文乱码**：控制台 `gbk` 编码显示乱码，但**浏览器里正常**，写文件时 `encoding="utf-8"` 即可。
 
-## 六、明天开新会话时说
+## 八、可选升级（未做）
 
-```
-"我要做 Flask 错题本项目，路径 web_wrong_notes/，已读启动方案，开始 Step 1"
-```
+- `/add` 手动添加新错题
+- `/edit/<id>` 编辑错题
+- `/delete/<id>` 删除错题
+- 按优先级（🔴/⚠️/🚫）筛选
+- 答题正确率统计
 
----
+## 九、参考资料
 
-**预计总时间**：1.5-2 小时（分5步，每步 15-20 分钟）  
-**难度**：⭐⭐（比 tkinter 简单，代码量少）
+- [Flask 官方教程](https://flask.palletsprojects.com/tutorial/)
+- [Bootstrap 5.3 文档](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+- [Jinja2 模板](https://jinja.palletsprojects.com/)

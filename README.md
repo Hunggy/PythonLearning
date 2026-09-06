@@ -52,10 +52,11 @@
 | [data_adv/](./data_adv/) | 数据处理进阶 | 综合实战 |
 | [data_struct/](./data_struct/) | 数据结构（栈/队列/二叉树） | 2027新考纲，提前学 |
 
-### 🌱 进行中
+### ✅ 已完成项目
 | 项目 | 说明 | 关键技能 |
 |------|------|----------|
-| [web_wrong_notes/](./web_wrong_notes/) | 错题本 Web 应用 | Flask + SQLite（学习中） |
+| [pinyin_tool/](./pinyin_tool/) | 拼音学习工具（学习卡/测试/错题本/曲线） | tkinter + matplotlib + sqlite3 |
+| [web_wrong_notes/](./web_wrong_notes/) | 错题本 Web 应用 | Flask + Jinja2 + SQLite + Bootstrap |
 
 ## 🛠️ 技术栈
 
@@ -64,7 +65,7 @@
 GUI：     tkinter
 数据：    SQLite, CSV, JSON, openpyxl
 可视化：  matplotlib, numpy
-Web：     Flask（学习中）
+Web：     Flask, Jinja2, Bootstrap
 工具：    Git, VSCode, Playwright
 ```
 
@@ -76,9 +77,7 @@ Web：     Flask（学习中）
 - [x] 第二周：代码模块化 + GUI 入门
 - [x] 六级备考：5大考点 + 8卷真题 + 错题清单
 - [x] 数据结构：栈/队列/二叉树（2027新考纲）
-
-### 进行中 🔄
-- [ ] Flask Web 开发（错题本项目）
+- [x] Flask Web 开发（错题本项目）
 
 ### 计划中 📋
 - [ ] pandas 数据分析
@@ -114,4 +113,4 @@ python learn.py
 
 ⭐ 如果这个仓库对你有帮助，欢迎 Star！
 
-**最后更新**：2026-09-03
+**最后更新**：2026-09-06

@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block title %}错题列表{% endblock %}
+
+{% block content %}
+<h2 class="mb-4">
+    {% if keyword %}
+        搜索 "{{ keyword }}" 的结果 <span class="badge bg-primary">{{ notes|length }}</span>
+    {% elif category %}
+        分类：{{ category }} <span class="badge bg-primary">{{ notes|length }}</span>
+    {% else %}
+        错题列表 <span class="badge bg-primary">{{ notes|length }}</span>
+    {% endif %}
+</h2>
+
+<form action="/search" method="get" class="mb-4">
+    <div class="input-group">
+        <input type="text" name="q" class="form-control" placeholder="搜索关键词（标题或内容）..." value="{{ keyword or '' }}">
+        <button class="btn btn-primary" type="submit">搜索</button>
+    </div>
+</form>
+{% if not notes %}
+    <div class="alert alert-info">没有找到相关错题。</div>
+{% endif %}
+
+{% for note in notes %}
+<div class="card mb-3">
+    <div class="card-body">
+        <!-- 重点标记 -->
+        {% if note.priority == '🔴' %}
+            <span class="badge bg-danger">🔴 高频错</span>
+        {% elif note.priority == '⚠️' %}
+            <span class="badge bg-warning text-dark">⚠️ 平台歧义</span>
+        {% elif note.priority == '🚫' %}
+            <span class="badge bg-dark">🚫 千万别踩</span>
+        {% endif %}
+
+        <!-- 分类 -->
+        <a href="/category/{{ note.category }}" class="badge bg-secondary text-decoration-none">
+            {{ note.category }}
+        </a>
+        <!-- 标题 -->
+        <h5 class="card-title mt-2">{{ note.title }}</h5>
+
+        <!-- 内容 -->
+        {% if note.content %}
+            <p class="card-text">{{ note.content }}</p>
+        {% endif %}
+    </div>
+</div>
+{% endfor %}
+
+{% endblock -%}
